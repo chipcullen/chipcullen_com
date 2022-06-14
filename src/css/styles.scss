@@ -1,2 +1,6 @@
 // some styles will go here
-@use './prism'
+@use './prism';
+
+html {
+	color-scheme: light dark;
+}
