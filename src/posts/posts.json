@@ -1,4 +1,4 @@
 {
   "layout": "post.njk",
-  "permalink": "{{ page.fileSlug }}/index.html"
+  "permalink": "/{{ page.fileSlug | slugify }}/index.html"
 }

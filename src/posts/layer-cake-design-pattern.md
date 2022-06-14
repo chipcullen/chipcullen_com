@@ -3,7 +3,7 @@ title: "Layer Cake: A Responsive Design Layout Pattern"
 date: 2015-06-03
 draft: false
 tags: [design pattern, layout, system, Web Design]
-permalink: "layer-cake-design-pattern"
+permalink: "layer-cake-design-pattern/"
 ---
 
 There is a design pattern that I've noticed emerge on a lot of the responsive projects that I've worked on in the last few years. They have all tended to gravitate towards a particular kind of layout. There are a lot of situations where this pattern is helpful, so I wanted to write a bit about it.
@@ -11,8 +11,6 @@ There is a design pattern that I've noticed emerge on a lot of the responsive pr
 I call it "The Layer Cake" - it's _a_ way to approach page layout in a responsive design. You can also call it 'tiered' layout - but, mmmmm - cake. This differs from a regular 'multi column' layout in that there is no all-encompassing container, or long running sidebars. There can be multiple columns _within_ a layer, though.
 
 ![A 2 Column Layout vs. a Layer Cake](../images/layercakelayout.png)
-
-<!--more-->
 
 Here is what it looks like in the real world:
 

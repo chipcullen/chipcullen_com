@@ -3,7 +3,7 @@ title: "Where to begin? How I start a visual design for the web"
 date: 2015-01-04
 draft: false
 tags: [design, process, starting, Web Design]
-permalink: "where-to-begin"
+permalink: "where-to-begin/"
 ---
 
 _Editor's note: This blog post is a written version of a talk that I gave at the [UX Bar Camp DC 2015](https://chipcullen.github.io/where-to-begin/#/)._

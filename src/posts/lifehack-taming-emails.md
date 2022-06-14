@@ -2,7 +2,7 @@
 title: "Lifehack: 4 ways to help tame common email noise"
 date: 2019-01-03T11:33:37-05:00
 draft: false
-permalink: "lifehack-taming-emails"
+permalink: "lifehack-taming-emails/"
 description: "A few handy tricks to cut down on the noise in your email inbox."
 ---
 

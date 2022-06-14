@@ -2,7 +2,7 @@
 title: "Django 3.1 gotcha: Referrer Policy has a new default, and it might break iframes and links"
 date: 2020-08-27T09:31:08-04:00
 draft: false
-permalink: "django-3-referrer-policy-change"
+permalink: "django-3-referrer-policy-change/"
 description: "In Django 3.1 the project updated the default 'referrer-policy' to be 'same-origin', which might lead to unexpected results in your project."
 tags: ["django"]
 custom_properties: []

@@ -3,7 +3,7 @@ title: "JavaScript events: .target vs .currentTarget"
 date:  2018-04-27
 draft: false
 tags: [General, javascript]
-permalink: "javascript-events-target-vs-currenttarget"
+permalink: "javascript-events-target-vs-currenttarget/"
 ---
 
 This seemingly comes up for me every six months or so, and I struggle to remember the whys of this. I just thought I'd share this little pointer as a reminder to myself, and hopefully it helps others.

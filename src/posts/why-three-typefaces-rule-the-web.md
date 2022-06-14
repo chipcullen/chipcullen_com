@@ -3,7 +3,7 @@ title: "Why three typefaces rule the web, and what you can do about it"
 date: 2017-04-12
 draft: false
 tags: [google fonts, typography, Web Typography]
-permalink: "why-three-typefaces-rule-the-web"
+permalink: "why-three-typefaces-rule-the-web/"
 ---
 
 Design Systems expert [Nathan Curtis](https://eightshapes.com/nathan-curtis.html)\* tweeted this the other day:

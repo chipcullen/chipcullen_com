@@ -2,7 +2,7 @@
 title: "Responsive Images in Hugo - by Laura Kalbag"
 date: 2019-05-22T21:41:19-04:00
 draft: false
-permalink: "responsive-images-in-hugo-link"
+permalink: "responsive-images-in-hugo-link/"
 description: ""
 tags: []
 custom_properties: []

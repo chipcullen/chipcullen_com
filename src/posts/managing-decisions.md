@@ -2,7 +2,7 @@
 title: "Meta thinking: Managing Decisions"
 date: 2021-12-07T11:41:04-05:00
 draft: false
-permalink: "managing-decisions"
+permalink: "managing-decisions/"
 description: "Why it's important to think about what kinds of decisions you are faced with."
 tags: []
 custom_properties: []

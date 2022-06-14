@@ -2,7 +2,7 @@
 title: "Troubleshooting Adding and Removing EventListeners: with Arguments, Debounced, and in a React Class"
 date: 2018-11-03T08:14:51-04:00
 draft: false
-permalink: "troubleshooting-adding-and-removing-eventlisteners"
+permalink: "troubleshooting-adding-and-removing-eventlisteners/"
 ---
 
 The other day I was struggling with a bug that was caused by an [eventListener](https://developer.mozilla.org/en-US/docs/Web/API/EventListener) not being properly removed in a React Component. I struggled for a long time with _why_ the eventListener wasn't getting removed, and learned several things along the way I wanted to share.

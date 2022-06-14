@@ -2,7 +2,7 @@
 title: "Making a Gatsby Site with Multiple Content Types"
 date: 2019-04-29T08:25:59-04:00
 draft: false
-permalink: "making-multiple-content-types-in-gatsby"
+permalink: "making-multiple-content-types-in-gatsby/"
 description: "Making a site with different content types in Gatsby is not very straightforward — here is how I figured out how to do it, and while using a mix of Markdown or JavaScript page files."
 tags: ["Gatsby"]
 custom_properties:

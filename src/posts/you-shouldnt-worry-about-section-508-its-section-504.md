@@ -3,7 +3,7 @@ title: "You shouldn't worry about Section 508 - it's Section 504"
 date:  2016-08-08
 draft: false
 tags: [Accessibility]
-permalink: "you-shouldnt-worry-about-section-508-its-section-504"
+permalink: "you-shouldnt-worry-about-section-508-its-section-504/"
 ---
 
 There is a misunderstanding about web accessibility that's pretty prevalent: that being "accessible" means that you comply with [Section 508 of the Rehabilitation Act of 1973](https://www.section508.gov/content/learn/laws-and-policies).

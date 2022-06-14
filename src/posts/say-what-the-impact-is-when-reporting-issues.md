@@ -2,7 +2,7 @@
 title: "Say What the Impact is when Reporting Issues"
 date: 2021-10-05T21:53:02-04:00
 draft: false
-permalink: "say-what-the-impact-is-when-reporting-issues"
+permalink: "say-what-the-impact-is-when-reporting-issues/"
 description: "When reporting an issue, make it clear what the impact is."
 tags: [microcommunication]
 custom_properties: []

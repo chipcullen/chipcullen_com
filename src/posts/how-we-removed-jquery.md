@@ -2,7 +2,7 @@
 title: "How We Removed jQuery from a large app"
 date: 2021-02-25T16:34:23-05:00
 draft: false
-permalink: "how-we-removed-jquery"
+permalink: "how-we-removed-jquery/"
 description: "How we went about removing jQuery from a large application that had depended on it for many years."
 tags: []
 custom_properties: []

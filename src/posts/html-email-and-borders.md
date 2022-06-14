@@ -3,7 +3,7 @@ title: "HTML E-Mail and borders: a hard-won lesson"
 date: 2012-04-09
 draft: false
 tags: [email, html email, Tools]
-permalink: "html-email-and-borders"
+permalink: "html-email-and-borders/"
 ---
 
 I was working on an HTML e-mail, and ran into an issue with borders. I'm writing down what I found as a help hopefully to others.

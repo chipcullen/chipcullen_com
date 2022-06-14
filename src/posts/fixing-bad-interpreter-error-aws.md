@@ -2,7 +2,7 @@
 title: "Fixing the 'Bad Interpreter' Error from AWS and Python 3.7"
 date: 2019-03-27T10:38:57-04:00
 draft: false
-permalink: "fixing-bad-interpreter-error-aws-python-3_7"
+permalink: "fixing-bad-interpreter-error-aws-python-3_7/"
 description: "How to clear up the terminal message from AWS relating to Python 3.6 not being found."
 tags: ["python"]
 custom_properties: []

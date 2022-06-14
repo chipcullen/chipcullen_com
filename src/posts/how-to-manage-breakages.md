@@ -2,7 +2,7 @@
 title: "Firefighting 101: How to Manage Breakages"
 date: 2021-10-04T22:54:26-04:00
 draft: false
-permalink: "how-to-manage-breakages"
+permalink: "how-to-manage-breakages/"
 description: "A playbook for tech managers in dealing with significant outages."
 tags: [management]
 custom_properties: [

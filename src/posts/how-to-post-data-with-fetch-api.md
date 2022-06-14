@@ -2,7 +2,7 @@
 title: "How to POST *Data* with the Fetch API"
 date: 2020-03-20T06:34:13-05:00
 draft: false
-permalink: "how-to-post-data-with-fetch-api"
+permalink: "how-to-post-data-with-fetch-api/"
 description: "How to go about using the Fetch API to POST data to an API."
 tags: []
 custom_properties: []
