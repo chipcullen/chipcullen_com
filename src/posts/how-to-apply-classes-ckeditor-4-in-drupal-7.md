@@ -3,7 +3,7 @@ title: "How to apply classes to elements with CKEditor 4, in Drupal 7"
 date: 2013-12-19
 draft: false
 tags: [CKEditor, Drupal, Drupal]
-slug: "how-to-apply-classes-ckeditor-4-in-drupal-7"
+permalink: "how-to-apply-classes-ckeditor-4-in-drupal-7"
 ---
 
 I'm just jotting down a couple things that I figured out recently with regards to making modifications to the [CKEditor WYSWIG editor](https://drupal.org/project/ckeditor) in a [Drupal 7](https://drupal.org/) installation.

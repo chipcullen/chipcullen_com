@@ -3,7 +3,7 @@ title: "How to Fake the Window Object in Jest and Enzyme"
 date: 2018-09-24T08:24:00-04:00
 draft: false
 tags: ["Jest", "Testing"]
-slug: "how-to-fake-the-window-object-in-jest-and-enzyme"
+permalink: "how-to-fake-the-window-object-in-jest-and-enzyme"
 ---
 
 I was struggling with writing a test the other day for a React component that was mostly a stateless component, but it did read two properties of the `window` object and made some decisions based on that.

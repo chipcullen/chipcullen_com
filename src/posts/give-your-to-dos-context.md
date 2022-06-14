@@ -2,7 +2,7 @@
 title: "Give Your To-Do's Context"
 date: 2021-10-11T20:54:37-04:00
 draft: false
-slug: "give-your-to-dos-context"
+permalink: "give-your-to-dos-context"
 description: "When capturing to-do's, be sure to include enough information that your future self isn't confused."
 tags: [microcommunication, productivity]
 custom_properties: []

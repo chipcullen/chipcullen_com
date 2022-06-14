@@ -2,7 +2,7 @@
 title: "Make Your Request Clear"
 date: 2021-09-28T21:36:16-04:00
 draft: false
-slug: "make-your-request-clear"
+permalink: "make-your-request-clear"
 description: "On improving your communication by making request clear and obvious, and not assuming the other person will figure it out."
 tags: [microcommunications, writing]
 custom_properties: []

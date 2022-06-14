@@ -2,7 +2,7 @@
 title: "Creating a Canonical Tag in a Django Template"
 date: 2019-03-26T16:39:14-04:00
 draft: false
-slug: "canonical-tag-in-django"
+permalink: "canonical-tag-in-django"
 description: "A quick tip on adding a canonical tag within Django templates, and why."
 tags: ["django"]
 custom_properties:

@@ -2,7 +2,7 @@
 title: "Books I Read in 2018"
 date: 2019-01-26T09:00:30-05:00
 draft: false
-slug: "books-i-read-in-2018"
+permalink: "books-i-read-in-2018"
 description: "7 of the best books I read last year - 3 fiction, 4 non-fiction."
 ---
 

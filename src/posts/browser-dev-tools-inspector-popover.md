@@ -2,7 +2,7 @@
 title: "Browser Dev Tools: Element Inspector Popover"
 date: 2022-05-18T10:06:08-04:00
 draft: false
-slug: "browser-dev-tools-element-inspector-popover"
+permalink: "browser-dev-tools-element-inspector-popover"
 description: "Did you know? All three major browser engines offer an inspector popover for elements. Yeah, I didn't know."
 tags: []
 custom_properties: []

@@ -3,7 +3,7 @@ title: "Layer Cake: A Responsive Design Layout Pattern"
 date: 2015-06-03
 draft: false
 tags: [design pattern, layout, system, Web Design]
-slug: "layer-cake-design-pattern"
+permalink: "layer-cake-design-pattern"
 ---
 
 There is a design pattern that I've noticed emerge on a lot of the responsive projects that I've worked on in the last few years. They have all tended to gravitate towards a particular kind of layout. There are a lot of situations where this pattern is helpful, so I wanted to write a bit about it.

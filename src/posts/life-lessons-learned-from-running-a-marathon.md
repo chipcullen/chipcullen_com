@@ -2,7 +2,7 @@
 title: "Life Lessons Learned From Running a Marathon: How to do something really hard"
 date: 2019-11-03T07:22:01-05:00
 draft: false
-slug: "life-lessons-learned-from-running-a-marathon"
+permalink: "life-lessons-learned-from-running-a-marathon"
 description: "What I learned from doing something really, really hard."
 tags: ["general"]
 custom_properties: []

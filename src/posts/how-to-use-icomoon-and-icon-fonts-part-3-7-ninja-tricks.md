@@ -3,7 +3,7 @@ title: "How to use IcoMoon and Icon Fonts – Part 3: 7 Ninja Tricks"
 date:  2013-08-10
 draft: false
 tags: [icomoon, icon fonts, icons, Tools]
-slug: "how-to-use-icomoon-and-icon-fonts-part-3-7-ninja-tricks"
+permalink: "how-to-use-icomoon-and-icon-fonts-part-3-7-ninja-tricks"
 ---
 
 This last of three posts about IcoMoon is going to cover just a few tips and tricks to get the most out of IcoMoon. Some involve the app itself, some are more to do with implementation. Let's get to it!

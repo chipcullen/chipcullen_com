@@ -2,7 +2,7 @@
 title: "The Link with rel=preload is a Seperate Thing"
 date: 2022-05-11T20:57:16-04:00
 draft: false
-slug: "link-rel-preload-is-a-seperate-thing"
+permalink: "link-rel-preload-is-a-seperate-thing"
 description: "Note to self."
 tags: [CSS]
 custom_properties: []

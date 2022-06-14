@@ -2,7 +2,7 @@
 title: "Javascript Fallback Values on Variables and Booleans - a hard lesson"
 date: 2019-08-14T08:10:58-04:00
 draft: false
-slug: "javascript-fallback-values-booleans"
+permalink: "javascript-fallback-values-booleans"
 description: "A lesson I learned using fallback values on a JavaScript variable, but ran into trouble when it dealt with a boolean."
 tags: ["javascript"]
 custom_properties: []

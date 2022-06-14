@@ -2,7 +2,7 @@
 title: "Making a Gatsby Site with Multiple Content Types"
 date: 2019-04-29T08:25:59-04:00
 draft: false
-slug: "making-multiple-content-types-in-gatsby"
+permalink: "making-multiple-content-types-in-gatsby"
 description: "Making a site with different content types in Gatsby is not very straightforward — here is how I figured out how to do it, and while using a mix of Markdown or JavaScript page files."
 tags: ["Gatsby"]
 custom_properties:
@@ -148,7 +148,7 @@ exports.createPages = ({ graphql, actions }) => {
           path: `/posts/${edge.node.frontmatter.slug}`,
           component: path.resolve("./src/layouts/Post.js"),
           context: {
-            slug: edge.node.frontmatter.slug,
+            permalink: edge.node.frontmatter.slug,
             previous,
             next
           }
@@ -160,7 +160,7 @@ exports.createPages = ({ graphql, actions }) => {
           path: `/${edge.node.frontmatter.slug}`,
           component: path.resolve("./src/layouts/Page.js"),
           context: {
-            slug: edge.node.frontmatter.slug
+            permalink: edge.node.frontmatter.slug
           }
         });
       });
@@ -285,7 +285,7 @@ _.each(blogEdges, (edge, index) => {
     path: `/posts/${edge.node.frontmatter.slug}`,
     component: path.resolve("./src/layouts/Post.js"),
     context: {
-      slug: edge.node.frontmatter.slug,
+      permalink: edge.node.frontmatter.slug,
       previous,
       next
     }
@@ -317,7 +317,7 @@ This is a big reason why we're breaking up blog posts and pages into `blogEdges`
           path: `/${edge.node.frontmatter.slug}`,
           component: path.resolve("./src/layouts/Page.js"),
           context: {
-            slug: edge.node.frontmatter.slug
+            permalink: edge.node.frontmatter.slug
           }
         });
       });

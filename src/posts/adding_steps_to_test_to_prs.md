@@ -2,7 +2,7 @@
 title: "How to make better Pull Requests: Adding Steps to Test"
 date: 2018-12-18T20:33:41-05:00
 draft: false
-slug: "how_to_make_better_prs_adding_steps_to_test"
+permalink: "how_to_make_better_prs_adding_steps_to_test"
 description: "Do your pull requests languish for days before someone finally gets around to looking at it? Is the feedback that you get unhelpful? Are you finding nasty bugs in your code only when someone looks at your PR's?
 
 I've been there. And I know a better way - follow along!"

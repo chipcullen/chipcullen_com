@@ -2,7 +2,7 @@
 title: "A (Brief) intro to Search Engine Structured Data"
 date: 2019-08-15T08:12:10-04:00
 draft: false
-slug: "a-brief-intro-to-search-engine-structured-data"
+permalink: "a-brief-intro-to-search-engine-structured-data"
 description: "What is structured data, how does it help search engines understand your content, and how to add it to your site."
 tags: []
 custom_properties: []

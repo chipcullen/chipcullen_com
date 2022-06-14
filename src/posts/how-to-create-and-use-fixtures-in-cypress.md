@@ -2,7 +2,7 @@
 title: "How to Create and Use Fixtures in Cypress Tests"
 date: 2019-03-28T11:12:31-04:00
 draft: false
-slug: "how-to-create-and-use-fixtures-in-cypress-tests"
+permalink: "how-to-create-and-use-fixtures-in-cypress-tests"
 description: "How to generate a fixture for use in a Cypress end to end test, and how to actually use it."
 tags: ["testing"]
 custom_properties: []

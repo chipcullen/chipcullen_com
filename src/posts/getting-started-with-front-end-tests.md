@@ -2,7 +2,7 @@
 title: "Getting Started With Front End Tests: a Mindset"
 date: 2018-08-31T08:42:45-04:00
 draft: false
-slug: "getting-started-with-front-end-tests"
+permalink: "getting-started-with-front-end-tests"
 tags: ["testing"]
 ---
 

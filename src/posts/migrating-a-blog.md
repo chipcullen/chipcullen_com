@@ -2,7 +2,7 @@
 title: "Migrating a Blog - An Opportunity for a Content Inventory"
 date: 2018-08-30T08:33:33-04:00
 draft: false
-slug: "migrating-a-blog"
+permalink: "migrating-a-blog"
 ---
 
 When I recently moved this site from Wordpress to Hugo, one of the best parts of the process was that I had a chance to do a content inventory of my posts.

@@ -2,7 +2,7 @@
 title: "New tool: ColoRosetta"
 date: 2020-12-18T15:40:47-05:00
 draft: false
-slug: "colorosetta"
+permalink: "colorosetta"
 description: ""
 tags: []
 custom_properties: []

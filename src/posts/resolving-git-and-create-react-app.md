@@ -2,7 +2,7 @@
 title: "Resolving a github repo and a new Create React App"
 date: 2020-04-21T22:41:22-04:00
 draft: false
-slug: "resolving-github-repo-and-create-react-app"
+permalink: "resolving-github-repo-and-create-react-app"
 description: "A play in one act"
 tags: ['git']
 custom_properties: []
