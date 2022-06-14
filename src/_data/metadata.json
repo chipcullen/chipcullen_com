@@ -1,10 +1,10 @@
 {
-  "title": "Eleventy-Parcel",
-  "url": "https://eleventy-parcel.netlify.app/",
-  "description": "A basic Eleventy (11ty) starter project with Parcel JS",
+  "title": "Chip Cullen",
+  "url": "https://chipcullen.com/",
+  "description": "Hi, I’m Chip. I’m a Front End Developer living in the Washington D.C. area, currently working at PBS. My background is in design, so I approach development with a designer’s eye.",
   "author": {
-    "name": "Michelle Barker",
-    "email": "contact@michellebarker.co.uk"
+    "name": "Chip Cullen",
+    "email": "chip@chipcullen.com"
   },
   "img": "og-image.jpg",
   "githubUrl": "https://github.com/mbarker84/eleventy-parcel"

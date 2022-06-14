@@ -1,26 +1,19 @@
 {% extends "./layout.njk" %}
 
 {% block content %}
-  <div class="c-hero">
-    <div class="container">
-      <h1 class="c-hero__heading">{{ pageTitle }}</h1>
-      <div class="c-hero__desc">
-        <p>{{ metadata.description }}</p>
-        <div class="c-hero__link-wrapper">
-          <a class="c-hero__link c-hero__link--about" href="/about">About this project</a>
-        </div>
-        <div class="c-hero__link-wrapper">
-          <a class="c-hero__link c-hero__link--github" href="{{ metadata.githubUrl }}">
-            Fork this on Github
-            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30">
-              <use href="#github"/>
-            </svg>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
+  <h1>{{ title }}</h1>
+  {# {{ collections.post | console | safe }} #}
 
   {{ content | safe }}
+
+  <ul>
+  {% for post in collections.posts | reverse %}
+    <li>
+      <a href="{{post.data.permalink}}">{{ post.data.title }}</a>
+      <p>{{ post.data.date | postDate }}</p>
+    </li>
+  {% endfor %}
+  </ul>
+
 
 {% endblock %}
