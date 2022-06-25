@@ -2,29 +2,31 @@
   {% set headerClass = 'header--home' %}
 {% endif %}
 
-<header class="{{ headerClass }}" data-header="data-header">
-  {% if showHomeLink == true %}
-    <h3 class="header__title">
-      <a href="/">{{ metadata.title }}</a>
-    </h3>
-  {% endif %}
-  <button class="header__menu-btn" hidden="true" data-btn="menu" aria-haspopup="true">Menu</button>
+{# @TODO do I need this logic around showing the home link and header class? #}
+{% if showHomeLink == true %}
+<header class="{{ headerClass }}" >
+  <a href="/"><i>chip</i>: <b>cullen</b>;</a>
+</header>
+{% endif %}
+
+<div class="menu-outer" data-menu="menu-outer">
+  <button class="menu-btn" hidden="true" data-btn="menu" aria-haspopup="true">Menu</button>
   <div data-menu-wrapper="data-menu-wrapper">
-    <nav class="header__nav">
-      <ul class="header__list">
-        <li class="header__item">
-          <a class="header__link" href="/" hidden="true" data-home-link="data-home-link">Home</a>
+    <nav class="menu__nav">
+      <ul class="menu__list">
+        <li class="menu__item">
+          <a class="menu__link" href="/" hidden="true" data-home-link="data-home-link">Home</a>
         </li>
 
         {% for page in collections.page %}
-          <li class="header__item">
-            <a class="header__link" href="{{ page.url }}">{{ page.data.pageTitle }}</a>
+          <li class="menu__item">
+            <a class="menu__link" href="{{ page.url }}">{{ page.data.pageTitle }}</a>
           </li>
         {% endfor %}
 
         {% for item in menudata %}
-          <li class="header__item">
-            <a class="header__link" href="{{ item.url }}">
+          <li class="menu__item">
+            <a class="menu__link" href="{{ item.url }}">
               {{ item.title }}
               <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30">
                 <use href="#{{ item.icon }}"/>
@@ -36,4 +38,4 @@
       </ul>
     </nav>
   </div>
-</header>
+</div>

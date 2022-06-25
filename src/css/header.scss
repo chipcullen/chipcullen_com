@@ -1,0 +1,22 @@
+header {
+  display: inline-block;
+  margin: 20px;
+  font-size: 2rem;
+  padding: 10px 10px 15px 10px;
+  background: var(--color);
+  color: var(--background);
+  font-family: var(--mono);
+  font-weight: 751;
+  font-stretch: 64.9%;
+
+  a {
+    text-decoration: none;
+  }
+  i {
+    color: #e67f47;
+    font-style: normal;
+  }
+  b {
+    color: #b283c3;
+  }
+}

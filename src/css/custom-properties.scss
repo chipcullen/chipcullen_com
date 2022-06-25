@@ -1,0 +1,14 @@
+:root {
+  --black: rgba(8, 8, 0, .93);
+  --white: rgba(250, 250, 250, 1);
+
+  --background: var(--white);
+  --color: var(--black);
+
+  --mono: 'Noto Sans Mono', monospace;
+
+  @media (prefers-color-scheme: dark) {
+    --background: var(--black);
+    --color: var(--white);
+  }
+}

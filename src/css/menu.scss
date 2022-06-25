@@ -1,0 +1,21 @@
+.menu-outer {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+
+  &.is-open {
+    background-color: var(--background);
+    z-index: 1;
+  }
+}
+
+// .menu-is-open *:not(.menu-outer, .menu-outer *) {
+//   opacity: 0.5;
+// }
+
+[inert], [inert] * {
+  opacity: 0.5;
+  pointer-events: none;
+  cursor: default;
+  user-select: none;
+}

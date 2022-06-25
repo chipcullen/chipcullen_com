@@ -1,10 +1,12 @@
 import { trapFocus, visibleLinks } from './helpers/trapFocus'
 import bodyScrollLock from './helpers/bodyScrollLock'
 
-const header: HTMLElement = document.querySelector('[data-header]')
-const menuBtn: HTMLButtonElement = header.querySelector('[data-btn="menu"]')
-const menuWrapper: HTMLElement = header.querySelector('[data-menu-wrapper]')
-const homeLink: HTMLElement = header.querySelector('[data-home-link]')
+const menuOuter: HTMLElement = document.querySelector('[data-menu]')
+const menuBtn: HTMLButtonElement = menuOuter.querySelector('[data-btn="menu"]')
+const menuWrapper: HTMLElement = menuOuter.querySelector('[data-menu-wrapper]')
+const homeLink: HTMLElement = menuOuter.querySelector('[data-home-link]')
+const body: HTMLBodyElement = document.querySelector('body');
+const main: HTMLElement = document.querySelector('main')
 
 const open = () => {
   const firstMenuLink = visibleLinks(menuWrapper)[0]
@@ -17,11 +19,17 @@ const open = () => {
 
   setTimeout(() => {
     menuWrapper.classList.add('is-visible')
+    menuOuter.classList.add('is-open')
+    body.classList.add('menu-is-open')
+    main.setAttribute('inert', 'true')
   }, 10)
 }
 
 const close = () => {
   menuWrapper.classList.remove('is-visible')
+  menuOuter.classList.remove('is-open')
+  body.classList.remove('menu-is-open')
+  main.removeAttribute('inert')
 
   setTimeout(() => {
     menuWrapper.hidden = true
@@ -40,7 +48,7 @@ const toggleMenu = (e) => {
 }
 
 const trapFocusInMenu = (e) => {
-  trapFocus(e, header)
+  trapFocus(e, menuOuter)
 
   /* if Esc key pressed */
   if (e.keyCode === 27) {
@@ -57,4 +65,4 @@ const menu = () => {
   menuWrapper.addEventListener('keydown', trapFocusInMenu)
 }
 
-export default menu
+export default menu;
