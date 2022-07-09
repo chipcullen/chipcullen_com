@@ -5,6 +5,7 @@
 
   &.is-open {
     background-color: var(--background);
+    outline: 1px solid red;
     z-index: 1;
   }
 }
