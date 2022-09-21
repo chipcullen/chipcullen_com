@@ -20,13 +20,13 @@
 
         {% for page in collections.page %}
           <li class="menu__item">
-            <a class="menu__link" href="{{ page.url }}">{{ page.data.pageTitle }}</a>
+            <a class="menu__link" href="{{ page.url }}">{{ page.data.title }}</a>
           </li>
         {% endfor %}
 
         {% for item in menudata %}
           <li class="menu__item">
-            <a class="menu__link" href="{{ item.url }}">
+            <a class="menu__link" href="{{ item.url }}" target="_blank">
               {{ item.title }}
               <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30">
                 <use href="#{{ item.icon }}"/>

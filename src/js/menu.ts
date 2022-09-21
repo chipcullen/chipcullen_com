@@ -1,21 +1,24 @@
 import { trapFocus, visibleLinks } from './helpers/trapFocus'
 import bodyScrollLock from './helpers/bodyScrollLock'
 
-const menuOuter: HTMLElement = document.querySelector('[data-menu]')
-const menuBtn: HTMLButtonElement = menuOuter.querySelector('[data-btn="menu"]')
-const menuWrapper: HTMLElement = menuOuter.querySelector('[data-menu-wrapper]')
-const homeLink: HTMLElement = menuOuter.querySelector('[data-home-link]')
-const body: HTMLBodyElement = document.querySelector('body');
-const main: HTMLElement = document.querySelector('main')
+const menuOuter = document.querySelector('[data-menu]') as HTMLElement;
+const menuBtn = menuOuter?.querySelector('[data-btn="menu"]') as HTMLButtonElement;
+const menuWrapper = menuOuter?.querySelector('[data-menu-wrapper]') as HTMLElement;
+const homeLink = menuOuter?.querySelector('[data-home-link]') as HTMLAnchorElement;
+const body = document.querySelector('body') as HTMLBodyElement;
+const main = document.querySelector('main') as HTMLElement;
 
 const open = () => {
-  const firstMenuLink = visibleLinks(menuWrapper)[0]
+  const firstMenuLink = visibleLinks(menuWrapper)[0];
+  menuWrapper.hidden = false;
+  menuBtn.setAttribute('aria-expanded', 'true');
+  menuBtn.innerText = 'Close';
+  firstMenuLink.focus();
+  bodyScrollLock(true);
 
-  menuWrapper.hidden = false
-  menuBtn.setAttribute('aria-expanded', 'true')
-  menuBtn.innerText = 'Close'
-  firstMenuLink.focus()
-  bodyScrollLock(true)
+  body.addEventListener('click', (e) => {
+    console.log(e.target)
+  })
 
   setTimeout(() => {
     menuWrapper.classList.add('is-visible')
@@ -29,14 +32,15 @@ const close = () => {
   menuWrapper.classList.remove('is-visible')
   menuOuter.classList.remove('is-open')
   body.classList.remove('menu-is-open')
-  main.removeAttribute('inert')
+
 
   setTimeout(() => {
     menuWrapper.hidden = true
     menuBtn.setAttribute('aria-expanded', 'false')
     menuBtn.innerText = 'Menu'
     bodyScrollLock(false)
-  }, 250)
+    main.removeAttribute('inert')
+  }, 100)
 }
 
 const toggleMenu = (e) => {
