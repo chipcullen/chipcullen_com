@@ -2,7 +2,14 @@
 <html lang="en-us">
   {% include "./partials/siteHead.njk" %}
 
-  <body>
+    {% if './src/posts/' in page.inputPath %}
+      {% set pageClass = "post" %}
+    {% elif './src/pages/' in page.inputPath %}
+      {% set pageClass = "page" %}
+    {% elif './src/index' in page.inputPath %}
+      {% set pageClass = "home" %}
+    {% endif %}
+  <body class="{{ pageClass }}">
     <div class="hidden">
       {% include './partials/sprite.svg' %}
     </div>

@@ -8,7 +8,7 @@ const homeLink = menuOuter?.querySelector('[data-home-link]') as HTMLAnchorEleme
 const body = document.querySelector('body') as HTMLBodyElement;
 const main = document.querySelector('main') as HTMLElement;
 
-const open = () => {
+const open = (): void => {
   const firstMenuLink = visibleLinks(menuWrapper)[0];
   menuWrapper.hidden = false;
   menuBtn.setAttribute('aria-expanded', 'true');

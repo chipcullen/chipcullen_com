@@ -6,6 +6,9 @@
   --color: var(--black);
 
   --mono: 'Noto Sans Mono', monospace;
+  --system: -apple-system, BlinkMacSystemFont, sans-serif;
+
+  --body-font-family: var(--system);
 
   @media (prefers-color-scheme: dark) {
     --background: var(--black);

@@ -1,0 +1,16 @@
+.post main {
+  width: 90vw;
+  max-width: 80ch;
+  margin-inline: auto;
+
+  img {
+    max-width: 100%;
+  }
+}
+
+pre[class*="language-"] {
+  &:has(+ p) {
+    display: block;
+    margin-block-end: 1.2rem;
+  }
+}
