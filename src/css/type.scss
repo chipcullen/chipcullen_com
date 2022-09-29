@@ -51,8 +51,16 @@ li {
   line-height: 1.3;
   padding-bottom: 1rem;
   break-inside: avoid;
+
+  > ul,
+  > ol {
+    padding-top: 1rem;
+  }
 }
 
-p code {
-  color: #ce9178;
+p,
+li {
+  code {
+    color: #ce9178;
+  }
 }
