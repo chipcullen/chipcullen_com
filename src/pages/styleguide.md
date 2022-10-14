@@ -14,7 +14,7 @@ Based on [Bryan Braun's](https://www.bryanbraun.com/) excellent [Poor Man's Styl
 
 # Heading 1
 
-## Heading 2
+## Heading 2 (has a border)
 
 ### Heading 3
 
