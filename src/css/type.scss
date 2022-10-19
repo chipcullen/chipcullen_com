@@ -10,15 +10,16 @@
 
 h1 {
   @extend %header;
+  margin-top: 4vh;
   margin-bottom: 2.5vh;
   font-size: 3rem;
-  font-weight: 700;
+  font-weight: var(--bold);
 }
 
 h2 {
   @extend %header;
   margin-bottom: 1rem;
-  margin-top: 2vh;
+  margin-top: 3vh;
   padding-top: 1vh;
   border-top: 7px solid currentColor;
   font-size: 2rem;
@@ -31,7 +32,7 @@ h3 {
   margin-top: 2vh;
   font-size: 1.75rem;
   font-weight: 900;
-    font-stretch: 64.9%;
+  font-stretch: 64.9%;
 }
 
 h4 {
@@ -47,7 +48,7 @@ h5 {
   margin-bottom: 1rem;
   margin-top: 2vh;
   font-size: 1.3rem;
-  font-weight: 700;
+  font-weight: var(--bold);
   text-transform: uppercase;
 }
 
@@ -56,7 +57,7 @@ h6 {
   margin-bottom: 1rem;
   margin-top: 2vh;
   font-size: 1.3rem;
-  font-weight: 700;
+  font-weight: var(--bold);
 }
 
 a {
@@ -72,7 +73,7 @@ p {
   margin-bottom: 1rem;
 }
 
-p:first-of-type {
+main > p:first-of-type {
   column-span: all;
   font-size: 1.4rem;
   line-height: 1.4;
@@ -100,4 +101,28 @@ li {
   code {
     color: #ce9178;
   }
+}
+
+p > img {
+  margin-block-start: 1vh;
+}
+
+blockquote {
+  padding: 1vh 2vw;
+  margin-inline: 2vw;
+  margin-block: 2vh;
+  border-inline-start: 1px solid var(--color);
+}
+
+b, strong, abbr {
+  font-weight: var(--bold);
+}
+
+data {
+  font-family: var(--mono);
+}
+
+mark {
+  background-color: var(--color);
+  color: var(--background);
 }

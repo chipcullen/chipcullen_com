@@ -10,8 +10,11 @@
 
   --body-font-family: var(--system);
 
+  --bold: 700;
+
   @media (prefers-color-scheme: dark) {
     --background: var(--black);
     --color: var(--white);
+    --bold: 800;
   }
 }
