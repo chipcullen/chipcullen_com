@@ -21,7 +21,11 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addFilter("postDateTime", (dateObj) => {
     const shortdate = DateTime.fromJSDate(dateObj).toISODate(DateTime.DATE_SHORT)
-    return shortdate.replace(/\//g, '-');
+    if (shortdate) {
+      return shortdate.replace(/\//g, '-');
+    } else {
+      return '';
+    }
   });
 
   eleventyConfig.addCollection("posts", function(collectionApi) {
