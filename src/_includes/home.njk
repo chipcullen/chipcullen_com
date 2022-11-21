@@ -1,24 +1,36 @@
 {% extends "./layout.njk" %}
 
 {% block content %}
-
-  <h1 class="site-title">Chip Cullen</h1>
-  <h2 class="site-subtitle">mission driven<br />web developer</h2>
-
-  <ul class="home-nav">
-    <li><a href="{{ '/about/' | url }}">about</a></li>
-    <li><a href="https://github.com/chipcullen">github</a></li>
-    <li><a href="https://www.linkedin.com/in/chipcullen/">linkedin</a></li>
-  </ul>
-
   <main>
-  <h3>Blog Posts</h3>
-  {# {{ collections.post | console | safe }} #}
-    <ul>
-    {% for post in collections.posts | reverse %}
+    <h1 class="site-title">Chip Cullen</h1>
+    <h2 class="site-subtitle">mission driven<br />web developer</h2>
+
+    <nav class="home-nav">
+      <ul>
+        <li><a href="{{ '/about/' | url }}">about</a></li>
+        <li><a href="https://github.com/chipcullen">github</a></li>
+        <li><a href="https://www.linkedin.com/in/chipcullen/">linkedin</a></li>
+      </ul>
+    </nav>
+
+    <h3>Blog Posts</h3>
+    {# {{ collections.post | console | safe }} #}
+    <ul class="blog-posts">
+    {% for post in posts %}
       {% include "./partials/post-summary.njk" %}
     {% endfor %}
     </ul>
-  </main>
 
+    <div class="pagination">
+    {% if pagination.href.previous %}
+      <a href="{{pagination.href.previous}}">Newer Posts</a>
+    {% endif %}
+
+      Page {{ pagination.pageNumber }} of {{pagination.pages.length }}
+
+    {% if pagination.href.next %}
+      <a href="{{pagination.href.next}}">Older Posts</a>
+    {% endif %}
+    </div>
+  </main>
 {% endblock %}
