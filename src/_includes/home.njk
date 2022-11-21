@@ -26,7 +26,7 @@
       <a href="{{pagination.href.previous}}">Newer Posts</a>
     {% endif %}
 
-      Page {{ pagination.pageNumber }} of {{pagination.pages.length }}
+      Page {{ pagination.pageNumber + 1 }} of {{pagination.pages.length }}
 
     {% if pagination.href.next %}
       <a href="{{pagination.href.next}}">Older Posts</a>

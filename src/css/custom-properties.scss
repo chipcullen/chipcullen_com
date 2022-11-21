@@ -1,19 +1,25 @@
 :root {
-  --black: rgba(8, 8, 0, .93);
-  --white: rgba(250, 250, 250, 1);
+  --black: rgb(22 21 21);
+  --white: rgb(250 250 250);
+  --orange: rgb(253 139 38);
 
   --background: var(--white);
   --color: var(--black);
 
-  --mono: 'Noto Sans Mono', monospace;
+  --accent: 'Source Serif 4', serif;
   --system: -apple-system, BlinkMacSystemFont, sans-serif;
 
   --body-font-family: var(--system);
 
+  --font-size-body: clamp(11px, 2vw + .1em, 15px);
+  --font-size-body-large: clamp(14px, 2vw + .1em, 20px);
+
   --bold: 700;
 
+  --padding-inline: 2vw;
+
   @media (prefers-color-scheme: dark) {
-    --background: var(--black);
+    // --background: var(--black);
     --color: var(--white);
     --bold: 800;
   }
