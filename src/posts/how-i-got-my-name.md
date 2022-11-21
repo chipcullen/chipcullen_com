@@ -2,7 +2,7 @@
 title: "How I got my name"
 date: 2011-04-01
 draft: false
-tags: [General]
+tags: [general]
 ---
 
 This post is in response to the post a day challenge over at wordpress.com:

@@ -2,7 +2,7 @@
 title: "Do the least amount possible"
 date: 2015-09-21
 draft: false
-tags: [development, front end development, General, principles]
+tags: [development, front end development, general, principles]
 ---
 
 I've been thinking a lot about **principles** in front end development lately. Techniques come and go as technology evolves.

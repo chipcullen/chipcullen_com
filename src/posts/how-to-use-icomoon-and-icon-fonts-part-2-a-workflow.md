@@ -2,7 +2,7 @@
 title: "How to use IcoMoon and Icon Fonts – Part 2: A Workflow"
 date: 2013-08-03
 draft: false
-tags: [icomoon, icon fonts, icons, Tools]
+tags: [icomoon, icon fonts, icons, tools]
 permalink: "how-to-use-icomoon-and-icon-fonts-part-2-a-workflow/"
 ---
 

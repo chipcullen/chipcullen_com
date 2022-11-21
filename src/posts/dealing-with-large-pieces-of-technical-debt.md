@@ -4,7 +4,7 @@ date: 2021-09-30T08:33:32-04:00
 draft: false
 permalink: "how-to-deal-with-large-pieces-of-technical-debt/"
 description: "The smaller the individual pieces of work, the greater the chance that a large piece of technical debt will be addressed."
-tags: ["technical debt"]
+tags: [techdebt]
 custom_properties: []
 ---
 

@@ -3,7 +3,7 @@ title: "Getting Started With Front End Tests: a Mindset"
 date: 2018-08-31T08:42:45-04:00
 draft: false
 permalink: "getting-started-with-front-end-tests/"
-tags: ["testing"]
+tags: [testing]
 ---
 
 One thing that I feel has been a blind spot for myself in terms of my development skill set is _testing_. That is, writing automated tests that help ensure that your code doesn't break as you make changes moving forward.

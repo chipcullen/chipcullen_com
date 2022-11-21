@@ -2,7 +2,7 @@
 title: "Sass’s trailing ampersand and modular code"
 date: 2013-12-02
 draft: false
-tags: [SASS, Sass, scss]
+tags: [sass, scss]
 permalink: "sass-trailing-ampersand-modular-code/"
 ---
 

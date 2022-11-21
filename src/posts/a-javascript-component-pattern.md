@@ -4,7 +4,7 @@ date: 2020-08-14T16:02:04-04:00
 draft: false
 permalink: "a-javascript-component-pattern/"
 description: "A walk through the typical JavaScript pattern that we use at my work."
-tags: ['javascript']
+tags: [javascript]
 custom_properties: []
 ---
 

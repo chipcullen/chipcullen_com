@@ -4,7 +4,7 @@ date: 2022-05-11T20:57:16-04:00
 draft: false
 permalink: "link-rel-preload-is-a-seperate-thing/"
 description: "Note to self."
-tags: [CSS]
+tags: [css]
 custom_properties: []
 ---
 

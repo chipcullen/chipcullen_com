@@ -2,7 +2,7 @@
 title: "Front End Testing with Wraith: A Step by Step Recipe"
 date: 2015-01-10
 draft: false
-tags: [css, testing, Tools, wraith]
+tags: [css, testing, tools, wraith]
 ---
 
 I had occasion to finally get to one of my goals from last year - and that was to introduce some testing to my front end development.

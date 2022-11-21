@@ -4,7 +4,7 @@ date: 2020-04-30T09:15:37-04:00
 draft: false
 permalink: "css-min-max-clamp-functions/"
 description: "A quick look at the relatively new, but well supported, min(), max() and clamp() functions and how you might use them."
-tags: ['CSS']
+tags: [css]
 custom_properties: []
 ---
 

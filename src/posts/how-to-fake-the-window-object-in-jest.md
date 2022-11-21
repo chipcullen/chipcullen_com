@@ -2,7 +2,7 @@
 title: "How to Fake the Window Object in Jest and Enzyme"
 date: 2018-09-24T08:24:00-04:00
 draft: false
-tags: ["Jest", "Testing"]
+tags: [jest, testing]
 permalink: "how-to-fake-the-window-object-in-jest-and-enzyme/"
 ---
 

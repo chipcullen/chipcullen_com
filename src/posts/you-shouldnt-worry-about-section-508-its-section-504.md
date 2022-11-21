@@ -2,7 +2,7 @@
 title: "You shouldn't worry about Section 508 - it's Section 504"
 date:  2016-08-08
 draft: false
-tags: [Accessibility]
+tags: [accessibility]
 permalink: "you-shouldnt-worry-about-section-508-its-section-504/"
 ---
 

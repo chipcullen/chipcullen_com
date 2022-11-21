@@ -2,7 +2,7 @@
 title: "Two level breadcrumbs with CSS :only-child"
 date: 2015-10-03
 draft: false
-tags: [css, pseudo-selectors, Sass]
+tags: [css, pseudo-selectors, sass]
 ---
 
 There was a situation where we had some breadcrumbs being produced by a CMS. The problem was that the breadcrumb appeared on the top-level page as well as it's children pages. On the top level page it came across very redundant, and this single level breadcrumb would appear right above the page title. However, we wanted the breadcrumb trail to still appear on the second level pages.

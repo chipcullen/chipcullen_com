@@ -2,7 +2,7 @@
 title: "Simplicity comes with experience"
 date: 2015-09-23
 draft: false
-tags: [General, maturity]
+tags: [general, maturity]
 ---
 
 Being able to confidently offer simple solutions that solve a problem is a hallmark of experience. Before even committing your fingers to a keyboard, experience will (hopefully) allow you to:

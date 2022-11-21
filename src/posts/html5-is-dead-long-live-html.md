@@ -2,7 +2,7 @@
 title: "HTML5 is dead. Long live HTML."
 date: 2011-01-21
 draft: false
-tags: [General, html, html5]
+tags: [general, html, html5]
 ---
 
 ![HTML5 Logo Spoof](../images/HTML5-Logo-spoof.png)

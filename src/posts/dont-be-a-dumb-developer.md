@@ -2,7 +2,7 @@
 title: "Don’t be a dumb developer"
 date: 2015-12-23
 draft: false
-tags: [development, General, work]
+tags: [development, general, work]
 ---
 
 I had a situation at work where we had an edge case in a component: sometimes a logo didn't appear. When I noticed this, I responded as a dumb developer.

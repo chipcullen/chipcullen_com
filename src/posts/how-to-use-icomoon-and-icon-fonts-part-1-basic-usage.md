@@ -2,7 +2,7 @@
 title: "How to use IcoMoon and Icon Fonts - Part 1: Basic Usage"
 date: 2013-07-31
 draft: false
-tags: [icomoon, icons, Tools, tutorial]
+tags: [icomoon, icons, tools, tutorial]
 permalink: "how-to-use-icomoon-and-icon-fonts-part-1-basic-usage/"
 ---
 

@@ -4,7 +4,7 @@ date: 2019-03-26T16:39:14-04:00
 draft: false
 permalink: "canonical-tag-in-django/"
 description: "A quick tip on adding a canonical tag within Django templates, and why."
-tags: ["django"]
+tags: [django]
 custom_properties:
   [
     "--background-color-page: hsla(213, 100%, 88%, 1);",

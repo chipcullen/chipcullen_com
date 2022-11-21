@@ -4,7 +4,7 @@ date: 2020-10-31T09:15:03-04:00
 draft: false
 permalink: "what-width-and-height-attributes-to-use-with-responsive-images/"
 description: "Best practice is to add `width` and `height` attributes to image elements in HTML to improve browser layout performance. "
-tags: ['performance']
+tags: [performance]
 custom_properties: []
 ---
 **Best practice is now to re-include the `width` and `height` attributes for images, like we used to back in the day.**

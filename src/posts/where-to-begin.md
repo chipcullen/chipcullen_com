@@ -2,7 +2,7 @@
 title: "Where to begin? How I start a visual design for the web"
 date: 2015-01-04
 draft: false
-tags: [design, process, starting, Web Design]
+tags: [design, process, starting, webdesign]
 permalink: "where-to-begin/"
 ---
 

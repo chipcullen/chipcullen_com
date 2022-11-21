@@ -4,6 +4,7 @@ date: 2019-01-26T09:00:30-05:00
 draft: false
 permalink: "books-i-read-in-2018/"
 description: "7 of the best books I read last year - 3 fiction, 4 non-fiction."
+tags: [general]
 ---
 
 I've seen a number of posts looking back at what people had read in 2018, and thought they were intesresting. I decided to look back at what I had read in 2018, and was surprised by a few things.

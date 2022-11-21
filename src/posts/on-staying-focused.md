@@ -2,7 +2,7 @@
 title: "On staying focused"
 date: 2011-01-11
 draft: false
-tags: [focus, General, productivity]
+tags: [focus, general, productivity]
 ---
 
 _I'm again using a [Daily Post topic](https://dailypost.wordpress.com/2011/01/07/topic-focus/) as motivation for this post._

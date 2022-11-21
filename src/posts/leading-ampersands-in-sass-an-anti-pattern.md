@@ -2,7 +2,7 @@
 title: "Leading Ampersands for modifiers in Sass: An anti-pattern"
 date: 2018-01-05
 draft: false
-tags: [CSS, Sass, scss]
+tags: [css, sass, scss]
 permalink: "leading-ampersands-in-sass-an-anti-pattern/"
 ---
 

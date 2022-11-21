@@ -2,7 +2,7 @@
 title: "Moving on from a technology, or: life after Drupal"
 date: 2016-01-28
 draft: false
-tags: [Drupal, reinvention]
+tags: [drupal, reinvention]
 ---
 
 I used to use Drupal in my everyday work. I got very familiar with it, how it worked, and how to avoid its (many) pitfalls. I was able to build sites that met client needs quickly, and they were able to make use of them.

@@ -2,7 +2,7 @@
 title: "Altering the comment form in Wordpress"
 date: 2012-04-03
 draft: false
-tags: [comment-form, wordpress, Wordpress]
+tags: [comment-form, wordpress]
 ---
 
 ### Intro

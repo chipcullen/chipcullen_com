@@ -2,7 +2,7 @@
 title: "The Strategic Job Hunt"
 date: 2015-07-24
 draft: false
-tags: [General, job, job search]
+tags: [general, job, job search]
 ---
 
 Job hunting can be a messy, unorganized process.

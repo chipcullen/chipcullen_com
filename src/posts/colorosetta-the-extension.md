@@ -4,7 +4,7 @@ date: 2022-05-23T21:58:09-04:00
 draft: false
 permalink: "colorosetta-the-extension/"
 description: "Announcing the VS Code Extension for my one-to-many color translation tool, ColoRosetta"
-tags: ["vscode"]
+tags: [vscode]
 custom_properties: []
 ---
 

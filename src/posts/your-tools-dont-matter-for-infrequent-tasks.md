@@ -2,7 +2,7 @@
 title: "Your Tools Don’t Matter … for infrequent tasks"
 date: 2011-01-20
 draft: false
-tags: [productivity, Tools, wireframes, work]
+tags: [productivity, tools, wireframes, work]
 ---
 
 I had to start a wireframe for a new project today. Easy enough, right? I've built a number of them before.

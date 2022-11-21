@@ -4,7 +4,7 @@ date: 2020-02-11T08:27:09-05:00
 draft: false
 permalink: "the-contrast-triangle/"
 description: "I've launched a new tool to help check three colors at once, for when you have hyperlinks without underlines."
-tags: ["accessibility"]
+tags: [accessibility]
 custom_properties: []
 ---
 

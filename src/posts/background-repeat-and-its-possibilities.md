@@ -3,6 +3,7 @@ title: "Background Repeat and its Possibilities"
 date: 2018-09-05T08:33:00-04:00
 draft: false
 permalink: "background-repeat-and-its-possibilities/"
+tags: [css]
 ---
 
 There is a humble CSS Property that gets overlooked a lot, the humble `background-repeat`.

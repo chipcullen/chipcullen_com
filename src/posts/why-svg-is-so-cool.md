@@ -2,7 +2,7 @@
 title: "Why SVG is so cool (or: what happens when you're late to the party on something)"
 date: 2014-01-08
 draft: false
-tags: [General, learning, svg]
+tags: [general, learning, svg]
 ---
 
 This post is more confessional than anything else. In 2014 one of the things I wanted to learn more about was SVG - Scalable Vector Graphics.

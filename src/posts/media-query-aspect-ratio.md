@@ -4,7 +4,7 @@ date: 2022-01-03T17:30:17-05:00
 draft: false
 permalink: "media-query-aspect-ratio/"
 description: "Did you know? You can make a media query based on a viewports aspect ratio, not just it's width."
-tags: [CSS]
+tags: [css]
 custom_properties: []
 ---
 

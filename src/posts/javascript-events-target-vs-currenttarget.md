@@ -2,7 +2,7 @@
 title: "JavaScript events: .target vs .currentTarget"
 date:  2018-04-27
 draft: false
-tags: [General, javascript]
+tags: [general, javascript]
 permalink: "javascript-events-target-vs-currenttarget/"
 ---
 

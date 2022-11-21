@@ -4,7 +4,7 @@ date: 2022-01-05T17:10:18-05:00
 draft: false
 permalink: "dont-use-viewport-units-for-font-size-on-their-own/"
 description: "Be sure to pair viewport units with a relative unit when using them on font sizes, or you'll introduce an accessibility issue."
-tags: [CSS, typography, accessibility]
+tags: [css, typography, accessibility]
 custom_properties: []
 ---
 

@@ -2,7 +2,7 @@
 title: "Things I wish I knew when starting with Python"
 date: 2018-04-12
 draft: false
-tags: [General, python]
+tags: [general, python]
 ---
 
 Last year, after getting a promotion, I found myself suddenly in charge of a lot more back end python code. As someone who had almost exclusively worked in the front end (except for some PHP when dealing with Drupal or WordPress) this was new territory for me.

@@ -2,7 +2,7 @@
 title: "Not Communicating is Not an Option"
 date: 2013-09-23
 draft: false
-tags: [communication, General, professinalism]
+tags: [communication, general, professinalism]
 ---
 
 I was reminded of a basic, fundamental aspect of professionalism recently. I think this applies to any line of service work, no matter what the industry or client.

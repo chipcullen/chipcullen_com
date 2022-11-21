@@ -4,7 +4,7 @@ date: 2020-04-21T22:41:22-04:00
 draft: false
 permalink: "resolving-github-repo-and-create-react-app/"
 description: "A play in one act"
-tags: ['git']
+tags: [git]
 custom_properties: []
 ---
 

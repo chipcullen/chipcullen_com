@@ -2,7 +2,7 @@
 title: "Front End Developers - the seamstresses of the web?"
 date: 2012-08-16
 draft: false
-tags: [craft, front end development, General]
+tags: [craft, front end development, general]
 ---
 
 I've been thinking of myself more and more lately as a craftsperson. I've officially taken on the title "front end developer" as opposed to "web designer", though I still do get the opportunity to design in my current projects.
@@ -17,7 +17,7 @@ So what does that mean? I'm taking pride in my craft. I'm not necessarily making
 
 What I'm getting at is that my role right now, that of a "front end developer", is one of craft.
 
-I tried to look at other industries, and thought of the fashion industry (yes, I watch Project Runway - bare with me). Front End Developers are essentially the seamstresses of the web industry. We take a design that someone else (UX, UI designers) has devised, using materials on hand (supplied by back-end developers), and we spin it into an actual artifact (garment :: web site).
+I tried to look at other industries, and thought of the fashion industry (yes, I watch Project Runway - bear with me). Front End Developers are essentially the seamstresses of the web industry. We take a design that someone else (UX, UI designers) has devised, using materials on hand (supplied by back-end developers), and we spin it into an actual artifact (garment :: web site).
 
 [As an aside, to me this answers the raging question of whether or not web designers should be able to code: should a fashion designer be able to sew? I think so.]
 

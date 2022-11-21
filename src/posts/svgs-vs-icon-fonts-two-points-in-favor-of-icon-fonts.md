@@ -2,7 +2,7 @@
 title: "SVGs vs. Icon Fonts: Two points in favor of Icon Fonts"
 date: 2015-09-19
 draft: false
-tags: [icon fonts, svg, Web Typography]
+tags: [iconfonts, svg, typography]
 ---
 
 There was some [interesting discussion on Twitter](https://twitter.com/netmag/status/644797891056373761) about SVG sprites and their superiority to icon fonts. While I agree that SVGs are by and large superior, there are two crucial points that I feel icon fonts _can_ present an advantage:

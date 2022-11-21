@@ -2,7 +2,7 @@
 title: "New Version of the Font Combinator!"
 date: 2012-04-05
 draft: false
-tags: [Font Combinator, font-combinator]
+tags: [fontcombinator]
 ---
 
 Woo hoo! I'm really excited to announce that I have pushed a major new version of the [Font Combinator](https://font-combinator.com "The Web Font Combinator")!

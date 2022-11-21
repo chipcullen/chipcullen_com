@@ -2,7 +2,7 @@
 title: "How to use a more recent version of jQuery in Drupal (without jQuery Update)"
 date:  2013-08-15
 draft: false
-tags: [Drupal, Drupal, jquery]
+tags: [drupal, jquery]
 permalink: "how-to-use-a-more-recent-version-of-jquery-in-drupal/"
 ---
 

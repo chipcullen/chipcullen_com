@@ -2,7 +2,7 @@
 title: "The unsung develpment tool: Spreadsheets"
 date: 2018-11-03
 draft: false
-tags: [General]
+tags: [general]
 ---
 
 I just wanted to share my thought process about an oft-used tool in my arsenal, that I'm not sure a lot of developers think about:

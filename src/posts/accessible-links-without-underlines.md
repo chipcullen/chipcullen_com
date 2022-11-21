@@ -2,7 +2,7 @@
 title: "Accessible links without underlines"
 date: 2015-09-08 22:07:17-04:00
 draft: false
-tags: [accessibility, General]
+tags: [accessibility, general]
 ---
 
 **UPDATE** - I've launched [a new tool called The Contrast Triangle](https://contrast-triangle.com) that helps you deal with this situation. You can read more about it at [this blog post](/the-contrast-triangle/).

@@ -2,7 +2,7 @@
 title: "Why three typefaces rule the web, and what you can do about it"
 date: 2017-04-12
 draft: false
-tags: [google fonts, typography, Web Typography]
+tags: [googlefonts, typography]
 permalink: "why-three-typefaces-rule-the-web/"
 ---
 

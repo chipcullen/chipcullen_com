@@ -4,7 +4,7 @@ date: 2019-02-24T09:10:09-05:00
 draft: false
 permalink: "django-templates-block-if/"
 description: "Django templates may not respect if statements around block usage the way you expect. I found that out the hard way."
-tags: ["django"]
+tags: [django]
 ---
 
 I ran across this wrinkle in [Django Templates](https://docs.djangoproject.com/en/2.2/topics/templates/) at work the other day, and thought I should document what I found.

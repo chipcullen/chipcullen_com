@@ -2,7 +2,7 @@
 title: "How to apply classes to elements with CKEditor 4, in Drupal 7"
 date: 2013-12-19
 draft: false
-tags: [CKEditor, Drupal, Drupal]
+tags: [ckeditor, drupal]
 permalink: "how-to-apply-classes-ckeditor-4-in-drupal-7/"
 ---
 

@@ -2,7 +2,7 @@
 title: 'Mac OS X Digital color meter for web designers'
 date: 2012-09-18
 draft: false
-tags: [Color, Mac OS X, Tools, web design]
+tags: [color, tools, webdesign]
 ---
 
 ![Digital Color Meter](../images/digital-color-meter1.png)

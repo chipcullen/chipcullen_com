@@ -2,7 +2,7 @@
 title: "Surviving Getting Laid Off"
 date: 2015-07-17
 draft: false
-tags: [General, layoffs, mental health]
+tags: [general, layoffs, mentalhealth]
 ---
 
 Once upon a time I had a job that I loved. I had great teammates, and I was doing good work. I looked forward to getting to work every day. One day it came to an abrupt end.

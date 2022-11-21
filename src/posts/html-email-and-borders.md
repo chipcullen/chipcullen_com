@@ -2,7 +2,7 @@
 title: "HTML E-Mail and borders: a hard-won lesson"
 date: 2012-04-09
 draft: false
-tags: [email, html email, Tools]
+tags: [email, "html email", tools]
 permalink: "html-email-and-borders/"
 ---
 

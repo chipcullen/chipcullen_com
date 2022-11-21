@@ -4,7 +4,7 @@ date: 2021-07-02T08:44:02-04:00
 draft: false
 permalink: "analytics-classes-and-protecting-against-refactoring/"
 description: "A way to protect analytics events against refactors and unintentinal breakage - analyics classes in your HTML."
-tags: ['analytics', 'HTML']
+tags: [analytics, html]
 custom_properties: []
 ---
 

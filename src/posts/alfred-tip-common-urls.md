@@ -4,7 +4,7 @@ date: 2019-06-19T17:48:22-04:00
 draft: false
 permalink: "alfred-tip-common-urls/"
 description: "One of my simplest productivity hacks, but one of the most effective."
-tags: ["productivity"]
+tags: [productivity]
 custom_properties: []
 ---
 

@@ -2,7 +2,7 @@
 title: 'Useful SASS mixin - "prop-query"'
 date: 2013-04-28
 draft: false
-tags: [mixin, SASS, Sass, scss]
+tags: [mixin,sass, scss]
 ---
 
 Just wanted to share a little mixin that I came up with that's pretty darned useful. I call it "prop-query":

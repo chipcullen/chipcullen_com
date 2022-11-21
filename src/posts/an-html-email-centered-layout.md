@@ -2,7 +2,7 @@
 title: "An HTML email centered layout"
 date: 2012-04-17
 draft: false
-tags: [html email, Tools]
+tags: [html email, tools]
 ---
 
 So I'm still in the throes of some HTML email torture - I mean, work. My latest challenge was coming up with a centered layout that tested well across clients. Surprisingly, a lot of the solutions out there did not seem to test well - and the major problem child was Outlook (surprise surprise). If one layout worked in 2003 or earlier, it didn't work in 2007 & 2010, and vice versa.

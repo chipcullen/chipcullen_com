@@ -2,7 +2,7 @@
 title: "If you could only have five Google Fonts"
 date: 2014-08-20
 draft: false
-tags: [google fonts, Web Typography]
+tags: ["google fonts", typography]
 ---
 
 The late, great graphic designer Massimo Vignelli famously used only five typefaces in his career -

@@ -4,7 +4,7 @@ date: 2020-04-29T12:09:13-04:00
 draft: false
 permalink: "pointer-events-and-inline-elements-in-chrome/"
 description: "Something interesting I learned about using pointer-events and Chrome on inline elements."
-tags: ['CSS']
+tags: [css]
 custom_properties: []
 ---
 

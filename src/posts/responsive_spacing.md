@@ -4,7 +4,7 @@ date: 2019-03-01T08:13:06-05:00
 draft: false
 permalink: "responsive-spacing-with-viewport-units/"
 description: "How I used vw, vh and ch units to achieve responsive spacing in my new design."
-tags: ["CSS"]
+tags: [css]
 custom_properties: []
 ---
 

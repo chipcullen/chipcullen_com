@@ -4,7 +4,7 @@ date: 2020-01-26T14:48:06-05:00
 draft: false
 permalink: "advice-on-interviewing-for-junior-developers/"
 description: "Some advice on how to stand out during an interview when your a Junior Developer - either right out of a bootcamp/school, or still early in your career."
-tags: ["General"]
+tags: [general]
 custom_properties: []
 ---
 

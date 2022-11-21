@@ -2,7 +2,7 @@
 title: "How to use IcoMoon and Icon Fonts – Part 3: 7 Ninja Tricks"
 date:  2013-08-10
 draft: false
-tags: [icomoon, icon fonts, icons, Tools]
+tags: [icomoon, icon fonts, icons, tools]
 permalink: "how-to-use-icomoon-and-icon-fonts-part-3-7-ninja-tricks/"
 ---
 

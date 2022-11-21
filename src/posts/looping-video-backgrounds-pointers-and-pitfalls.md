@@ -2,7 +2,7 @@
 title: "Looping Video Backgrounds: pointers and pitfalls"
 date: 2016-08-01
 draft: false
-tags: [General, looping, video]
+tags: [general, looping, video]
 ---
 
 I just want to share some of the things that I've learned about implementing a 'video background' - one of those little videos that you typically find on home pages and landing pages.

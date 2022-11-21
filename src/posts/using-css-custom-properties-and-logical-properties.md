@@ -4,7 +4,7 @@ date: 2022-05-22T06:48:14-04:00
 draft: false
 permalink: "using-css-custom-properties-and-logical-properties-together/"
 description: "How to combine custom properties and logical properties for layout super powers."
-tags: ["CSS"]
+tags: [css]
 custom_properties: [
   "--background-color-header: var(--green-bright);",
   "--color-drop-cap: var(--grey-dark);",

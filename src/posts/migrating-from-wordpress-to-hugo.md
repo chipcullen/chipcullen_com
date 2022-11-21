@@ -2,7 +2,7 @@
 title: "Migrating From Wordpress to Hugo"
 date: 2018-09-13T21:22:49-04:00
 draft: false
-tags: [Hugo, Wordpress]
+tags: [hugo, wordpress]
 ---
 
 I wanted to share some of the experiences that I had migrating this blog from a Wordpress site to a Hugo site. This is more of a technical "how I did it" as opposed to [why I did it](/moving-to-hugo/).

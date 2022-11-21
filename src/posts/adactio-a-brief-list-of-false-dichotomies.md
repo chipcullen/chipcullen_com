@@ -2,7 +2,7 @@
 title: "Adactio: A brief list of false dichotomies"
 date: 2010-12-08
 draft: false
-tags: [blog, jeremy keith, Links]
+tags: [blog, jeremy keith, links]
 ---
 
 [Adactio: Journal—A brief list of false dichotomies](https://adactio.com/journal/1714/?skin=default).

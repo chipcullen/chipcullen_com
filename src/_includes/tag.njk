@@ -3,13 +3,9 @@
 {% block content %}
   <main>
     <h1>Tagged “{{ tag }}”</h1>
-
     <ol>
-    {% set taglist = collections[ tag ] %}
-    {{ taglist | console | safe }}
-    {% for post in taglist | reverse %}
-    hi
-      {# {% include "./partials/post-summary.njk" %} #}
+    {% for post in collections[tag] | reverse %}
+      {% include "./partials/post-summary.njk" %}
     {% endfor %}
     </ol>
   </main>

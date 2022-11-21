@@ -2,7 +2,7 @@
 title: "Git aliases - a step by step recipe (using Textmate)"
 date: 2011-01-31
 draft: false
-tags: [git, textmate, Tools, tutorial]
+tags: [git, textmate, tools, tutorial]
 ---
 
 Want to set up aliases that make Git easier to use? Have Textmate? Awesome.

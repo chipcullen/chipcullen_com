@@ -2,7 +2,7 @@
 title: "How to structure your typography in Sass"
 date: 2015-06-27
 draft: false
-tags: [SASS, Sass, typography, Web Typography]
+tags: [sass, typography]
 ---
 
 I've always been focused on strong typography when it comes to design. As I've evolved into a front end developer, I still focus a lot on the typography of a project. As I've written about before, if the design is up to me, I even start with [setting the paragraph](/where-to-begin/).

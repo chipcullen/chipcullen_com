@@ -2,7 +2,7 @@
 title: "My favorite word: Octothorp"
 date: 2011-02-11
 draft: false
-tags: [General]
+tags: [general]
 ---
 
 _Note: this post in response to the [Post a Week challenge](https://dailypost.wordpress.com/2011/02/10/topic-what-is-your-favorite-word/) over at wordpress.com_

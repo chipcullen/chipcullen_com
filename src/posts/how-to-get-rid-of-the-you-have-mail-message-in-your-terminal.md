@@ -2,7 +2,7 @@
 title: 'How to get rid of the "You have mail" message in your terminal'
 date: 2017-09-05
 draft: false
-tags: [terminal, Tools]
+tags: [terminal, tools]
 ---
 
 Have you ever opened up your terminal in OS X and seen this message in your prompt?

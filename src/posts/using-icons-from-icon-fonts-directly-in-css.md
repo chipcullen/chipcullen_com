@@ -2,7 +2,7 @@
 title: "Using icons from icon fonts directly in CSS"
 date:  2013-07-07
 draft: false
-tags: [Tools]
+tags: [tools]
 ---
 
 I've become a huge, huge fan of [icon fonts](https://alistapart.com/article/the-era-of-symbol-fonts) lately, for reasons well [enumerated elsewhere](https://css-tricks.com/examples/IconFont/).

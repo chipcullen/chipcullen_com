@@ -4,7 +4,7 @@ date: 2019-11-11T21:52:27-05:00
 draft: false
 permalink: "truncating-type-at-more-than-one-line/"
 description: "Have a design where you want text to get cut off at 2 or 3 lines? You can do it with CSS alone."
-tags: ["CSS", "typography"]
+tags: [css, typography]
 custom_properties:
   [
     "--background-color-header: var(--green-bright);",

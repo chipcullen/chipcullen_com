@@ -2,7 +2,7 @@
 title: "What some hippies taught me about work ethic"
 date: 2010-06-12
 draft: false
-tags: [General, music, rusted root, work]
+tags: [general, music, rustedroot, work]
 ---
 
 Last night I went to the local county fair mainly to see the main entertainment act: <a href="https://rustedroot.com/">Rusted Root</a>.

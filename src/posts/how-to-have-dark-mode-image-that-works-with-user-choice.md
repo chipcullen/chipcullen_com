@@ -4,7 +4,7 @@ date: 2022-04-15T17:16:35-04:00
 draft: false
 permalink: "how-to-have-dark-mode-image-that-works-with-user-choice-yo/"
 description: "When we added a 'dark mode' to PBS.org's appearance, we wanted to allow users to have a choice to turn it on. That introduces some complexities that you need to account for."
-tags: ['css', 'media-queries']
+tags: [css, media-queries]
 custom_properties: []
 ---
 

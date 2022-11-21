@@ -1,7 +1,6 @@
 ---
 title: "Moving to Hugo"
 date: 2018-08-28T09:19:01-04:00
-draft: false
 ---
 
 ## Welcome to the newly hugo-ified ChipCullen.com

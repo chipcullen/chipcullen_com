@@ -2,7 +2,7 @@
 title: "How to “preview” a click event tag in the Google Tag Manager console"
 date: 2016-05-09
 draft: false
-tags: [google tag manager, gtm, Tools]
+tags: [google tag manager, gtm, tools]
 ---
 
 A quick, but super useful tip, if you’re spending a lot of time creating tags in Google Tag Manager on click events.

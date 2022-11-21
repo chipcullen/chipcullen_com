@@ -2,7 +2,7 @@
 title: "Adobe Illustrator: Rotate/Copy object tip"
 date: 2011-04-08
 draft: false
-tags: [adobe, illustrator, Tools]
+tags: [adobe, illustrator, tools]
 ---
 
 ![ A Colorful Spirograph](../images/Screen-shot-2011-04-08-at-3.22.52-PM.png)
