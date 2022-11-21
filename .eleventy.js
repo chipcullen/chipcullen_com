@@ -19,6 +19,11 @@ module.exports = function (eleventyConfig) {
     return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_FULL);
   });
 
+  eleventyConfig.addFilter("postDateTime", (dateObj) => {
+    const shortdate = DateTime.fromJSDate(dateObj).toISODate(DateTime.DATE_SHORT)
+    return shortdate.replace(/\//g, '-');
+  });
+
   eleventyConfig.addCollection("posts", function(collectionApi) {
       return collectionApi.getFilteredByGlob("src/posts/**/*.md");
   });
