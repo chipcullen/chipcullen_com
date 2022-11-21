@@ -10,9 +10,9 @@ title: 'All Tags and Posts'
     {% set tagUrl %}/tags/{{ tag.title | slug }}/{% endset %}
     {% if tag.title != 'collections.homepageTags' %}
 
-    <li class="c-all-tags__item">
-      <a href="{{ tagUrl | url }}" class="c-all-tags__link heading-4">{{ tag.title }}</a>
-      <span class="c-all-tags__post-count">{{ tag.postCount }} posts</span>
+    <li>
+      <a href="{{ tagUrl | url }}">{{ tag.title }}</a>
+      <span>{{ tag.postCount }} posts</span>
     </li>
     {% endif %}
   {% endfor %}
