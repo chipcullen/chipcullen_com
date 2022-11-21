@@ -1,0 +1,26 @@
+---
+permalink: /all/
+layout: page.njk
+title: 'All Tags and Posts'
+---
+
+<h2>Tags</h2>
+<ul>
+  {% for tag in collections.allTags %}
+    {% set tagUrl %}/tags/{{ tag.title | slug }}/{% endset %}
+    {% if tag.title != 'collections.homepageTags' %}
+
+    <li class="c-all-tags__item">
+      <a href="{{ tagUrl | url }}" class="c-all-tags__link heading-4">{{ tag.title }}</a>
+      <span class="c-all-tags__post-count">{{ tag.postCount }} posts</span>
+    </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+<h2>All Posts</h2>
+<ul class="blog-posts">
+{% for post in collections.posts | reverse %}
+  {% include "../_includes/partials/post-summary.njk" %}
+{% endfor %}
+</ul>
