@@ -1,7 +1,7 @@
 .footer {
   position: relative;
   margin: 0;
-  padding: 100px var(--padding-inline) 200px var(--padding-inline);
+  padding: 100px var(--padding-inline) 50vw var(--padding-inline);
 
   z-index: 2;
   color: var(--color);
@@ -12,9 +12,22 @@
     z-index: 1;
   }
 
-  @media (min-width: 600px) {
+  @media (min-width: 500px) {
+    padding-block-end: 30vw;
+  }
+
+  @media (min-width: 800px) {
     display: grid;
     grid-template-columns: 2fr 1fr;
+
+  }
+
+  @media (min-width: 800px) {
+    padding-block-end: 30vw;
+  }
+
+  @media (min-width: 1200px) {
+    padding-block-end: 20vw;
   }
 
   .footer__greeting {
@@ -24,7 +37,7 @@
   .footer__meta {
     padding-block-start: 5vw;
 
-    @media (min-width: 600px) {
+    @media (min-width: 800px) {
       padding-block-start: 0;
       text-align: right;
     }
