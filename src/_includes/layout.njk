@@ -12,13 +12,9 @@
 
   <body class="{{ pageClass }}">
 
-    {% if page.url == '/' %}
-      {% set showHomeLink = false %}
-    {% else %}
-      {% set showHomeLink = true %}
+    {% if './src/index' not in page.inputPath %}
+      {% include "./partials/home-link.njk" %}
     {% endif %}
-
-    {% include "./partials/header.njk" %}
 
     {% block content %}{% endblock %}
 

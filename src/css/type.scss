@@ -18,6 +18,7 @@ h1 {
 
 .site-title {
   font-size: clamp(45px, 10vw + .1em, 80px);
+  margin-block: 1vh 1vh;
 }
 
 h2 {
@@ -30,11 +31,11 @@ h2 {
   font-weight: 550;
 }
 
-h2.site-subtitle {
+.site-subtitle {
   font-family: var(--body);
   font-weight: 200;
   border: 0;
-  color: var(--orange) !important;
+  color: var(--orange);
   line-height: .95;
 }
 

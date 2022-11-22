@@ -1,8 +1,12 @@
 {% extends "./layout.njk" %}
 
 {% block content %}
-  <main>
-    <h1 class="site-title">Chip Cullen</h1>
+  <header class="home-header">
+    <h1 class="site-title">
+      <a href="/">
+      Chip Cullen
+      </a>
+    </h1>
     <h2 class="site-subtitle">mission driven<br />web developer</h2>
 
     <nav class="home-nav">
@@ -13,6 +17,25 @@
       </ul>
     </nav>
 
+    <picture class="header-backdrop" aria-hidden="true">
+      <source media="(max-width: 500px)"
+          srcset="https://res.cloudinary.com/chipcullen/image/upload/b_rgb:000000,c_fill,g_north,h_548,o_98,w_500/v1669064957/dc-skyline-sketch-2-cropped_lv33es.webp 1x,
+          https://res.cloudinary.com/chipcullen/image/upload/b_rgb:000000,c_fill,g_north,h_1096,o_99,w_1000/v1669064957/dc-skyline-sketch-2-cropped_lv33es.webp 2x">
+      <source media="(max-width: 800px)"
+          srcset="https://res.cloudinary.com/chipcullen/image/upload/b_rgb:000000,c_fill,g_north,h_548,o_98,w_800/v1669064957/dc-skyline-sketch-2-cropped_lv33es.webp 1x,
+          https://res.cloudinary.com/chipcullen/image/upload/b_rgb:000000,c_fill,g_north,h_1096,o_99,w_1600/v1669064957/dc-skyline-sketch-2-cropped_lv33es.webp 2x">
+
+      <img class=""
+        src="https://res.cloudinary.com/chipcullen/image/upload/b_rgb:000000,c_fill,g_north,h_548,o_98,w_1369/v1669064957/dc-skyline-sketch-2-cropped_lv33es.webp"
+        srcset="https://res.cloudinary.com/chipcullen/image/upload/b_rgb:000000,c_fill,g_north,h_548,o_98,w_1369/v1669064957/dc-skyline-sketch-2-cropped_lv33es.webp 1x,
+          https://res.cloudinary.com/chipcullen/image/upload/b_rgb:000000,c_fill,g_north,h_1096,o_99,w_2738/v1669064957/dc-skyline-sketch-2-cropped_lv33es.webp 2x"
+        loading="lazy"
+        alt=""/>
+    </picture>
+
+  </header>
+
+  <main>
     <h3>Blog Posts</h3>
     {# {{ collections.post | console | safe }} #}
     <ul class="blog-posts">
