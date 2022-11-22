@@ -3,6 +3,13 @@ title: 'About Chip Cullen'
 permalink: 'about/'
 ---
 
+<img class="header-backdrop" aria-hidden="true"
+  src="https://res.cloudinary.com/chipcullen/image/upload/c_scale,w_800/v1669154381/chip_cullen_washington_monument_q1aeht.png "
+  srcset="https://res.cloudinary.com/chipcullen/image/upload/c_scale,w_800/v1669154381/chip_cullen_washington_monument_q1aeht.png 1x,
+    https://res.cloudinary.com/chipcullen/image/upload/c_scale,w_1600/v1669154381/chip_cullen_washington_monument_q1aeht.png 2x"
+  loading="lazy"
+  alt="Chip Cullen"/>
+
 
 ## Currently Working At
 
