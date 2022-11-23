@@ -14,7 +14,7 @@ Based on [Bryan Braun's](https://www.bryanbraun.com/) excellent [Poor Man's Styl
 
 # Heading 1
 
-## Heading 2 (has a border)
+## Heading 2
 
 ### Heading 3
 
@@ -73,8 +73,6 @@ This is a standard paragraph. Lorem ipsum dolor sit amet, consectetuer adipiscin
 > "**This is a blockquote**. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl."
 
 This is a standard paragraph. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-
-*Note: the [Figure-Figcaption](https://html5doctor.com/the-figure-figcaption-elements/) and [Details-Summary](https://html5doctor.com/the-details-and-summary-elements/) elements are not currently supported in markdown.*
 
 * * *
 
@@ -178,14 +176,6 @@ Monospace Text wrapped in "pre" tags:
     * List Item 3.3
 * List Item 4
 
-## Definition List
-
-<dl>
-  <dt>Definition Term 1</dt>
-  <dd>Definition Description 1</dd>
-  <dt>Definition Term 2</dt>
-  <dd>Definition Description 2</dd>
-</dl>
 
 * * *
 
