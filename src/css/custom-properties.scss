@@ -19,7 +19,8 @@
   --line-height: 1.46;
 
   --spacing-block: clamp(25px, 3vh, 30px);
-  --spacing-inline: clamp(20px, 4vw, 40px);
+  --spacing-block-half: calc(var(--spacing-block) / 2);
+  --spacing-inline: clamp(20px, 4vw, 80px);
 
   --background: var(--white);
   --foreground: var(--black);

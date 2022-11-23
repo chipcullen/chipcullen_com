@@ -14,30 +14,16 @@ h1 {
   margin-bottom: 2.5vh;
 }
 
-.site-title {
-  font-size: 4rem;
-  margin-block: 1vh 1vh;
-}
-
 h2 {
   @extend %header;
   font-size: 2.4rem;
   font-weight: 500;
 }
 
-.site-subtitle {
-  font-family: var(--body);
-  font-weight: 200;
-  border: 0;
-  color: var(--orange);
-  line-height: .95;
-}
-
 h3 {
   @extend %header;
   font-size: 1.8rem;
   font-weight: 450;
-
 }
 
 h4 {
@@ -50,7 +36,6 @@ h5 {
   @extend %header;
   font-size: 1.4rem;
   font-weight: 350;
-
 }
 
 h6 {

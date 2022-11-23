@@ -1,0 +1,48 @@
+.site-title {
+  font-size: 4rem;
+  margin-block: var(--spacing-block);
+  margin-inline: var(--spacing-inline);
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.site-subtitle {
+  padding: 0 0 var(--spacing-block-half) var(--spacing-inline);
+  font-family: var(--body);
+  font-weight: 200;
+
+  line-height: .95;
+
+  display: inline-block;
+  border-bottom: 1vh solid var(--orange);
+}
+
+.home-nav ul {
+  list-style: none;
+  font-size: var(--font-size-body-large);
+  font-weight: 300;
+
+  li {
+    padding-block-end: 0.5vh;
+  }
+
+  @media (min-width: 600px) {
+    position: absolute;
+    top: var(--spacing-block);
+    right: var(--spacing-inline);
+    text-align: right;
+  }
+}
+
+.header-backdrop {
+  position: absolute;
+  top: 9rem;
+  right: var(--spacing-inline);
+  width: 40vw;
+
+  @media (min-width: 600px) {
+    top: 12rem;
+  }
+}
