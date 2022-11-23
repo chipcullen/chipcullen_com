@@ -1,16 +1,17 @@
+@use './includes/includes' as *;
+
 @use './custom-properties';
 
-@use './base';
+@use './root';
 
 @use './type';
 
-@use './header';
+@use './utilities';
 
-@use './menu';
+@use './header';
 
 @use './prism';
 
-@use './post';
-@use './tag';
+@use './posts-pages-tags';
 
 @use './footer';
