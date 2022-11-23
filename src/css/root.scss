@@ -1,21 +1,19 @@
-html {
-  color-scheme: light dark;
-}
-
 * {
   margin: 0;
   padding: 0;
 }
 
-body {
-  font-family: var(--body-font-family);
-  background: var(--background);
-  color: var(--color);
+:root {
   width: 100%;
   position: relative;
+  background: var(--background);
+  color: var(--foreground);
+  color-scheme: light dark;
+  font-family: var(--font-family-root);
+  font-size: var(--font-size-root);
 }
 
 main {
-  padding-block: 2vh;
-  padding-inline: 2vw;
+  padding-block: var(--spacing-block);
+  padding-inline: var(--spacing-inline);
 }

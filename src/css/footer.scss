@@ -1,10 +1,10 @@
 .footer {
   position: relative;
   margin: 0;
-  padding: 100px var(--padding-inline) 50vw var(--padding-inline);
+  padding: 100px var(--spacing-inline) 50vw var(--spacing-inline);
 
   z-index: 2;
-  color: var(--color);
+  color: var(--foreground);
   font-size: var(--font-size-body-large);
 
   * {
@@ -19,7 +19,6 @@
   @media (min-width: 800px) {
     display: grid;
     grid-template-columns: 2fr 1fr;
-
   }
 
   @media (min-width: 800px) {
@@ -69,6 +68,7 @@
 
     @media (prefers-color-scheme: dark) {
       backdrop-filter: invert(100%);
+      z-index: 2;
     }
   }
 
@@ -77,6 +77,10 @@
     height: 100%;
     object-fit: cover;
     mix-blend-mode: multiply;
+    @media (prefers-color-scheme: dark) {
+      mix-blend-mode: none;
+      opacity: .93;
+    }
     opacity: 0.98;
   }
 }
