@@ -1,17 +1,12 @@
+@use './includes/includes' as *;
+
 .post-summary {
   list-style-type: none;
   margin: 0;
 }
 
 .post-summary__time {
-  display: block;
-  margin-block-end: var(--spacing-block-quarter);
-  font-size: .73rem;
-  color: var(--grey-medium);
-
-  @media (prefers-color-scheme: dark) {
-    color: var(--grey-light);
-  }
+  @include time-stamp();
 }
 
 .post-summary__title {

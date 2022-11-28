@@ -17,16 +17,33 @@ body.all {
   }
 }
 
-.page main,
-.post main {
-  width: 90vw;
-  max-width: 70ch;
+.page,
+.post {
+  main {
+    width: 90vw;
+    max-width: 70ch;
 
-  position: relative;
-  z-index: 1;
+    position: relative;
+    z-index: 1;
 
-  img {
-    max-width: 100%;
+    img {
+      max-width: 100%;
+    }
+  }
+}
+
+.post {
+  h1 {
+    border-block-end: .5vh solid var(--accent-color);
+  }
+
+  time {
+    @include time-stamp();
+    margin-block-end: var(--spacing-block-triple);
+  }
+
+  .pagination {
+    margin-block-start: var(--spacing-block-double);
   }
 }
 

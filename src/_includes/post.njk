@@ -4,9 +4,10 @@
   <main>
     <h1>{{ title }}</h1>
     <time datetime="{{ date | postDateTime }}">{{ date | postDate }}</time>
+
     {{ content | safe }}
 
-    <hr />
+    <div class="pagination">
     {% if tags %}
     <p class="tags">
     Tags:
@@ -18,10 +19,11 @@
     </p>
     {% endif %}
 
-    {% set previousPost = collections.posts | getPreviousCollectionItem(page) %}
-    {% set nextPost = collections.posts | getNextCollectionItem(page) %}
-    {% if nextPost %}<p class="next-post">Next: <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a></p>{% endif %}
-    {% if previousPost %}<p class="prev-post">Previous: <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a></p>{% endif %}
+      {% set previousPost = collections.posts | getPreviousCollectionItem(page) %}
+      {% set nextPost = collections.posts | getNextCollectionItem(page) %}
+      {% if nextPost %}<p class="next-post">Next: <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a></p>{% endif %}
+      {% if previousPost %}<p class="prev-post">Previous: <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a></p>{% endif %}
+    </div>
 
   </main>
 {% endblock %}

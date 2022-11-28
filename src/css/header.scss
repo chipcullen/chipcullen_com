@@ -10,10 +10,10 @@
     font-weight: var(--bold);
     font-size: var(--font-size-body-large);
 
-    border-bottom: .5vh solid transparent;
+    border-block-end: 0.5vh solid transparent;
 
     transition-property: background-color, color, border-color;
-    transition-duration: .3s;
+    transition-duration: 0.3s;
 
     &:hover,
     &:focus {
