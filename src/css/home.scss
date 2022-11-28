@@ -18,7 +18,7 @@
   line-height: .95;
 
   display: inline-block;
-  border-bottom: 1vh solid var(--accent-color);
+  border-bottom: .5vh solid var(--accent-color);
 }
 
 .home-nav ul {
@@ -60,4 +60,14 @@
 .blog-posts-title {
   font-weight: var(--bold);
   margin-block-end: var(--spacing-block);
+}
+
+.blog-posts {
+  margin-block-end: var(--spacing-block-double);
+}
+
+.pagination {
+  display: inline-block;
+  border-block-start: 1px solid var(--orange);
+  padding-block-start: var(--spacing-block-half);
 }

@@ -1,3 +1,26 @@
-header {
+.home-link {
+  margin-inline-start: calc(var(--spacing-inline) - var(--spacing-block-half));
 
+  a {
+    display: inline-block;
+    padding: var(--spacing-block-double) var(--spacing-block-half);
+    text-decoration: none;
+
+    font-family: var(--accent);
+    font-weight: var(--bold);
+    font-size: var(--font-size-body-large);
+
+    border-bottom: .5vh solid transparent;
+
+    transition-property: background-color, color, border-color;
+    transition-duration: .3s;
+
+    &:hover,
+    &:focus {
+      outline: none;
+      color: var(--background);
+      background-color: var(--foreground);
+      border-color: var(--accent-color);
+    }
+  }
 }
