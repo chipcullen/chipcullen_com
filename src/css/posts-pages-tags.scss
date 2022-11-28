@@ -48,8 +48,10 @@ body.all {
 }
 
 pre[class*="language-"] {
-  &:has(+ p) {
+  &:has(+ p),
+  &:has(+ h2), {
+  &:has(+ h3) {
     display: block;
-    margin-block-end: 1.2rem;
+    margin-block-end: 1.3rem;
   }
 }
