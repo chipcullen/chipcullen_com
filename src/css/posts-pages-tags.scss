@@ -34,6 +34,7 @@ body.all {
 
 .post {
   h1 {
+    padding-block-end: var(--spacing-block-half);
     border-block-end: .5vh solid var(--accent-color);
   }
 
@@ -49,7 +50,7 @@ body.all {
 
 pre[class*="language-"] {
   &:has(+ p),
-  &:has(+ h2), {
+  &:has(+ h2),
   &:has(+ h3) {
     display: block;
     margin-block-end: 1.3rem;
