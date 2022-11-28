@@ -8,12 +8,12 @@ permalink: /tags/{{ tag }}/
 
 
 {% block content %}
-  <main>
-    <h1>Tagged “{{ tag }}”</h1>
-    <ol>
-    {% for post in collections[tag] | reverse %}
-      {% include "../_includes/partials/post-summary.njk" %}
-    {% endfor %}
-    </ol>
-  </main>
+
+  <h1>Tagged “{{ tag }}”</h1>
+  <ol>
+  {% for post in collections[tag] | reverse %}
+    {% include "../_includes/partials/post-summary.njk" %}
+  {% endfor %}
+  </ol>
+
 {% endblock %}
