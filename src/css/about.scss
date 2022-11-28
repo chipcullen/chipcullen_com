@@ -1,0 +1,40 @@
+@use './includes/includes' as *;
+
+.about {
+  @include top-cap($texture: 'cerulean_corner_texture_eieurc');
+
+  h1 {
+    position: relative;
+    display: inline-block;
+    padding: 0 var(--spacing-inline) var(--spacing-block) 0;
+    border-block-end: 0.5vh solid var(--accent-color);
+    background-color: var(--background);
+    font-size: 4rem;
+    z-index: 1;
+  }
+
+  .about-backdrop {
+    margin: 0;
+
+    z-index: 0;
+
+    width: clamp(200px, 50vw, 800px);
+
+    @media (min-width: 1000px) {
+      position: absolute;
+      top: 12.5rem;
+      right: 0;
+
+      width: 34vw;
+    }
+
+    @media (min-width: 1300px) {
+      left: 800px;
+      right: auto;
+    }
+  }
+
+  .content {
+    max-width: 600px;
+  }
+}

@@ -8,6 +8,8 @@
       {% set pageClass = "tag" %}
     {% elif './src/pages/all' in page.inputPath %}
       {% set pageClass = "all" %}
+    {% elif './src/pages/about' in page.inputPath %}
+      {% set pageClass = "about" %}
     {% elif './src/pages/' in page.inputPath %}
       {% set pageClass = "page" %}
     {% elif './src/index' in page.inputPath %}
