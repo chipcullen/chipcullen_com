@@ -18,15 +18,19 @@
     </nav>
 
     <img class="header-backdrop" aria-hidden="true"
-      src="https://res.cloudinary.com/chipcullen/image/upload/c_scale,w_485/v1669128912/chip_cullen_sketch_computer_nobg_y25mib.webp "
-      srcset="https://res.cloudinary.com/chipcullen/image/upload/c_scale,w_485/v1669128912/chip_cullen_sketch_computer_nobg_y25mib.webp 1x,
-        https://res.cloudinary.com/chipcullen/image/upload/c_scale,w_970/v1669128912/chip_cullen_sketch_computer_nobg_y25mib.webp 2x"
+      src="https://res.cloudinary.com/chipcullen/image/upload/c_scale,w_485/v1669128912/chip_cullen_sketch_computer_nobg_y25mib.webp"
+      srcset="
+        https://res.cloudinary.com/chipcullen/image/upload/c_scale,w_485/v1669128912/chip_cullen_sketch_computer_nobg_y25mib.webp 485w,
+        https://res.cloudinary.com/chipcullen/image/upload/c_scale,w_970/v1669128912/chip_cullen_sketch_computer_nobg_y25mib.webp 970w,
+        https://res.cloudinary.com/chipcullen/image/upload/c_scale,w_1024/v1669128912/chip_cullen_sketch_computer_nobg_y25mib.webp 1024w,
+        https://res.cloudinary.com/chipcullen/image/upload/c_scale,w_2048/v1669128912/chip_cullen_sketch_computer_nobg_y25mib.webp 2048w"
+      sizes="40vw"
       loading="lazy"
       alt=""/>
   </header>
 
   <main>
-    <h3>Blog Posts</h3>
+    <h3 class="blog-posts-title">Blog Posts</h3>
     {# {{ collections.post | console | safe }} #}
     <ul class="blog-posts">
     {% for post in posts %}

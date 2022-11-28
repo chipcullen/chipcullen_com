@@ -44,3 +44,26 @@
 
 
 }
+
+@mixin fade-in($duration: 2s) {
+  @media (prefers-reduced-motion: no-preference) {
+    animation-name: fade-in;
+    animation-duration: #{$duration};
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  66% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 100%;
+  }
+
+}
+

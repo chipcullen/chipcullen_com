@@ -8,12 +8,14 @@
 
 @use './utilities';
 
-@use './header';
-
 @use './prism';
 
 @use './home';
 
 @use './posts-pages-tags';
 
+@use './header';
+
 @use './footer';
+
+@use './post-summary';

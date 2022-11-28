@@ -1,3 +1,5 @@
+@use './includes/includes' as *;
+
 .site-title {
   font-size: 4rem;
   margin-block: var(--spacing-block);
@@ -16,10 +18,11 @@
   line-height: .95;
 
   display: inline-block;
-  border-bottom: 1vh solid var(--orange);
+  border-bottom: 1vh solid var(--accent-color);
 }
 
 .home-nav ul {
+  @include fade-in(1.5s);
   list-style: none;
   font-size: var(--font-size-body-large);
   font-weight: 300;
@@ -37,6 +40,7 @@
 }
 
 .header-backdrop {
+  @include fade-in(2.5s);
   position: absolute;
   top: 9rem;
   right: var(--spacing-inline);
@@ -45,4 +49,15 @@
   @media (min-width: 600px) {
     top: 12rem;
   }
+}
+
+.home main {
+  @include fade-in(3.5s);
+  padding-block-start: 20vh;
+  max-width: 45vw;
+}
+
+.blog-posts-title {
+  font-weight: var(--bold);
+  margin-block-end: var(--spacing-block);
 }
