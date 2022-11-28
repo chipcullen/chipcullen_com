@@ -5,21 +5,21 @@ title: 'All Tags and Posts'
 ---
 
 <h2>Tags</h2>
-<ul>
+<ul class="all-tags">
   {% for tag in collections.allTags %}
     {% set tagUrl %}/tags/{{ tag.title | slug }}/{% endset %}
     {% if tag.title != 'collections.homepageTags' %}
 
     <li>
       <a href="{{ tagUrl | url }}">{{ tag.title }}</a>
-      <span>{{ tag.postCount }} posts</span>
+      <span>{{ tag.postCount }} post{% if tag.postCount > 1 %}s{% endif %}</span>
     </li>
     {% endif %}
   {% endfor %}
 </ul>
 
 <h2>All Posts</h2>
-<ul class="blog-posts">
+<ul class="blog-posts blog-posts--all">
 {% for post in collections.posts | reverse %}
   {% include "../_includes/partials/post-summary.njk" %}
 {% endfor %}

@@ -48,11 +48,33 @@ body.all {
   }
 }
 
+.tags {
+  a {
+    margin-inline-end: .5rem;
+  }
+}
+
 pre[class*="language-"] {
   &:has(+ p),
   &:has(+ h2),
   &:has(+ h3) {
     display: block;
     margin-block-end: 1.3rem;
+  }
+}
+
+.all-tags {
+  columns: auto 12rem;
+
+  li {
+    break-inside: avoid;
+  }
+}
+
+.blog-posts--all {
+  columns: auto 30rem;
+
+    li {
+    break-inside: avoid;
   }
 }

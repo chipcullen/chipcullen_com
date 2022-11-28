@@ -1,6 +1,6 @@
 ---
 layout: home.njk
-title: "Chip Cullen"
+title: "Home"
 pagination:
   data: collections.posts
   size: 6

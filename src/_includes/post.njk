@@ -12,9 +12,7 @@
     <p class="tags">
     Tags:
     {% for tag in tags %}
-      <a href="/tags/{{ tag | slug}}">
-      {{ tag }}
-      </a>
+      <a href="/tags/{{ tag | slug}}">{{ tag }}</a>
     {% endfor %}
     </p>
     {% endif %}
