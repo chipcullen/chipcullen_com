@@ -3,23 +3,29 @@
 {% else %}
   {% set CssVersion = version.css %}
 {% endif %}
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-  <title>{{ metadata.title }}: {{ title }}</title>
-  <meta name="Description" content="{{ metadata.description }}">
+
   <link rel="stylesheet" href="/styles{{ CssVersion }}.css">
-
-  <meta property="og:title" content="{{ metadata.title }}"/>
   <meta property="og:type" content="website"/>
+  <meta property="og:image" content="https://res.cloudinary.com/chipcullen/image/upload/c_crop,h_630,w_1200/v1669154381/chip_cullen_washington_monument_q1aeht.png"/>
+  {% if './src/index' in page.inputPath %}
+  <title>{{ metadata.title }}: {{ title }}</title>
+  <meta name="description" content="{{ metadata.description }}">
+  <meta property="og:title" content="{{ metadata.title }}"/>
   <meta property="og:description" content="{{ metadata.description }}"/>
-  {# <meta property="og:image" content="{{ metadata.url }}{{ metadata.img }}"/> #}
+  <meta property="og:image" content="https://res.cloudinary.com/chipcullen/image/upload/c_crop,h_630,w_1200/v1669154381/chip_cullen_washington_monument_q1aeht.png"/>
   <meta property="og:url" content="{{ metadata.url }}"/>
+  {% else %}
+  <title>{{ title }}: {{ metadata.title }}</title>
+  <meta name="description" content="{{ description }}">
+  <meta property="og:title" content="{{ title }}: {{ metadata.title }}"/>
+  <meta property="og:description" content="{{ description }}"/>
+  <meta property="og:url" content="{{ metadata.url }}{{ page.url | replace("/","") }}/"/>
+  {% endif %}
   <meta property="og:site_name" content="{{ metadata.title }}"/>
-  <meta name="twitter:card" content="summary_large_image"/>
-
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@200..900&display=swap" rel="stylesheet">
