@@ -3,19 +3,17 @@ pagination:
   data: collections
   size: 1
   alias: tag
+eleventyComputed:
+  title: "Tagged “{{ tag }}”"
 permalink: /tags/{{ tag }}/
 ---
 
-
 {% block content %}
-
-  <h1>Tagged “{{ tag }}”</h1>
   <ol>
   {% for post in collections[tag] | reverse %}
     {% include "../_includes/partials/post-summary.njk" %}
   {% endfor %}
   </ol>
-
 {% endblock %}
 
 {% topcap 'orange_texture_j0t27l' %}
