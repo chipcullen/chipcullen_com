@@ -5,7 +5,6 @@ permalink: 404.html
 
 {% extends "./_includes/layout.njk" %}
 
-
 {% block content %}
   <main>
     <h1>{{ title }}</h1>
@@ -18,8 +17,6 @@ permalink: 404.html
         {% set tagUrl %}/tags/{{ tag.title | slug }}/{% endset %}
         {% if tag.title != 'collections.homepageTags' %}
         {% if loop.index0 < 10 %}
-
-
         <li>
           <a href="{{ tagUrl | url }}">{{ tag.title }}</a>
           <span>{{ tag.postCount }} post{% if tag.postCount > 1 %}s{% endif %}</span>
