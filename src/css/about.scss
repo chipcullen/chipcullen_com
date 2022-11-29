@@ -13,9 +13,7 @@
 
   .about-backdrop {
     margin: 0;
-
     z-index: 0;
-
     width: clamp(200px, 50vw, 800px);
 
     @media (min-width: 1000px) {
