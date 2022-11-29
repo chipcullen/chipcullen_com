@@ -1,5 +1,6 @@
 const util = require('util');
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const pluginRss = require("@11ty/eleventy-plugin-rss");
 const { DateTime } = require("luxon");
 
 const getPostCount = (tag, posts) => {
@@ -30,6 +31,8 @@ const getTags = (item) => {
 module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPlugin(syntaxHighlight);
+
+  eleventyConfig.addPlugin(pluginRss);
 
   eleventyConfig.addFilter('console', function(value) {
       const str = util.inspect(value);
@@ -90,6 +93,20 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
 
   eleventyConfig.addPassthroughCopy("src/images");
+
+  eleventyConfig.addShortcode("topcap", function(cloudinaryImageName) {
+    return `
+    <div class="top-cap">
+      <img aria-hidden="true"
+      src="https://res.cloudinary.com/chipcullen/image/upload/b_rgb:000000,c_scale,o_98,w_300/v1669146466/${cloudinaryImageName}.webp"
+      srcset="https://res.cloudinary.com/chipcullen/image/upload/b_rgb:000000,c_scale,o_98,w_600/v1669146466/${cloudinaryImageName}.webp 600w,
+        https://res.cloudinary.com/chipcullen/image/upload/b_rgb:000000,c_scale,o_98,w_800/v1669146466/${cloudinaryImageName}.webp 800w,
+        https://res.cloudinary.com/chipcullen/image/upload/b_rgb:000000,c_scale,o_98,w_1200/v1669146466/${cloudinaryImageName}.webp 1200w"
+      loading="lazy"
+      sizes="40vw"
+      alt="" />
+    </div>`;
+  });
 
   return {
     dir: {

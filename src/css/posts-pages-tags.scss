@@ -1,22 +1,5 @@
 @use './includes/includes' as *;
 
-.post,
-.page {
-  @include top-cap($texture: 'cerulean_corner_texture_eieurc');
-}
-
-body.tag {
-  @include top-cap($texture: 'orange_texture_j0t27l');
-}
-
-body.all {
-  @include top-cap($texture: 'orange_blue_texture_g5fop7');
-
-  &::before {
-    background-position: 110% -5vh;
-  }
-}
-
 .page,
 .post {
   main {

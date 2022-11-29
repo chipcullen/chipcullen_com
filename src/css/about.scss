@@ -1,8 +1,6 @@
 @use './includes/includes' as *;
 
 .about {
-  @include top-cap($texture: 'cerulean_corner_texture_eieurc');
-
   h1 {
     position: relative;
     display: inline-block;
