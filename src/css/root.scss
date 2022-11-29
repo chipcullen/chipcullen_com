@@ -11,6 +11,11 @@
   color-scheme: light dark;
   font-family: var(--font-family-root);
   font-size: var(--font-size-root);
+  box-sizing: border-box;
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
 }
 
 main {
