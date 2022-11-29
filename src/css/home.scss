@@ -16,14 +16,14 @@
   font-family: var(--body);
   font-weight: 200;
 
-  line-height: .95;
+  line-height: 0.95;
 
   display: inline-block;
-  border-block-end: .5vh solid var(--accent-color);
+  border-block-end: 0.5vh solid var(--accent-color);
 }
 
 .home-nav ul {
-  @include fade-in(1.0s);
+  @include fade-in(1s);
   list-style: none;
   font-size: var(--font-size-body-large);
   font-weight: 300;
@@ -41,7 +41,7 @@
 }
 
 .header-backdrop {
-  @include fade-in(2.0s);
+  @include fade-in(2s);
   position: absolute;
   top: 9rem;
   right: var(--spacing-inline);
