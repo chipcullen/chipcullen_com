@@ -3,13 +3,19 @@
   top: 0;
   right: 0;
   width: 40vw;
-  height: max-content;
   z-index: -1;
 
   &::before {
     content: '';
     position: absolute;
-    top: -4px;
+    // i can't make this up
+    // there is a mysterious padding between the div and the image that makes no sense
+    top: -3px;
+
+    @media (min-width: 756px) {
+      top: -4px;
+    }
+
     left: 0;
     width: 100%;
     height: 100%;
