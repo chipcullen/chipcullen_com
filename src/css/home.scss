@@ -23,7 +23,7 @@
 }
 
 .home-nav ul {
-  @include fade-in(1.5s);
+  @include fade-in(1.0s);
   list-style: none;
   font-size: var(--font-size-body-large);
   font-weight: 300;
@@ -41,7 +41,7 @@
 }
 
 .header-backdrop {
-  @include fade-in(2.5s);
+  @include fade-in(2.0s);
   position: absolute;
   top: 9rem;
   right: var(--spacing-inline);
@@ -53,7 +53,7 @@
 }
 
 .home main {
-  @include fade-in(3.5s);
+  @include fade-in(2.5s);
   padding-block-start: 20vh;
   max-width: 45vw;
 }
