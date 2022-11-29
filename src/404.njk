@@ -1,0 +1,32 @@
+---
+title: Oops! Not Found
+permalink: 404.html
+---
+
+{% extends "./_includes/layout.njk" %}
+
+
+{% block content %}
+  <main>
+    <h1>{{ title }}</h1>
+    <p>I'm sorry about this, but what you were looking for can't be found. You can try going to <a href="/">the home page</a>.</p>
+
+    <p>Or you can try some popular tags:</p>
+
+    <ul class="all-tags">
+      {% for tag in collections.allTags %}
+        {% set tagUrl %}/tags/{{ tag.title | slug }}/{% endset %}
+        {% if tag.title != 'collections.homepageTags' %}
+        {% if loop.index0 < 10 %}
+
+
+        <li>
+          <a href="{{ tagUrl | url }}">{{ tag.title }}</a>
+          <span>{{ tag.postCount }} post{% if tag.postCount > 1 %}s{% endif %}</span>
+        </li>
+        {% endif %}
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </main>
+{% endblock content %}
