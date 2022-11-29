@@ -42,7 +42,5 @@
     "stylelint-prettier": "^2.0.0",
     "svg-sprite-generator": "^0.0.7"
   },
-  "dependencies": {
-    "parce": "^1.2.7"
-  }
+  "dependencies": {}
 }
