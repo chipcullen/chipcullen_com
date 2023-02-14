@@ -1,4 +1,7 @@
-# Eleventy-Parcel
+# Chip Cullen.com
+## based on Michelle Barker's Eleventy-Parcel project
+
+My personal site, built on Eleventy. Rebuilt in November, 2022.
 
 ## Commands
 
