@@ -106,7 +106,7 @@ However, if you are using a font that offers a _slant_ instead, [such as Roboto 
 
 ### Other font features
 
-This is where I find the Google documentation most lacking. There are so many cool features of variable fonts, but it is not clear _at all_ how to actually use them. You have to do a little digging to figure it out.
+This is where I find the Google documentation most lacking. There are so many cool features of variable fonts, but it is not clear _at all_ how to actually use them. You have to do some digging to figure it out.
 
 The easiest thing to do is to use dev tools and inspect the Google Fonts typetester UI and see what CSS is being applied in order to make use of other features. Change settings in the UI, and see what changes in the applied CSS.
 
