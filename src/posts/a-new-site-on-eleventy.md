@@ -28,7 +28,7 @@ I've heard lots of people in the front end community rave about Eleventy for a f
 
 ## But what about performance?
 
-Not going to lie - Hugo's biggest selling point is it's speed and it lives up to the hype. It is wicked fast.
+Not going to lie - Hugo's biggest selling point is it's speed, and it lives up to the hype. It is wicked fast.
 
 That said, Eleventy is _pretty darned_ [fast](https://www.11ty.dev/docs/performance/). Is it _as_ fast as Hugo? No. But, for my set of content (at the moment about ~70 pages), it's more than acceptable. Honestly, in my day-to-day working with it, I haven't really noticed the slow down. If I was working on a site with hundreds of pages, I might have a different perspective on this.
 
@@ -39,9 +39,9 @@ All that said, I did bump my head on a few things with Eleventy. It wasn't all r
 - No built in Sass support. In order to develop with Sass, I had to look around quite a bit to figure out how to incorporate it in my project. Ultimately I ended up using [Michelle Barker's](https://css-irl.info/) [Eleventy Parcel project](https://github.com/mbarker84/eleventy-parcel) as a starting point, which includes Sass support.
 - It is _way_ too difficult to inspect content objects when you're developing a page
 - No "draft" state. That was out of the box in Hugo. Not a _huge_ deal, but it was a nice feature.
-- There are multiple documentation sites out there. The old ones _are_ clearly marked as deprecated, but it is still confusing when researching an issue.
+- There are multiple documentation sites out there. The old ones _are_ clearly marked as deprecated, but it is still confusing when Googling an issue.
 - The flexibility of multiple template languages also makes it hard to understand some pieces of documentation, which may or may not be in the language you've chosen.
-- I generally feel like it could include a few more batteries. I had to add custom code to output simple things like the current year.
+- I generally feel like it could include a few more "batteries". I had to add custom code to output simple things like the current year.
 
 ## Conclusion
 
