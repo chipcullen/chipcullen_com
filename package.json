@@ -18,7 +18,7 @@
     "prod:parcel": "run-p build:css build:js build:images",
     "build:css": "parcel build src/css/styles.scss",
     "build:js": "parcel build src/js/index.js",
-    "build:images": "parcel build src/images/*",
+    "build:images": "parcel build src/images/**/*",
     "bs:start": "browser-sync start --config bs-config.js",
     "clean": "rm -rf dist",
     "hash": "node onBuild.mjs"
