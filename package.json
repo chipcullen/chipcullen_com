@@ -11,7 +11,7 @@
     "watch:parcel": "run-p watch:css watch:js watch:images",
     "watch:css": "parcel watch src/css/styles.scss",
     "watch:js": "parcel watch src/js/index.js",
-    "watch:images": "parcel watch src/images/*",
+    "watch:images": "parcel watch src/images/**/*",
     "build": "run-s clean prod:parcel hash prod:eleventy",
     "svg": "svg-sprite-generate -d src/icons -o src/_includes/partials/sprite.svg",
     "prod:eleventy": "npx @11ty/eleventy",
