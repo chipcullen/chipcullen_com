@@ -38,7 +38,7 @@ If using a Doc, I add a table that is 2 columns wide, and start with maybe 5 row
 
 I'll put a header with a proposed solution above it, and as pro's or con's are raised I write them down.
 
-![An example Pros / Cons list that captures the positives and negatives of using a giant catapult to get a squirel to the moon](../images/pros-cons-list.png)
+![An example Pros / Cons list that captures the positives and negatives of using a giant catapult to get a squirrel to the moon](../images/pros-cons-list.png)
 
 ## How does this help?
 
