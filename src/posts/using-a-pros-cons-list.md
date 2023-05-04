@@ -3,6 +3,7 @@ title: "Using a Pros/Cons list to help navigate technical discussions"
 date: 2023-05-02T21:58:09-04:00
 permalink: "using-a-pros-cons-list-in-technical-discussions/"
 description: ""
+draft: true
 tags: [communication, meetings]
 ---
 I've found a tool that has really helped facilitate technical problem sovling discussions. It's a tool that keeps the conversation on track, and avoids long drawn out re-hashing of the same solutions and objections.
@@ -11,7 +12,7 @@ I've found a tool that has really helped facilitate technical problem sovling di
 
 | Pro's | Con's |
 | -------------- | -------------- |
-|     |    |
+| Something good    |  Something bad   |
 
 ## The problem
 
