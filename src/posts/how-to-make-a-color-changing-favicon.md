@@ -1,6 +1,6 @@
 ---
 title: "How to make a color changing favicon"
-date: 2023-06-06T12:00:00-04:00
+date: 2023-06-06T09:00:00-04:00
 permalink: "how-to-make-a-color-changing-favicon/"
 description: "Learn how to create a dynamic favicon with color-changing capabilities using JavaScript. This article goes line by line explaining how to do it. Additionally, discover how to update Safari's color scheme in real-time using the theme-color meta tag."
 draft: false
