@@ -9,7 +9,7 @@ tags: [css, view-transitions]
 
 Last night I added some View Transitions to this very site, in production.
 
-In order to see them, you need to have Chrome Canary (or, version 115), and have these flags enabled:
+In order to see them, you need to have Chrome 114 or later [editor's note: I originally thought you needed 115, but I found that the below flags exist in 114, and the feature works], and have these flags enabled:
 
 - [chrome://flags#view-transition](chrome://flags#view-transition)
 - [chrome://flags#view-transition-on-navigation](chrome://flags#view-transition-on-navigation)
