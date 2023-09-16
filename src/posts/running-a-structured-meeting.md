@@ -1,9 +1,9 @@
 ---
 title: "Communications Skills: Running a Structured Meeting"
-date: 2023-09-12T10:00:00-04:00
+date: 2023-09-16T10:00:00-04:00
 permalink: "running-a-structured-meeting/"
-description: ""
-draft: true
+description: "There are a few crucial things that you can do to run really good meetings. I go over what has helped me run a lot of effective meetings over the years."
+draft: false
 tags: [communication, meetings]
 ---
 
@@ -14,6 +14,10 @@ If you consider people's time x their salary, meetings are _incredibly_ expensiv
 Just for round numbers, let's say you have a meeting that lasts two hours, with ten people who make $80,000 a year.
 
 $80,000 year / 2000 working hours per year = $40 an hour, x 10 people x 2 hour block of time - that's an $800 meeting.
+
+The three major ideas that I am writing up here will help you run a much more effective meeting, and the people you work with will thank you for it.
+
+## Background
 
 I've led a lot of meetings over the years. To do this well is a practiced skill that you need to be intentional about. Good meetings don't just happen.
 
@@ -31,11 +35,11 @@ Now, that was true for major, all-day affairs with dozens or hundreds of people.
 
 While at first blush these might seem like a major time suck for you (and it is) - keep in mind that you will be making _infinitely much better use_ of the time for everyone _in_ that meeting. The more high up the attendees of your meeting, the more you should be sweating the prep.
 
-Also, a truly well prepared and run meeting will get everyone to an objective _faster_. Organizationally it's a real speed bump. If you finally manage to get all of the right people in the room, it's amazing how quickly real decisions can be made.
+Also, a truly well prepared and run meeting will get everyone to an objective _faster_. Organizationally it's a real speed boost. If you finally manage to get all of the right people in the room, it's amazing how quickly real decisions can be made.
 
-## Communicate Outcomes and and Agenda
+## Communicate Outcomes and an Agenda
 
-When sending out the original meeting invitation, there are two key elements to communicate: the *outcomes* that are being saught, and the *agenda* for the time in the meeting.
+When sending out the original meeting invitation, there are two key elements to communicate: the *outcomes* that are being sought, and the *agenda* for the time in the meeting.
 
 ### What do you mean by outcomes?
 
@@ -81,9 +85,38 @@ The other major thing an Agenda does - _it keeps you on track_. If you have the 
 
 #### Pro tip: plan for breaks
 
-**Plan for a 10 minute break at least every 45 minutes to an hour.** Expecting anyone to sit still and maintain focus for longer than that is just kidding yourself. A break lets people get coffee, check on other work matters, go to the bathroom, etc. If you have breaks in your agenda, people know that a reprieve is coming. Which means they are more like to stay focused on your discussion and hopefully make it more productive.
+**Plan for a 10 minute break at least every 45 minutes to an hour.** Expecting anyone to sit still and maintain focus for longer than that is just kidding yourself. A break lets people get coffee, check on other work matters, go to the bathroom, etc. If you have breaks in your agenda, people know that a reprieve is coming. Which means they are more like to stay focused on your discussion.
 
+## Putting it together
 
+This is then what I would put in the body of the meeting invitation:
 
+> **Application Breakdown Discussion**
+> Monday, September 1st, 10:00 am - 12:00 pm
+> Outcome: A shared understanding of the major pieces of work needed to build the new version of our user-facing application, and an initial idea of who will be responsible for which pieces of work.
+> Agenda:
+> - 10:00 - 10:10 - Staff Intros, welcome new employees
+> - 10:10 - 10:20 - High level overview of the application
+> - 10:20 - 10:30 - What are others doing in this space? Competitive Analysis
+> - 10:30 - 10:45 - Initial questions - what don't we know?
+> - 10:45 - 11:05 - Whiteboarding - what are the major areas of our application?
+> - 11:05 - 11:15 - Break
+> - 11:15 - 11:35 - Responsibilities - which team will do what?
+> - 11:35 - 11:45 - Interdependencies - which pieces will rely on other pieces, and in what ways?
+> - 11:45 - 11:55 - Danger areas - what could make this project go south?
+> - 11:55 - 12:00 - Wrap up / final thoughts
+## During the meeting: take notes visibly
 
+During the meeting itself, I have found that it's incredibly helpful to have a notes document in front of everyone, and to update that document in real time. That means a screenshare, projector, whatever. I usually put the outcome and agenda at the top of the document, so they're easy to refer to. My preferred tool is a Google Doc, but you can use whatever makes sense for you. For really large meetings, you may want to enlist someone to be the person updating that document specifically, if you're the one facilitating the discussion.
 
+The point of taking notes in front of everyone is that is crystallizes what has been said or decided. If someone has a different understanding of the discussion, it gives them a reason to bring up that difference and to make clarifications.
+
+## Conclusion
+
+In order to run a really good meeting, you need to:
+
+- Think through the exact outcome that you want
+- Break down an agenda for the entire meeting so that you address everything
+- Take notes visibly during that meeting
+
+If you do these things, you will find that real progress can be made during meetings, and the people in those meetings will be grateful for it.
