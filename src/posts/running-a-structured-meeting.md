@@ -1,5 +1,5 @@
 ---
-title: "Communications Skills: Running a Structured Meeting"
+title: "Running a Structured Meeting"
 date: 2023-09-16T10:00:00-04:00
 permalink: "running-a-structured-meeting/"
 description: "There are a few crucial things that you can do to run really good meetings. I go over what has helped me run a lot of effective meetings over the years."
