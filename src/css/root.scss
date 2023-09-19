@@ -12,9 +12,37 @@
   font-family: var(--font-family-root);
   font-size: var(--font-size-root);
   box-sizing: border-box;
+  view-transition-name: root;
 
   *, *:before, *:after {
     box-sizing: inherit;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+/* Old stuff coming out */
+::view-transition-old(root) {
+  animation: fade 0.2s linear forwards;
+}
+
+/* New stuff coming in */
+::view-transition-new(root) {
+  animation: fade 0.3s linear reverse;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-old(root),
+  ::view-transition-new(root) {
+    animation-duration: 0.001s;
   }
 }
 
