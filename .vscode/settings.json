@@ -1,0 +1,12 @@
+{
+  "python.pythonPath": "/usr/local/bin/python3",
+  "workbench.colorCustomizations": {
+    "titleBar.activeForeground": "#000",
+    "titleBar.inactiveForeground": "#000000CC",
+    "titleBar.activeBackground": "#FF8C00",
+    "titleBar.inactiveBackground": "#B36200",
+    "statusBar.background": "#FF8C00",
+    "statusBarItem.hoverBackground": "#DD6A00",
+    "statusBar.foreground": "#000"
+  }
+}
