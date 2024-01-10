@@ -1,6 +1,6 @@
 ---
 title: 'How to mock fetch requests in React Testing Librarty tests'
-date: 2024-01-09T22:00:00-05:00
+date: 2024-01-09T12:00:00-05:00
 permalink: 'mocking-fetch-requests-in-react-testing-library-tests/'
 description: 'Creating a mock server with msw to make React Testing Librarty tests for your components.'
 draft: false
