@@ -248,7 +248,8 @@ it('Does a thing based on the first API response', async () => {
   // wait for the loading indicator to go away
   await waitFor(() => {
     expect(
-      // the queryBy... methods are what you need if you are testing for the absence of something
+      // the queryBy... methods are what you need if you are
+      // testing for the absence of something
       queryByTestId(document.querySelector('div'), 'loading-indicator')
     ).not.toBeInTheDocument()
   })
