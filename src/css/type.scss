@@ -49,10 +49,10 @@ a {
   text-underline-offset: 0.15rem;
   text-decoration-line: underline;
   text-decoration-thickness: 0.1rem;
-  outline-offset: .2vw;
+  outline-offset: 0.2vw;
   outline: 2px solid transparent;
   transition: outline-color;
-  transition-duration: .3s;
+  transition-duration: 0.3s;
 
   &:hover,
   &:focus {
@@ -74,7 +74,8 @@ ul {
   list-style: disc;
 }
 
-ul, ol {
+ul,
+ol {
   margin-block-end: var(--spacing-block);
 }
 
@@ -101,11 +102,10 @@ li {
 p,
 li {
   code {
-    color: #B44F18;
-
-    @media (prefers-color-scheme: dark) {
-      color: #ce9178;
-    }
+    color: var(--code-text);
+    background-color: var(--code-background);
+    display: inline-block;
+    padding: 0.1rem 0.3rem;
   }
 }
 

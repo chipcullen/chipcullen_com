@@ -18,7 +18,7 @@
 .post {
   h1 {
     padding-block-end: var(--spacing-block-half);
-    border-block-end: .5vh solid var(--accent-color);
+    border-block-end: 0.5vh solid var(--accent-color);
   }
 
   time {
@@ -33,14 +33,18 @@
 
 .tags {
   a {
-    margin-inline-end: .5rem;
+    margin-inline-end: 0.5rem;
   }
 }
 
-pre[class*="language-"] {
+pre[class*='language-'] {
+  width: calc(100vw - (2 * var(--spacing-inline)));
+  max-width: 80ch;
+
   &:has(+ p),
   &:has(+ h2),
-  &:has(+ h3) {
+  &:has(+ h3),
+  &:has(+ ol) {
     display: block;
     margin-block-end: 1.3rem;
   }
@@ -57,7 +61,7 @@ pre[class*="language-"] {
 .blog-posts--all {
   columns: auto 30rem;
 
-    li {
+  li {
     break-inside: avoid;
   }
 }
