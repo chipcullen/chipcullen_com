@@ -6,7 +6,7 @@ description: ""
 layout: "page"
 ---
 
-Based on [Bryan Braun's](https://www.bryanbraun.com/) excellent [Poor Man's Styleguide](https://www.poormansstyleguide.com/)
+Based on [Bryan Braun's](https://www.bryanbraun.com/) excellent [Poor Man's Styleguide](https://www.bryanbraun.com/poor-mans-styleguide/)
 
 ---
 
