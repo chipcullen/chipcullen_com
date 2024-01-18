@@ -28,7 +28,7 @@ If you are making an onboarding checklist, here are some things that you may wan
 - A list of people they are likely to work with, and their role
 - Call outs to important appointments during their first few days - orientations, HR meetings, etc
 	- Include links to the virtual versions of these meetings if you can get a hold of them, in case the person can't access their email before these meetings
-- Make sure they can access basic business resources - intranets, timesheet entry, support desk, etc
+- Make sure they can access basic business resources - intranets, project management, timesheet entry, support desk, etc
 - A list of tools they may need to install in order to get running, such as
 	- node & npm
 	- xcode command line tools
