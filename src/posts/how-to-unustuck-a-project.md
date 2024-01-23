@@ -1,8 +1,8 @@
 ---
-title: "Project stuck? Think about how you're breaking it down & question everything."
+title: 'Project stuck? Think about how you’re breaking it down & question everything.'
 date: 2024-01-23T09:00:00-04:00
 permalink: 'how-to-unstuck-a-project/'
-description: "If you find yourself in the middle of a project that doesn't seem to be moving forward - take a step back and question everything."
+description: 'If you find yourself in the middle of a project that doesn’t seem to be moving forward - take a step back and question everything.'
 draft: false
 tags: ['project management', 'communication', 'management']
 ---
