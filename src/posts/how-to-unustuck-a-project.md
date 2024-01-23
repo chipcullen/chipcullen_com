@@ -4,7 +4,7 @@ date: 2024-01-23T09:00:00-04:00
 permalink: 'how-to-unstuck-a-project/'
 description: 'If you find yourself in the middle of a project that doesn’t seem to be moving forward - take a step back and question everything.'
 draft: false
-tags: ['project management', 'communication', 'management']
+tags: ['project-management', 'communication', 'management']
 ---
 
 We have a very large project happening at work right now - it's actually been underway for over half a year. Still - I noticed how hard communication haed been around the project for months.
