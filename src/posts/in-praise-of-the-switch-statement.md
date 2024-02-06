@@ -2,7 +2,7 @@
 title: 'In praise of the switch statement'
 date: 2024-02-06T9:00:00-04:00
 permalink: 'in-praise-of-the-switch-statement/'
-description: ''
+description: 'A tutorial on how to use an underused tool in Javascript - the switch statement.'
 draft: false
 tags: ['javascript']
 ---
