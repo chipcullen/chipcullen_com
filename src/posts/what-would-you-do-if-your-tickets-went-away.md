@@ -1,6 +1,6 @@
 ---
 title: "Thought experiment: what would you do if all of your tickets went away?"
-date: 2024-01-24T09:00:00-04:00
+date: 2024-04-11T09:00:00-04:00
 permalink: "what-would-you-do-if-your-tickets-went-away/"
 description: "A thought experiment."
 draft: true
@@ -12,7 +12,9 @@ What if that all went away? No backups. No screenshots. And for the sake of argu
 
 What would you do?
 
-Personally I find the idea intoxicatingly liberating. I know there are a lot of people who would find it appalling.
+Personally I find the idea incredibly liberating.
+
+I know there are a lot of people who would find it appalling. Or terrifying.
 
 How would you assess what work is in process? What would you do to capture the work that you *remember off hand* still needs to be done? What systems would you adopt? How would you define your work?
 
@@ -20,4 +22,4 @@ I have a colleague who has talked about this fantasy before. Their contention is
 
 I liken this to your house burning down. Yeah, you'll be sad to loose all your stuff. But it would be an unbelievable chance to start from scratch, and only accumulate stuff that truly matters.
 
-I do find thinking through these kinds of worst-case-scenarios oddly comforting. If I can envision a way forward even in extreme circumstances, I think that I'm overall a more reslient leader.
+I do find thinking through these kinds of worst-case-scenarios oddly comforting. If I can envision a way forward even in extreme circumstances, I think that I'm overall a more resilient leader.

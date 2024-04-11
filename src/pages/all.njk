@@ -7,11 +7,11 @@ title: 'All Tags and Posts'
 <h2>Tags</h2>
 <ul class="all-tags">
   {% for tag in collections.allTags %}
-    {% set tagUrl %}/tags/{{ tag.title | slug }}/{% endset %}
+    {% set tagUrl %}/tags/{{ tag.title | lower }}/{% endset %}
     {% if tag.title != 'collections.homepageTags' %}
 
     <li>
-      <a href="{{ tagUrl | url }}">{{ tag.title }}</a>
+      <a href="{{ tagUrl }}">{{ tag.title }}</a>
       <span>{{ tag.postCount }} post{% if tag.postCount > 1 %}s{% endif %}</span>
     </li>
     {% endif %}

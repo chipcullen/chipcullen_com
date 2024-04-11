@@ -105,7 +105,9 @@ switch (true) {
   case 1 + 1 === 2:
     // this will happen, but then we break the statement
     return someValue
-    break // <- not really needed since we're returning, but eslint may complain
+    // not really needed since we're returning,
+    // but eslint may complain if we don't have it
+    break
   case 2 + 2 === 4:
   // this won't happen
   default:
