@@ -6,6 +6,8 @@ tags: [icomoon, icons, tools, tutorial]
 permalink: "how-to-use-icomoon-and-icon-fonts-part-1-basic-usage/"
 ---
 
+_Note: This post was originally published and updated in 2013. IcoMoon is still around, but has a very different look than when I made this article. I personally haven't used it in a long time, due to the nature of my work. However, this article still gets a lot of traffic. Just know that what you see below is quite out of date._
+
 _Note: This post was updated on December 18th, 2013, to use new screenshots that show the recent redesign to the IcoMoon App._
 
 I've become a huge fan of [using icon fonts recently](/using-icons-from-icon-fonts-directly-in-css/). I love the fact that graphics elements that are implemented this way are vector based & stylable with CSS. It makes them really easy and flexible to work with.
