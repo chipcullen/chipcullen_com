@@ -32,5 +32,3 @@ You have:
 - `text-align:center;` on a parent element with `text-align: left;` on children. And those are applied inline. Fun times.
 
 This has been tested and works in AOL, Mail.app, Gmail, iOS, Lotus Notes 8 & 8.5, Outlook 2000, 2002, 2003, 2007, 2010, Thunderbird & Yahoo Mail. I tested this using <a href="https://litmus.com/" target="_blank" rel="noreferrer">Litmus</a> (which rocks!).
-
-I would love to hear if this helps anyone else - leave a comment below if you use this, or if you run into any issues.

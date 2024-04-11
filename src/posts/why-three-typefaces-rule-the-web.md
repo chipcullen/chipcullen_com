@@ -11,11 +11,9 @@ Design Systems expert [Nathan Curtis](https://eightshapes.com/nathan-curtis.html
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">With all those typefaces out there, how do my systems clients usually end up with Proxima Nova, Open Sans, or Source Sans Pro?</p>&mdash; Nathan August Curtis (@nathanacurtis) <a href="https://twitter.com/nathanacurtis/status/841964283562987520">March 15, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-This got me thinking - anecdotally, those three typefaces have been the ones primarily used on every project that I've worked on for maybe the last four or five _years_. This very blog is (currently) set in Source Sans Pro. It's impossible to compile statistics on this (or is it?), but it his statement rings true in my experience.
+This got me thinking - anecdotally, those three typefaces have been the ones primarily used on every project that I've worked on for maybe the last four or five _years_. This very blog is (currently) set in Source Sans Pro. [_Update: in 2022, I updated this site to use your system Sans Serif for body copy, and Source Serif Pro for headlines._] It's impossible to compile statistics on this (or is it?), but it his statement rings true in my experience.
 
 _Why_ do those three typefaces - Proxima Nova, Open Sans, our Source Sans Pro - seem to rule the web? What are there any pitfalls of using them? What do they have in common? What should we look for in alternatives? What are some example alternatives we can consider?
-
-<!--more-->
 
 ## What are the pitfalls of using these typefaces?
 
@@ -61,6 +59,6 @@ Depending on your system's needs, I would suggest you look at these typefaces, a
 
 4. **[Fira Sans](https://fonts.google.com/specimen/Fira+Sans)** - Fira has an impressive pedigree - it was partially developed by Erik Spiekermann. It was developed for use in a digital UI. It has a very impressive range of widths, with accompanying italics. To my eye, it doesn't fare as well at _large_ type sizes (since it was intended for use in UI), but that may not be an issue in your system.
 
-I hope this post helps you recognize why we seem to reach for similar typefaces in systems, and to consider alternatives out there. Have any other typefaces that have worked for you? Leave a comment below!
+I hope this post helps you recognize why we seem to reach for similar typefaces in systems, and to consider alternatives out there.
 
 \* Full disclosure: I worked with Nathan once upon a time. I thank him for his input on this article, as well.

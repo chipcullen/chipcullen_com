@@ -124,7 +124,7 @@ I don&rsquo;t see any reason why this idea wouldn&rsquo;t work with Drupal. This
 
 ### Wrap up
 
-I hope this tutorial helps you create a better workflow for working on a Wordpress site from multiple locations. I would love to hear how this helps people - so please, leave a comment!
+I hope this tutorial helps you create a better workflow for working on a Wordpress site from multiple locations.
 
 [1]: https://wordpress.org
 [2]: https://dropbox.com

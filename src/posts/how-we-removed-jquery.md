@@ -85,4 +85,4 @@ I'd love to say that the clouds parted and the sky opened in song, but alas the 
 
 I was hoping to see an improvement in our Lighthouse score, but sadly that really didn't change much. I am surprised, our JS footprint had is greatly reduced.
 
-I hope this insight on how we approached this helps you, if you're looking at tackling any large-scale deprecation. Let me know in the comments if you have any specific questions that I can help with!
+I hope this insight on how we approached this helps you, if you're looking at tackling any large-scale deprecation.

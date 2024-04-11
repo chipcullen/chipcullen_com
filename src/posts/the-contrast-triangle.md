@@ -69,4 +69,4 @@ This is a pretty straightforward create react app, uh, app. I didn't really do a
 
 ## Check it out!
 
-I hope you find this little tool helpful. [Give it a try](https://contrast-triangle.com), and let me know what you think in the comments.
+I hope you find this little tool helpful. [Give it a try](https://contrast-triangle.com)!

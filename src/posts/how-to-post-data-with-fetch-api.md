@@ -175,4 +175,4 @@ You can see how to handle [responses with .json here](https://developer.mozilla.
 
 ## Conclusion
 
-I hope that this article has explained how to POST data with the Fetch API in a way that is clear and helpful. Let me know if you have any questions in the comments!
+I hope that this article has explained how to POST data with the Fetch API in a way that is clear and helpful.

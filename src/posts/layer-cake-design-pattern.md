@@ -70,5 +70,3 @@ Potential drawbacks do exist:
 - They tend to end up forming long pages with a lot of scrolling. I personally don't mind this - I think users are by and large comfortable with scrolling.
 - "Related" content pieces are harder to present 'right next to' a main piece of content.
 - Maintaining a consistent layout involves a bit more planning and manual adjustment.
-
-Have you used this design pattern? What worked well for you? What didn't? Let me know with a comment!

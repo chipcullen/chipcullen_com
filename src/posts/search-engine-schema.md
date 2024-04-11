@@ -141,4 +141,4 @@ Glad you asked! [Google does provide a Structured Data Testing tool](https://sea
 
 ## Conclusion
 
-I hope this brief introduction has given you at least a glimpse into structured data, and made you think about how it could benefit the sites that you work on. I fully acknowledge that I'm not an authority on this, so if you can offer any clarification, please leave a comment!
+I hope this brief introduction has given you at least a glimpse into structured data, and made you think about how it could benefit the sites that you work on. I fully acknowledge that I'm not an authority on this, but I hope you find this helpful!

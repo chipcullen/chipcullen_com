@@ -27,4 +27,4 @@ A couple things to point out about it:
 - Typescript
 - A lot of pieces borrow from [The Contrast Triangle](https://contrast-triangle.com)
 
-I hope you find it useful! Let me know if you're using it by leaving a comment below. I've decided to not include any kind of analytics, so I really don't know who is using it.
+I hope you find it useful!

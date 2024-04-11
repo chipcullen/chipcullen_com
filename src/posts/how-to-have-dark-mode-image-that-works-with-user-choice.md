@@ -98,4 +98,4 @@ The order and specificity took a while to come to. This is what it took to make 
 
 If the user has expressed no preference, we rely on the `<picture>` element to listen to the system preference with the built in media query. But we need to toggle to the other images manually if the user has chosen an option.
 
-If you are working on implementing a 'dark mode' on your site - I hope you find this helpful! Leave a comment if you have a better approach to the dark mode / light mode / user choice problem.
+If you are working on implementing a 'dark mode' on your site - I hope you find this helpful!

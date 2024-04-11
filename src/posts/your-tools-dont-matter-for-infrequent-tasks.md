@@ -24,5 +24,3 @@ Just jump in and start doing!
 If you find yourself **eventually** doing some task regularly, by all means, find the perfect workflow and system setup. I use Textmate every day, and am constantly tweaking it to find better ways to use it. Same with CSSEdit. But a perfect wireframing workflow? It takes more time to set up than to use.
 
 Plus, by the time you come back to doing an infrequent task, you'll forget what your set up was like, and you'll start all over again.
-
-What do you think? Is it worth it to try to find the perfect set up for infrequent tasks? Let me know in the comments below.

@@ -78,6 +78,8 @@ But I wanted to have an easy time adjusting URL's in future, and I figured manip
 
 As I had already been using [Disqus](https://disqus.com/) for my comments on my Wordpress site, it was pretty easy to migrate comments, as long as the URL's matched.
 
+_Note: When I migrated to 11ty in late 2022, I removed comments altogether from this blog._
+
 ## Monitoring 404's
 
 Because I was on a serveless hosting infrastructure, I wasn't going to have access to logs that showed when users experienced 404 pages. I found [a great blog post](https://www.searchviu.com/en/404-errors-google-analytics/) on how you can set up custom reports in Google Analytics so that you can monitor how many times users either:

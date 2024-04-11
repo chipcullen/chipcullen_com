@@ -224,4 +224,4 @@ or, with variables:
 
 ## Conclusion
 
-I hope this post gives you an idea of how `min()`, `max()` and `clamp()` work, and more importantly, gives you some ideas of how you might use them. If you have some other use cases, let me know with a comment below!
+I hope this post gives you an idea of how `min()`, `max()` and `clamp()` work, and more importantly, gives you some ideas of how you might use them.

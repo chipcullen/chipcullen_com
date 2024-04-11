@@ -206,4 +206,4 @@ I wasted a lot of time trying to get stubbing to work, only to find that my `url
 
 ## Conclusion
 
-I hope this helps you write some fixture driven e2e tests in Cypress. If it does, please let me know with a comment below!
+I hope this helps you write some fixture driven e2e tests in Cypress!

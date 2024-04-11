@@ -69,4 +69,4 @@ h1 {
 
 And since you already have your font stacks declared as variables, you can govern that type choice much more easily.
 
-I hope these guidelines and basic steps help you in your next project. If you have any other ways to make your life easier, please share them in the comments!
+I hope these guidelines and basic steps help you in your next project.

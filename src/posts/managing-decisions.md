@@ -54,4 +54,4 @@ Knowing how frequently a decision comes up is a critical data point. If it comes
 
 ## Conclusion
 
-There is a lot more to unpack here, and I will make a few more specific posts. I hope you find this helpful! If so, please leave a comment below!
+There is a lot more to unpack here, and I will make a few more specific posts. I hope you find this helpful!

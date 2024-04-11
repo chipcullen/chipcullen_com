@@ -20,4 +20,4 @@ You can translate selected text into 7 color formats: Hex (6), Hex (8), RGB, RGB
 
 You can install the extension right in VS Code - just look up "ColoRosetta" in the extension area.
 
-I really enjoy using it. If you find it useful - please leave a comment below!
+I really enjoy using it. I hope you do too!
