@@ -10,7 +10,6 @@
   <meta name="view-transition" content="same-origin" />
   <link rel="stylesheet" href="/styles{{ CssVersion }}.css">
   <meta property="og:type" content="website"/>
-  <meta property="og:image" content="https://res.cloudinary.com/chipcullen/image/upload/c_crop,h_630,w_1200/v1669154381/chip_cullen_washington_monument_q1aeht.png"/>
   {% if './src/index' in page.inputPath %}
   <title>{{ metadata.title }}: {{ title }}</title>
   <meta name="description" content="{{ metadata.description }}">
@@ -24,6 +23,7 @@
   <meta property="og:title" content="{{ title }}: {{ metadata.title }}"/>
   <meta property="og:description" content="{{ description }}"/>
   <meta property="og:url" content="{{ metadata.url }}{{ page.url | replace("/","") }}/"/>
+  {% include './ogImage.njk' %}
   {% endif %}
   <meta property="og:site_name" content="{{ metadata.title }}"/>
   <link rel="preconnect" href="https://fonts.googleapis.com">
