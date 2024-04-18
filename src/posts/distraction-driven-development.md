@@ -3,12 +3,12 @@ title: "Distraction Driven Development"
 date: 2024-04-18T09:00:00-04:00
 permalink: "distraction-driven-development/"
 description: "You're now a distraction filter."
-draft: true
+draft: false
 tags: [management]
 ---
-One of the hardest things that I've found about transitioning to engineering management is that _your time is not your own_. [Sarah Drasner](https://sarahdrasnerdesign.com/), in her excellent book [Engineering Management for the Rest of Us](https://www.engmanagement.dev/), refers to this as "distraction driven decision making".
+One of the hardest things that I've found about transitioning to engineering management is that _your time is not your own_. [Sarah Drasner](https://sarahdrasnerdesign.com/), in her excellent book [Engineering Management for the Rest of Us](https://www.engmanagement.dev/), refers to this as "interuption-driven work".
 
-That was a new label for me - and it struck a nerve. She's absolutely right.
+That was a new label for me - and it struck a nerve. She's absolutely right. And this was in the first paragraph of the first chapter in her book - seriously - go read it!
 
 When you become a manager, the point of your role is not to do things, but rather to get others to do things and do it as well as *they* can. Because of that your focus will have to shift to solving problems so that your team is unblocked and can do their job.
 
