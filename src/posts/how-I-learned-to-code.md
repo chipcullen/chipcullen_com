@@ -1,7 +1,7 @@
 ---
 title: "How I learned to code: the art of letting go"
 date: 2024-04-12T09:00:00-04:00
-permalink: "how-I-leanred-to-code/"
+permalink: "how-I-learned-to-code/"
 description: "Inpsired by other articles, here is my journey to where I am today as an engineer, and beyond."
 draft: false
 tags: [general]
