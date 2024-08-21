@@ -30,3 +30,5 @@ npm run build
 ```
 npm run svg
 ```
+
+&copy; Chip Cullen
