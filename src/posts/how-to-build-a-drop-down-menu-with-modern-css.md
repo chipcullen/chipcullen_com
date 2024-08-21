@@ -1,6 +1,6 @@
 ---
 title: 'How to Build a Drop Down Menu with Modern CSS'
-date: 2024-08-20T09:00:00-04:00
+date: 2024-08-21T09:00:00-04:00
 permalink: 'how-to-build-a-drop-down-menu-with-modern-css/'
 description: 'You can build a drop down menu with advanced functionality with CSS alone, thanks to recent advancements to the language. There are no onmouseout listeners in sight!'
 draft: true
