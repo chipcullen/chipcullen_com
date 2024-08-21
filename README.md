@@ -31,4 +31,4 @@ npm run build
 npm run svg
 ```
 
-&copy; 2024 Chip Cullen, all rights reserved
+&copy; 2024 Chip Cullen, all rights reserved.
