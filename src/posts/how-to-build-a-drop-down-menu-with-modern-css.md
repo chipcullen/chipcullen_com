@@ -1,9 +1,9 @@
 ---
 title: 'How to Build a Drop Down Menu with Modern CSS'
-date: 2024-08-21T09:00:00-04:00
+date: 2024-08-27T09:00:00-04:00
 permalink: 'how-to-build-a-drop-down-menu-with-modern-css/'
-description: 'You can build a drop down menu with advanced functionality with CSS alone, thanks to recent advancements to the language. There are no onmouseout listeners in sight!'
-draft: true
+description: 'You can build a drop down menu with advanced functionality with CSS alone, thanks to recent advancements to the language. No onMouseOut listeners in sight!'
+draft: false
 tags: [css, scss]
 ---
 
@@ -47,10 +47,14 @@ nav ul {
   display: flex;
 }
 
+.menu-wrapper {
+  position: relative;
+}
+
 .menu {
   position: absolute;
   display: none;
-  inset: 100% 0 0 0;
+  inset: 100% auto auto 0;
   transition: opacity 0.3s ease-in;
 }
 ```
@@ -62,10 +66,10 @@ Right now the menu will appear to just be a link that any user on any device can
 We need to do is enable these functions when the user is on a mouse device. We'll use the `hover` media query to do that<sup>1</sup>. We need to set it to `display: block` so that we can animate the menu later. But we will also change the opacity to `0` so it's still visually hidden.
 
 ```scss
-... .menu {
+.menu {
   position: absolute;
   display: none;
-  inset: 100% 0 0 0;
+  inset: 100% auto auto 0;
   transition: opacity 0.3s ease-in;
 
   @media (hover: hover) {
@@ -150,11 +154,18 @@ Now, let's make it even better for keyboard users who still have a mouse. We wan
 }
 ```
 
-Here is the final result:
+Here is the result (with some colors thrown in):
 
-[insert second codepen]
+<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="ZEdxXyM" data-pen-title="Drop Down with Modern CSS" data-user="chipcullen" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/chipcullen/pen/ZEdxXyM">
+  Drop Down with Modern CSS</a> by Chip Cullen (<a href="https://codepen.io/chipcullen">@chipcullen</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+<br />
+<br />
 
-### Even more advanced usage
+## Even more advanced usage
 
 Let's say you have a search menu like so:
 
@@ -229,12 +240,16 @@ nav ul {
   display: flex;
 }
 
+.menu-wrapper {
+  position: relative;
+}
+
 .menu {
   position: absolute;
   display: none;
-  inset: 100% 0 0 0;
+  inset: 100% auto auto 0;
   transition: opacity 0.3s ease-in;
-  pointer-events: none; // avoids weird triggering
+  pointer-events: none;
 
   @media (hover: hover) {
     display: block;
@@ -261,6 +276,17 @@ nav ul {
   }
 }
 ```
+
+Which results in:
+
+<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="abgKPYJ" data-pen-title="Dropdown menu with 2024 CSS" data-user="chipcullen" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/chipcullen/pen/abgKPYJ">
+  Dropdown menu with 2024 CSS</a> by Chip Cullen (<a href="https://codepen.io/chipcullen">@chipcullen</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+<br />
+<br />
 
 You could further DRY it out with some more clever nesting with the initial `.menu` selector, but I think it hurts readability at that point.
 
