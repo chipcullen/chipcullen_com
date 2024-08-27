@@ -99,8 +99,6 @@ Now, we'll use modern CSS selectors - specifically `:has` - to trigger the drop 
 
 This will trigger the menu - tada! We have a basic drop down.
 
-[insert codepen here]
-
 You will notice it opens, but you can't get into it. We need to do a few more things to it to make it function the way would one expect. Specifically we need to add the menu itself to the list of `has` triggers so that it stays open while the user is hovering over it. We also need to add`pointer-events: none` while it's hidden so that hovering over it's physical location doesn't trigger weird behavior.
 
 ```scss
