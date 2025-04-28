@@ -8,3 +8,10 @@ content:
         label: Title
         type: string
         required: true
+      - name: date
+        label: Date
+        type: date
+        required: true
+        options:
+          time: true
+        
