@@ -13,7 +13,7 @@ content:
         type: date
         options:
           time: true
-          format: YYYY-MM-DDThh:mm:ssTZD
+          format: yyyy-MM-ddThh:mm:ssTZD
       - name: body
         label: Body
         type: rich-text
