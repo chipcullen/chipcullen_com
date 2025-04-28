@@ -13,7 +13,7 @@ content:
         type: date
         options:
           time: true
-          format: yyyy-MM-dd'T'hh:mm:ss xxx
+          format: yyyy-MM-dd'T'hh:mm:ssxxx
       - name: draft
         label: Draft
         type: boolean
