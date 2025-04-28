@@ -23,6 +23,12 @@ content:
       - name: description
         label: description
         type: string
+      - name: tags
+        label: Tags
+        type: string
+      - name: custom_properties
+        label: Custom Properites
+        type: string
       - name: body
         label: Body
         type: rich-text
