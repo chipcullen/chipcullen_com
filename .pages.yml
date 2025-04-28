@@ -11,9 +11,6 @@ content:
       - name: date
         label: Date
         type: date
-        required: true
-        options:
-          time: true
       - name: body
         label: Body
         type: rich-text
