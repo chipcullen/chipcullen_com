@@ -1,35 +1,16 @@
+media: src/images
 content:
   - name: posts
     label: Posts
     path: src/posts
     type: collection
+    view:
+      fields: [ title, draft, date ]
     fields: 
-      - name: title
-        label: Title
-        type: string
-        required: true
-      - name: date
-        label: Date
-        type: date
-        options:
-          time: true
-          format: yyyy-MM-dd'T'hh:mm:ssxxx
-      - name: draft
-        label: Draft
-        type: boolean
-      - name: permalink
-        label: permalink
-        type: string
-      - name: description
-        label: description
-        type: string
-      - name: tags
-        label: Tags
-        type: string
-      - name: custom_properties
-        label: Custom Properites
-        type: string
-      - name: body
-        label: Body
-        type: rich-text
+      - { name: title, label: Title, type: string, required: true }
+      - { name: description, label: Description, type: string }
+      - { name: date, label: Date, type: date }
+      - { name: draft, label: Draft, type: boolean }
+      - { name: tags, label: Tags, type: string, list: true }
+      - { name: body, label: Body, type: rich-text }
         
