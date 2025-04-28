@@ -14,6 +14,15 @@ content:
         options:
           time: true
           format: yyyy-MM-dd'T'hh:mm:ssxxx
+      - name: draft
+        label: Draft
+        type: boolean
+      - name: permalink
+        label: permalink
+        type: string
+      - name: description
+        label: description
+        type: string
       - name: body
         label: Body
         type: rich-text
