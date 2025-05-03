@@ -1,6 +1,6 @@
 backend:
   name: github
-  branch: chipcullen/chipcullen_com
+  repo: chipcullen/chipcullen_com
 media_folder: 'src/images'
 public_folder: '/images'
 
