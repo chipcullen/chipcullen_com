@@ -1,9 +1,9 @@
-const util = require('util');
-const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
-const pluginRss = require("@11ty/eleventy-plugin-rss");
-const { DateTime } = require("luxon");
-const fs = require("fs");
-const NOT_FOUND_PATH = "_site/404.html";
+const util = require('util')
+const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
+const pluginRss = require('@11ty/eleventy-plugin-rss')
+const { DateTime } = require('luxon')
+const fs = require('fs')
+const NOT_FOUND_PATH = '_site/404.html'
 
 const getPostCount = (tag, posts) => {
   return posts.filter((post) => post.data.tags?.includes(tag)).length
@@ -30,36 +30,37 @@ const getTags = (item) => {
 }
 
 module.exports = function (eleventyConfig) {
+  eleventyConfig.addPlugin(syntaxHighlight)
 
-  eleventyConfig.addPlugin(syntaxHighlight);
+  eleventyConfig.addPlugin(pluginRss)
 
-  eleventyConfig.addPlugin(pluginRss);
+  eleventyConfig.addFilter('console', function (value) {
+    const str = util.inspect(value)
+    return `<div style="white-space: pre-wrap;">${unescape(str)}</div>;`
+  })
 
-  eleventyConfig.addFilter('console', function(value) {
-      const str = util.inspect(value);
-      return `<div style="white-space: pre-wrap;">${unescape(str)}</div>;`
-  });
-
-  eleventyConfig.addFilter('dump', obj => {
+  eleventyConfig.addFilter('dump', (obj) => {
     return util.inspect(obj)
-  });
+  })
 
-  eleventyConfig.addFilter("postDate", (dateObj) => {
-    return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_FULL);
-  });
+  eleventyConfig.addFilter('postDate', (dateObj) => {
+    return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_FULL)
+  })
 
-  eleventyConfig.addFilter("postDateTime", (dateObj) => {
-    const shortdate = DateTime.fromJSDate(dateObj).toISODate(DateTime.DATE_SHORT)
+  eleventyConfig.addFilter('postDateTime', (dateObj) => {
+    const shortdate = DateTime.fromJSDate(dateObj).toISODate(
+      DateTime.DATE_SHORT
+    )
     if (shortdate) {
-      return shortdate.replace(/\//g, '-');
+      return shortdate.replace(/\//g, '-')
     } else {
-      return '';
+      return ''
     }
-  });
+  })
 
-  eleventyConfig.addCollection("posts", function(collectionApi) {
-      return collectionApi.getFilteredByGlob("src/posts/**/*.md");
-  });
+  eleventyConfig.addCollection('posts', function (collectionApi) {
+    return collectionApi.getFilteredByGlob('src/posts/**/*.md')
+  })
 
   eleventyConfig.addCollection('allTags', function (collection) {
     let tagSet = new Set()
@@ -71,7 +72,10 @@ module.exports = function (eleventyConfig) {
         for (const tag of tags) {
           tagSet.add({
             title: tag,
-            postCount: getPostCount(tag, collection.getFilteredByGlob("src/posts/**/*.md")),
+            postCount: getPostCount(
+              tag,
+              collection.getFilteredByGlob('src/posts/**/*.md')
+            ),
           })
         }
       }
@@ -90,11 +94,11 @@ module.exports = function (eleventyConfig) {
     return arr
   })
 
-  eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
+  eleventyConfig.addShortcode('year', () => `${new Date().getFullYear()}`)
 
-  eleventyConfig.addPassthroughCopy("src/images");
+  eleventyConfig.addPassthroughCopy('src/images')
 
-  eleventyConfig.addShortcode("topcap", function(cloudinaryImageName) {
+  eleventyConfig.addShortcode('topcap', function (cloudinaryImageName) {
     return `
     <div class="top-cap">
       <img aria-hidden="true"
@@ -105,35 +109,42 @@ module.exports = function (eleventyConfig) {
       loading="lazy"
       sizes="40vw"
       alt="" />
-    </div>`;
-  });
+    </div>`
+  })
 
   // for 404 page development
   eleventyConfig.setBrowserSyncConfig({
     callbacks: {
-      ready: function(err, bs) {
-
-        bs.addMiddleware("*", (req, res) => {
+      ready: function (err, bs) {
+        bs.addMiddleware('*', (req, res) => {
           if (!fs.existsSync(NOT_FOUND_PATH)) {
-            throw new Error(`Expected a \`${NOT_FOUND_PATH}\` file but could not find one. Did you create a 404.html template?`);
+            throw new Error(
+              `Expected a \`${NOT_FOUND_PATH}\` file but could not find one. Did you create a 404.html template?`
+            )
           }
 
-          const content_404 = fs.readFileSync(NOT_FOUND_PATH);
+          const content_404 = fs.readFileSync(NOT_FOUND_PATH)
           // Add 404 http status code in request header.
-          res.writeHead(404, { "Content-Type": "text/html; charset=UTF-8" });
+          res.writeHead(404, { 'Content-Type': 'text/html; charset=UTF-8' })
           // Provides the 404 content without redirect.
-          res.write(content_404);
-          res.end();
-        });
-      }
-    }
-  });
+          res.write(content_404)
+          res.end()
+        })
+      },
+    },
+  })
   return {
     dir: {
-      input: "src",
-      output: "dist",
+      input: 'src',
+      output: 'dist',
     },
-    templateFormats: ["html", "md", "njk"],
+    templateFormats: ['html', 'md', 'njk'],
     passthroughFileCopy: true,
-  };
-};
+  }
+}
+
+// Decap cms stuff
+// Copy Static Files to /_Site
+eleventyConfig.addPassthroughCopy({
+  './src/admin/config.yml': './admin/config.yml',
+})
