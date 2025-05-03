@@ -3,3 +3,25 @@ backend:
   branch: main
 media_folder: 'src/images'
 public_folder: '/images'
+
+collections:
+  - name: 'pages'
+    label: 'Pages'
+    folder: 'src/pages'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Content', name: 'body', widget: 'markdown' }
+      - { label: 'Slug', name: 'slug', widget: 'string' }
+      - { label: 'Image', name: 'image', widget: 'image' }
+  - name: 'posts'
+    label: 'Posts'
+    folder: 'src/posts'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Content', name: 'body', widget: 'markdown' }
+      - { label: 'Slug', name: 'slug', widget: 'string' }
+      - { label: 'Image', name: 'image', widget: 'image' }
