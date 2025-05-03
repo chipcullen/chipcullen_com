@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: chipcullen/chipcullen_com
+  name: git-gateway
   branch: main
 media_folder: 'src/images'
 public_folder: '/images'
