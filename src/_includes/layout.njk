@@ -13,6 +13,7 @@
     {% elif './src/pages/' in page.inputPath %}
       {% set pageClass = "page" %}
     {% elif './src/index' in page.inputPath %}
+      <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
       {% set pageClass = "home" %}
 
     {% endif %}
@@ -34,5 +35,20 @@
       {% set JsVersion = version.js %}
     {% endif %}
     <script type="module" src="/index{{ JsVersion }}.js"></script> #}
+
+    {% if './src/index' in page.inputPath %}
+      <script>
+        if (window.netlifyIdentity) {
+          window.netlifyIdentity.on("init", (user) => {
+            if (!user) {
+              window.netlifyIdentity.on("login", () => {
+                document.location.href = "/admin/";
+              });
+            }
+          });
+        }
+      </script>
+
+    {% endif %}
   </body>
 </html>
