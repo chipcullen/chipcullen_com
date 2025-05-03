@@ -133,6 +133,13 @@ module.exports = function (eleventyConfig) {
       },
     },
   })
+
+  // Decap cms stuff
+  // Copy Static Files to /_Site
+  eleventyConfig.addPassthroughCopy({
+    './src/admin/config.yml': './admin/config.yml',
+  })
+
   return {
     dir: {
       input: 'src',
@@ -142,9 +149,3 @@ module.exports = function (eleventyConfig) {
     passthroughFileCopy: true,
   }
 }
-
-// Decap cms stuff
-// Copy Static Files to /_Site
-eleventyConfig.addPassthroughCopy({
-  './src/admin/config.yml': './admin/config.yml',
-})
