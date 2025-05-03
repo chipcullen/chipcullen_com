@@ -10,7 +10,7 @@
     <!-- Include the script that builds the page and powers Decap CMS -->
     <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
 
-    {% set js %}
+    <script>
     if (window.netlifyIdentity) {
         window.netlifyIdentity.on('init', user => {
             if (!user) {
@@ -23,8 +23,9 @@
             document.location.href = '/';
         });
     }
+    </script>
 
-    {% endset %}
+
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </body>
 </html>
