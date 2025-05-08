@@ -1,12 +1,12 @@
 ---
-title: 'Lessons Learned Surviving a Major Product Launch'
-date: 2024-12-19T11:00:00-04:00
-permalink: 'surviving-a-major-product-launch/'
-description: 'I recently led the biggest launch so far in my career. It was far from smooth - how did we get through?'
+title: Lessons Learned Surviving a Major Product Launch
+description: I recently led the biggest launch so far in my career. It was far
+  from smooth - how did we get through?
+date: 2024-12-19T03:00:00+00:00
 draft: false
-tags: [communication]
+tags:
+  - communication
 ---
-
 I've been sitting on this for a while - but my team at PBS built out and launched a whole new version of [www.pbs.org](https://www.pbs.org), and it went live last month.
 
 This has been, by far, the largest effort that I've led in my career. I had been at PBS for the last major redesign, but I wasn't leading it. This project started over two years ago as an idea of mine, which got buy in from the rest of the organization. After a concerted effort of the last year solid, we had an implementation and launched in mid November.
@@ -65,4 +65,4 @@ At that point, I was able to create tickets, which means we could go about our n
 
 It's still not been totally sunshine-and-roses. We've had a few more major issues pop up from time to time, so we have still had drop-everything-and-react moments. But things have settled down. We are out of the woods.
 
-At this point, we'll address bugs like we did with our old, mature, product, with our existing workflows. We can also turn our attention now to _new_ features with the new site, which is the fun part!
+At this point, we will address bugs like we did with our old, mature, product, with our existing workflows. We can also turn our attention now to _new_ features with the new site, which is the fun part!
