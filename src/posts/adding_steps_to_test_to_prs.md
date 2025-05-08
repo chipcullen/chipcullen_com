@@ -1,11 +1,9 @@
 ---
-title: "How to make better Pull Requests: Adding Steps to Test"
+title: 'How to make better Pull Requests: Adding Steps to Test'
 date: 2018-12-18T20:33:41-05:00
 draft: false
-permalink: "how_to_make_better_prs_adding_steps_to_test/"
-description: "Do your pull requests languish for days before someone finally gets around to looking at it? Is the feedback that you get unhelpful? Are you finding nasty bugs in your code only when someone looks at your PR's?
-
-I've been there. And I know a better way - follow along!"
+permalink: 'how_to_make_better_prs_adding_steps_to_test/'
+description: "Do your pull requests languish for days before someone finally gets around to looking at it? Is the feedback that you get unhelpful? Are you finding nasty bugs in your code only when someone looks at your PR's? I've been there. And I know a better way - follow along!"
 ---
 
 Do your Pull Requests (PRs) seem unfocused? Do they languish for days before someone finally gets around to looking at it? Is the feedback that you get unhelpful? Are you finding nasty bugs in your code only when someone looks at your PR's?
@@ -18,7 +16,7 @@ At my current position we have adapted our process such that now our _Pull Reque
 
 In our workflow, the [next stop after a PR gets merged is production](https://en.wikipedia.org/wiki/Continuous_delivery). So, we have to take them pretty seriously.
 
-What helps most when opening a Pull Request is writing out, clearly, a few pieces of information so that potential reviewers are much more quicly orientated.
+What helps most when opening a Pull Request is writing out, clearly, a few pieces of information so that potential reviewers are much more quickly orientated.
 
 - The objective of the work / the bug you're trying to fix
 - **Steps to test** your solution
