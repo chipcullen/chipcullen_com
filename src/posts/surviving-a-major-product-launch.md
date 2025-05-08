@@ -6,6 +6,7 @@ date: 2024-12-19T03:00:00+00:00
 draft: false
 tags:
   - communication
+permalink: surviving-a-major-product-launch/
 ---
 I've been sitting on this for a while - but my team at PBS built out and launched a whole new version of [www.pbs.org](https://www.pbs.org), and it went live last month.
 
