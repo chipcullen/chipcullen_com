@@ -5,12 +5,28 @@ content:
     path: src/posts
     type: collection
     view:
-      fields: [ title, draft, date ]
-    fields: 
+      fields: [title, draft, date]
+    fields:
       - { name: title, label: Title, type: string, required: true }
       - { name: description, label: Description, type: string }
-      - { name: date, label: Date, type: date, options: { time: true, format: yyyy-MM-dd'T'hh:mm:ssxxx }}
+      - {
+          name: date,
+          label: Date,
+          type: date,
+          options: { time: true, format: yyyy-MM-dd'T'hh:mm:ssxxx },
+        }
       - { name: draft, label: Draft, type: boolean }
       - { name: tags, label: Tags, type: string, list: true }
+      - { name: permalink, label: Permalink, type: string }
       - { name: body, label: Body, type: rich-text }
-        
+  - name: pages
+    label: Pages
+    path: src/pages
+    type: collection
+    view:
+      fields: [title, draft, date]
+    fields:
+      - { name: title, label: Title, type: string, required: true }
+      - { name: description, label: Description, type: string }
+      - { name: permalink, label: Permalink, type: string }
+      - { name: body, label: Body, type: rich-text }
