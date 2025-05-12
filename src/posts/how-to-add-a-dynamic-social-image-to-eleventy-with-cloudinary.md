@@ -55,7 +55,9 @@ This is a quick and dirty way to achieve this. Though this was also the easiest 
 />
 {% else %}
 <!-- if not on the homepage, use include the ogimage partial -->
-{% include './ogImage.njk' %} {% endif %} {% endraw %}
+{% include './ogImage.njk' %} 
+{% endif %} 
+{% endraw %}
 ```
 
 Then we have a stand alone partial called `ogImage.njk`:
@@ -64,8 +66,7 @@ Then we have a stand alone partial called `ogImage.njk`:
 {% raw %}
 <!-- in ogImage.njk -->
 <meta
-  property="og:image"
-  content="https://res.cloudinary.com/chipcullen/image/upload/c_fill,e_negate,h_630,w_1200/c_fit,g_west,h_630,l_text:SourceSerif4Bold.ttf_70:{{ title | urlencode }},co_white,w_1000,x_20,y_20/g_south_west,l_text:Roboto_35:ChipCullen.com,co_white,x_20,y_40/v1669146466/pthalo_blue_texture_fyc8cy.png"
+  property="og:image"      content="https://res.cloudinary.com/chipcullen/image/upload/c_fill,e_negate,h_630,w_1200/c_fit,g_west,h_630,l_text:SourceSerif4Bold.ttf_70:{{ title | urlencode }},co_white,w_1000,x_20,y_20/g_south_west,l_text:Roboto_35:ChipCullen.com,co_white,x_20,y_40/v1669146466/pthalo_blue_texture_fyc8cy.png"
 />
 {% endraw %}
 ```
