@@ -1,12 +1,13 @@
 ---
-title: 'How I built dynamic social media images in Eleventy using Cloudinary'
-date: 2025-05-09T08:00:00-04:00
-permalink: 'how-I-built-dynamic-social-media-images-in-eleventy-using-cloudinary/'
-description: 'My not very sophisticated but very understandable approach to making social media share images for a blog in Eleventy.'
+title: How I built dynamic social media images in Eleventy using Cloudinary
+description: My not very sophisticated but very understandable approach to
+  making social media share images for a blog in Eleventy.
+date: 2025-05-09T12:00:00+00:00
 draft: true
-tags: [eleventy]
+tags:
+  - eleventy
+permalink: how-I-built-dynamic-social-media-images-in-eleventy-using-cloudinary/
 ---
-
 For this blog, I have added dynamically generated social media images (think: `<meta property="og:image" ...`) based on the title of each post. There are many elegant solutions out there for this.
 
 I didn't use any of them.
@@ -15,21 +16,30 @@ This is a quick and dirty way to achieve this. Though this was also the easiest 
 
 ## Assumptions
 
-- You're using Eleventy (11ty)
-- You're using nunjucks templates
-- You have a Cloudinary account (the free tier is plenty for what we're doing here)
-- You want a social media image that has a background, and that background image is already in your Cloudinary media library
+*   You're using Eleventy (11ty)
+    
+*   You're using nunjucks templates
+    
+*   You have a Cloudinary account (the free tier is plenty for what we're doing here)
+    
+*   You want a social media image that has a background, and that background image is already in your Cloudinary media library
+    
 
 ## Pros to this approach
 
-- Simple, easy to understand
-- No new packages needed
-- No need to add any funky bits to 11ty
+*   Simple, easy to understand
+    
+*   No new packages needed
+    
+*   No need to add any funky bits to 11ty
+    
 
 ## Cons to this approach
 
-- Harder to update
-- Harder to share across projects
+*   Harder to update
+    
+*   Harder to share across projects
+    
 
 ## TL;DR
 
@@ -62,19 +72,22 @@ Then we have a stand alone partial called `ogImage.njk`:
 
 ## How did we get here?
 
-- Exploring a lot of permutations in the Cloudinary advanced Editor
-- Uploading a custom font
-- Making a template file that uses the https API from Cloudinary with our title inserted
+*   Exploring a lot of permutations in the Cloudinary advanced Editor
+    
+*   Uploading a custom font
+    
+*   Making a template file that uses the https API from Cloudinary with our title inserted
+    
 
 ## Getting Started with the Cloudinary Editor
 
 As of this writing, in Spring of 2025, the Cloudinary Media Library looks like this:
 
-![The Cloudinary Media Library](../images/alfred-workflow-info.png)
-
 Find the image you want to server as your background, and access it's advanced editor:
 
-![Getting to the Advanced Editor](../images/alfred-workflow-info.png)
+![The Cloudinary Library with a menu open and the Advanced Editing feature selected](/src/images/cloudinary_media_library_menu_to_advanced_editor.png)
+
+![](/src/images/cloudinary_advanced_editor.jpeg)
 
 (I think this is in actually the old school Cloudinary editor, and the default editor has been updated. However, the kind of operations we're doing are really only possible with the "Advanced" editor.)
 
