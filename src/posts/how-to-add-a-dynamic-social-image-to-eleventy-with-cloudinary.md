@@ -143,6 +143,18 @@ Separately, you can set the text's position with the Gravity setting, and an off
 
 However, in the comments at the bottom of that page, they indicate that only _popular_ Google Fonts have been added. So, it's a bit of a guessing game whether your desired font is supported.
 
-In my case, I found that one typeface was not supported (Source Serif 4)
+In my case, I found that one typeface was not supported (Source Serif 4) and one was (Roboto).
 
-I had to upload a version of the typeface I use on my site - Source Serif 4 as of this writing - in order to use it in my social graphics. That's a [whole other procedure](https://cloudinary.com/product_updates/custom_fonts), and I'm not going to get into it now.
+I had to upload a version of Source Serif 4 in order to use it in my social graphics. That's a [whole other procedure](https://cloudinary.com/product_updates/custom_fonts), and I'm not going to get into it now.
+
+## Experiment!
+
+For this part - I can offer little guidance. You will need to play with the Cloudinary API itself and see what results that you can get. Keep in mind that there are [quite a few styling options](https://cloudinary.com/documentation/layers#styling_parameters) available to you.
+
+## Inserting blog post titles on the fly
+
+Once you have a text overlay set up just the way you want, it's just a matter of creating a template that inserts your title. You can do that in nunjucks syntax with `{{ title | urlencode }}` . That looks like this in my template:
+
+```
+<meta property="og:image" content="https://res.cloudinary.com/chipcullen/image/upload/c_fill,e_negate,h_630,w_1200/c_fit,g_west,h_630,l_text:SourceSerif4Bold.ttf_70:{{ title | urlencode }},co_white,w_1000,x_20,y_20/g_south_west,l_text:Roboto_35:ChipCullen.com,co_white,x_20,y_40/v1669146466/pthalo_blue_texture_fyc8cy.png"/>
+```
