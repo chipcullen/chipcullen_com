@@ -108,7 +108,7 @@ The important thing to note here is how the URL output updates, like so:
 https://res.cloudinary.com/youraccount/image/upload/c_fill,e_negate,h_630,w_1200/v1669146466/filename.png
 ```
 
-We're going to rely on the URL api for our implementation overall.
+**We're going to rely on the URL api for our implementation overall.**
 
 ## Adding an Overlay
 
