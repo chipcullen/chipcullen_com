@@ -84,6 +84,8 @@ Then we have a stand alone partial called `ogImage.njk`:
 
 As of this writing, in Spring of 2025, the Cloudinary Media Library looks like this:
 
+![](/src/images/cloudinary_media_library_spring_2025.png)
+
 Find the image you want to server as your background, and access it's advanced editor:
 
 ![The Cloudinary Library with a menu open and the Advanced Editing feature selected](/src/images/cloudinary_media_library_menu_to_advanced_editor.png)
