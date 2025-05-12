@@ -90,11 +90,17 @@ Find the image you want to server as your background, and access it's advanced e
 
 ![The Cloudinary Library with a menu open and the Advanced Editing feature selected](/src/images/cloudinary_media_library_menu_to_advanced_editor.png)
 
+Which then takes you to the advanced editor itself (note in this image I've already set an "Effect" of "Negate", which is like the Photoshop "Inverse" command):
+
 ![](/src/images/cloudinary_advanced_editor.jpeg)
 
 (I think this is in actually the old school Cloudinary editor, and the default editor has been updated. However, the kind of operations we're doing are really only possible with the "Advanced" editor.)
 
-In the editing controls, you will want to set the width to `1200` and the height to `630`. Here are the OG image recommendations.
+In the editing controls, you will want to set the width to `1200` and the height to `630`. Here are the [OG image recommendations from Facebook](https://developers.facebook.com/docs/sharing/webmasters/images/).
+
+Here is what my image looked like with the initial transformations applied:
+
+![The cloudinary advanced editor with width, height, and effect options set.](/src/images/cloudinary_editor_options.png)
 
 ## Adding an Overlay
 
@@ -102,7 +108,7 @@ The actual text in your social image will be rendered as an "Overlay". So, you w
 
 You then specify everything about the type itself, including the text content, with this input:
 
-Seperately, you can set the text's position with the Gravity setting, and an offset from the sides with the \_\_\_ input.
+Separately, you can set the text's position with the Gravity setting, and an offset from the sides with the \_\_\_ input.
 
 ## Typeface choices
 
