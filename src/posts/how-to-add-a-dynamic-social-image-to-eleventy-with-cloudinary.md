@@ -102,6 +102,14 @@ Here is what my image looked like with the initial transformations applied:
 
 ![The cloudinary advanced editor with width, height, and effect options set.](/src/images/cloudinary_editor_options.png)
 
+The important thing to note here is how the URL output updates, like so:
+
+```
+https://res.cloudinary.com/youraccount/image/upload/c_fill,e_negate,h_630,w_1200/v1669146466/filename.png
+```
+
+We're going to rely on the URL api for our implementation overall.
+
 ## Adding an Overlay
 
 The actual text in your social image will be rendered as an "Overlay". So, you want to add an overlay with this button.
