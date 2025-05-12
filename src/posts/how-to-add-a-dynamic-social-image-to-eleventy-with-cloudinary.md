@@ -2,7 +2,7 @@
 title: How I built dynamic social media images in Eleventy using Cloudinary
 description: My not very sophisticated but very understandable approach to
   making social media share images for a blog in Eleventy.
-date: 2025-05-12T12:00:00+00:00
+date: 2025-05-12T12:03:00+00:00
 draft: false
 tags:
   - eleventy
