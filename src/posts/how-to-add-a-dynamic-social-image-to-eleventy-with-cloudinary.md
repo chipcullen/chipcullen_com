@@ -118,16 +118,31 @@ The actual text in your social image will be rendered as an "Overlay". So, you w
 
 ![Pointing out the overlay button](/src/images/cloudinary_overlay_button.png)
 
-You then specify everything about the type itself, including the text content, with this input:
+You then specify everything about the type itself, including the text content, with the Image ID input:
 
-Separately, you can set the text's position with the Gravity setting, and an offset from the sides with the \_\_\_ input.
+![](/src/images/cloudinary_image_id_input.png)
+
+There is a syntax for how you specify a typeface and the text itself.
+
+*   Here is [written documentation](https://cloudinary.com/documentation/layers#text_overlays) on how to set this
+    
+*   Here is [a video](https://cloudinary.com/documentation/text_overlay_tutorial) walking though how to make it work ([jump links](https://cloudinary.com/documentation/text_overlay_tutorial#apply_text_overlays))
+    
+
+The thing to note is that this updates your image url with a new `l_text` string. It will look something like:
+
+`...,l_text:typefacename_size:Text you want`
+
+Separately, you can set the text's position with the Gravity setting, and an offset from the sides with the other options below.
 
 ## Typeface choices
 
-The documentation on what typefaces are available is ... uneven. I've found that typefaces that you find on most systems should work - you will need to try it out for yourself.
+[The documentation on what typefaces are available](https://support.cloudinary.com/hc/en-us/articles/203352832-What-is-the-list-of-supported-fonts-for-text-overlay-transformation) is confusing. It says most system fonts, and all Google Fonts, are supported.
 
-Cloudinary also claims that most Google Fonts are supported. In 2025 I think we can say that this _was_ true, but isn't now. I suspect that there is a manual process that Cloudinary needs to make in order for a new font to be supported. If you want to use a Google Font, you will need to try for yourself.
+(One pro tip - Google Fonts with spaces in the name use an `_` for the spaces. e.g. `Open_Sans`.)
 
-One pro tip - Google Fonts with spaces in the name use an `_` for the spaces. e.g. `Open_Sans`.
+However, in the comments at the bottom of that page, they indicate that only _popular_ Google Fonts have been added. So, it's a bit of a guessing game whether your desired font is supported.
+
+In my case, I found that one typeface was not supported (Source Serif 4)
 
 I had to upload a version of the typeface I use on my site - Source Serif 4 as of this writing - in order to use it in my social graphics. That's a [whole other procedure](https://cloudinary.com/product_updates/custom_fonts), and I'm not going to get into it now.
