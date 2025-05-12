@@ -8,6 +8,7 @@ tags:
   - eleventy
 permalink: how-I-built-dynamic-social-media-images-in-eleventy-using-cloudinary/
 ---
+
 For this blog, I have added dynamically generated social media images (think: `<meta property="og:image" ...`) based on the title of each post. There are many elegant solutions out there for this.
 
 I didn't use any of them.
@@ -16,21 +17,21 @@ This is a quick and dirty way to achieve this. Though this was also the easiest 
 
 ## Assumptions
 
-*   You're using Eleventy (11ty)
-*   You're using nunjucks templates
-*   You have a Cloudinary account (the free tier is plenty for what we're doing here)
-*   You want a social media image that has a background, and that background image is already in your Cloudinary media library
+- You're using Eleventy (11ty)
+- You're using nunjucks templates
+- You have a Cloudinary account (the free tier is plenty for what we're doing here)
+- You want a social media image that has a background, and that background image is already in your Cloudinary media library
 
 ## Pros to this approach
 
-*   Simple, easy to understand
-*   No new packages needed
-*   No need to add any funky bits to 11ty
+- Simple, easy to understand
+- No new packages needed
+- No need to add any funky bits to 11ty
 
 ## Cons to this approach
 
-*   Harder to update
-*   Harder to share across projects
+- Harder to update
+- Harder to share across projects
 
 ## TL;DR
 
@@ -65,9 +66,9 @@ This template contains a reference to a Cloudinary URL that injects the title of
 
 ## How did we get here?
 
-*   Exploring a lot of permutations in the Cloudinary advanced Editor
-*   Uploading a custom font
-*   Making a template file that uses the https API from Cloudinary with our title inserted
+- Exploring a lot of permutations in the Cloudinary advanced Editor
+- Uploading a custom font
+- Making a template file that uses the https API from Cloudinary with our title inserted
 
 ## Getting Started with the Cloudinary Editor
 
@@ -111,8 +112,8 @@ You then specify everything about the type itself, including the text content, w
 
 There is a syntax for how you specify a typeface and the text itself.
 
-*   Here is [written documentation](https://cloudinary.com/documentation/layers#text_overlays) on how to set this
-*   Here is [a video](https://cloudinary.com/documentation/text_overlay_tutorial) walking though how to make it work ([jump links](https://cloudinary.com/documentation/text_overlay_tutorial#apply_text_overlays))
+- Here is [written documentation](https://cloudinary.com/documentation/layers#text_overlays) on how to set this
+- Here is [a video](https://cloudinary.com/documentation/text_overlay_tutorial) walking though how to make it work ([jump links](https://cloudinary.com/documentation/text_overlay_tutorial#apply_text_overlays))
 
 The thing to note is that this updates your image url with a new `l_text` string. It will look something like:
 
@@ -138,12 +139,17 @@ For this part - I can offer little guidance. You will need to play with the Clou
 
 ## Inserting blog post titles on the fly
 
-Once you have a text overlay set up just the way you want, it's just a matter of creating a template that inserts your title. You can do that in nunjucks syntax with `{{ title | urlencode }}` . That looks like this in my template:
+Once you have a text overlay set up just the way you want, it's just a matter of creating a template that inserts your title. You can do that in nunjucks syntax with `{% raw %}{{ title | urlencode }}{% endraw %}` . That looks like this in my template:
 
-```
-<meta property="og:image" content="https://res.cloudinary.com/chipcullen/image/upload/c_fill,e_negate,h_630,w_1200/c_fit,g_west,h_630,l_text:SourceSerif4Bold.ttf_70:{{ title | urlencode }},co_white,w_1000,x_20,y_20/g_south_west,l_text:Roboto_35:ChipCullen.com,co_white,x_20,y_40/v1669146466/pthalo_blue_texture_fyc8cy.png"/>
+```html
+{% raw %}
+<meta
+  property="og:image"
+  content="https://res.cloudinary.com/chipcullen/image/upload/c_fill,e_negate,h_630,w_1200/c_fit,g_west,h_630,l_text:SourceSerif4Bold.ttf_70:{{ title | urlencode }},co_white,w_1000,x_20,y_20/g_south_west,l_text:Roboto_35:ChipCullen.com,co_white,x_20,y_40/v1669146466/pthalo_blue_texture_fyc8cy.png"
+/>
+{% endraw %}
 ```
 
 Which, for this blog post, results in:
 
-![The OG image for this post](https://res.cloudinary.com/chipcullen/image/upload/c_fill,e_negate,h_630,w_1200/c_fit,g_west,h_630,l_text:SourceSerif4Bold.ttf_70:My%20current%20approach%20to%20AI%20,co_white,w_1000,x_20,y_20/g_south_west,l_text:Roboto_35:ChipCullen.com,co_white,x_20,y_40/v1669146466/pthalo_blue_texture_fyc8cy.png)
+![The OG image for this post](https://res.cloudinary.com/chipcullen/image/upload/c_fill,e_negate,h_630,w_1200/c_fit,g_west,h_630,l_text:SourceSerif4Bold.ttf_70:How%20I%20built%20dynamic%20social%20media%20images%20in%20Eleventy%20using%20Cloudinary,co_white,w_1000,x_20,y_20/g_south_west,l_text:Roboto_35:ChipCullen.com,co_white,x_20,y_40/v1669146466/pthalo_blue_texture_fyc8cy.png)
