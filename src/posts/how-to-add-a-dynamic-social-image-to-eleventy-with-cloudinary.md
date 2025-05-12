@@ -71,6 +71,8 @@ Then we have a stand alone partial called `ogImage.njk`:
 {% endraw %}
 ```
 
+This template contains a reference to a Cloudinary URL that injects the title of our social post as an overlay, which the Cloudinary API will impose, on-the-fly, into a final image.
+
 ## How did we get here?
 
 *   Exploring a lot of permutations in the Cloudinary advanced Editor
@@ -112,7 +114,9 @@ https://res.cloudinary.com/youraccount/image/upload/c_fill,e_negate,h_630,w_1200
 
 ## Adding an Overlay
 
-The actual text in your social image will be rendered as an "Overlay". So, you want to add an overlay with this button.
+The actual text in your social image will be rendered as an "Overlay". So, you want to add an overlay with this button:
+
+![Pointing out the overlay button](/src/images/cloudinary_overlay_button.png)
 
 You then specify everything about the type itself, including the text content, with this input:
 
