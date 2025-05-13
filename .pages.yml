@@ -1,4 +1,6 @@
-media: src/images
+media:
+  input: src/images
+  output: /images
 content:
   - name: posts
     label: Posts
