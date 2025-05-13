@@ -74,15 +74,15 @@ This template contains a reference to a Cloudinary URL that injects the title of
 
 As of this writing, in Spring of 2025, the Cloudinary Media Library looks like this:
 
-![](/src/images/cloudinary_media_library_spring_2025.png)
+![](/images/cloudinary_media_library_spring_2025.png)
 
 Find the image you want to server as your background, and access it's advanced editor:
 
-![The Cloudinary Library with a menu open and the Advanced Editing feature selected](/src/images/cloudinary_media_library_menu_to_advanced_editor.png)
+![The Cloudinary Library with a menu open and the Advanced Editing feature selected](/images/cloudinary_media_library_menu_to_advanced_editor.png)
 
 Which then takes you to the advanced editor itself (note in this image I've already set an "Effect" of "Negate", which is like the Photoshop "Inverse" command):
 
-![](/src/images/cloudinary_advanced_editor.jpeg)
+![The Cloudinary advanced editor with the negate effect applied](/images/cloudinary_advanced_editor.jpeg)
 
 (I think this is in actually the old school Cloudinary editor, and the default editor has been updated. However, the kind of operations we're doing are really only possible with the "Advanced" editor.)
 
@@ -90,7 +90,7 @@ In the editing controls, you will want to set the width to `1200` and the height
 
 Here is what my image looked like with the initial transformations applied:
 
-![The cloudinary advanced editor with width, height, and effect options set.](/src/images/cloudinary_editor_options.png)
+![The cloudinary advanced editor with width, height, and effect options set.](/images/cloudinary_editor_options.png)
 
 The important thing to note here is how the URL output updates, like so:
 
@@ -104,11 +104,11 @@ https://res.cloudinary.com/youraccount/image/upload/c_fill,e_negate,h_630,w_1200
 
 The actual text in your social image will be rendered as an "Overlay". So, you want to add an overlay with this button:
 
-![Pointing out the overlay button](/src/images/cloudinary_overlay_button.png)
+![Pointing out the overlay button](/images/cloudinary_overlay_button.png)
 
 You then specify everything about the type itself, including the text content, with the Image ID input:
 
-![](/src/images/cloudinary_image_id_input.png)
+![](/images/cloudinary_image_id_input.png)
 
 There is a syntax for how you specify a typeface and the text itself.
 
