@@ -28,7 +28,7 @@ content:
           label: Body,
           type: rich-text,
           options: {
-            media: src/images,
+            path: src/images,
           }
         }
   - name: pages
