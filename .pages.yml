@@ -1,6 +1,9 @@
 media:
-  input: src/images
-  output: /images
+  - label: Images
+    name: images
+    input: src/images
+    output: /images
+    categories: [ image ]
 content:
   - name: posts
     label: Posts
