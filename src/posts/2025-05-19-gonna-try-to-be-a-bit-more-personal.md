@@ -5,8 +5,9 @@ date: 2025-05-19T09:53:00+00:00
 draft: false
 tags:
   - blogging
-permalink: /gonna-be-more-personal
+permalink: gonna-be-more-personal/
 ---
+
 I like this blog. I do. It may not seem like it, given the paltry updates.
 
 I realized recently that's because of the criteria I had for myself for years - that I would keep this blog focused on web development. That's because of who I thought "my audience" was.
