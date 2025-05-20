@@ -80,13 +80,13 @@ Full credit - this recipe started life as [Roberta's Pizza Dough](https://cookin
     
 15.  With a baking steel or pizza stone in your oven, set it to 550º (or it's hottest setting) - let it preheat for 1 hour (same time as the balls are resting)
     
-16.  Shape balls into pizzas rounds,
+16.  Shape balls into pizzas rounds - which is [it's own technique](https://www.youtube.com/watch?v=Entzcl8q7H4)
     
-17.  Put on a pizza peele
+17.  Put on a pizza peel (or upside down baking sheet) sprinkled with either flour or corn meal. **Make sure the round moves when you jiggle the peel/sheet before proceeding.**
     
 18.  Add toppings \[^1\]
     
-19.  "Launch" pizza onto the steel / stone, and close the oven door.
+19.  "Launch" pizza onto the steel / stone, and close the oven door. There is a knack for this - it's okay if it doesn't go right at first.
     
 20.  Bake for 4.5 minutes (In my oven, anyway. It's convection, which may be why it goes fast.). The second and third pizza may take longer since the oven & steel are loosing heat . Use your judgement on when a pizza looks "done".
     
