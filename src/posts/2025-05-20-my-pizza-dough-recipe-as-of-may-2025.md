@@ -5,6 +5,7 @@ date: 2025-05-20T01:48:00+00:00
 draft: true
 tags:
   - pizza
+permalink: my-pizza-dough-recpie-may-2025/
 ---
 Everyone needed a COVID hobby. Mine was learning how to make pizza at home. We typically have "Pizza Friday" 2-3 times a month - so, I've made quite a few pizzas in the last few years.
 
