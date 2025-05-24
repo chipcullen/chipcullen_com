@@ -1,13 +1,13 @@
 ---
-title: "How to use variable fonts from Google Fonts"
-date: 2023-02-15T21:58:09-05:00
+title: How to use variable fonts from Google Fonts
+description: Google Fonts makes a lot of great variable fonts available, but
+  it's not terribly clear how to make use of those fonts. Here are some tips on
+  how to take full advantage of their super powers.
 draft: false
-permalink: "how-to-use-variable-google-fonts/"
-description: "Google Fonts makes a lot of great variable fonts available, but it's not terribly clear how to make use of those fonts. Here are some tips on how to take full advantage of their super powers."
-tags: [typography]
-custom_properties: []
+tags:
+  - typography
+permalink: how-to-use-variable-google-fonts/
 ---
-
 I'm a huge fan of variable fonts - I love the idea that you have so many design options while downloading one asset. I've also used Google Fonts since it launched.
 
 Google Fonts has added a lot of awesome variable fonts to it's service in the last few years. They all have various features that are there for the using - if you know how.
@@ -30,7 +30,7 @@ This is a standard snippet that Google recommends. You'll want to add this (or t
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@200..900&display=swap" rel="stylesheet">
-  ```
+```
 
 The two `preconnect` tags are for domains that are necessary for adding a Google Font - this is a performance enhancement. I suspect the font would load without them, but it'd be slower, and who wants that?
 
@@ -56,7 +56,7 @@ If I knew I _only_ wanted to use 200 and 900, I could use a comma instead:
 
 The range, `..` is the magic of variable fonts. I'm making one request, I will get one asset, and now be able to use any weight between 200 and 900 in my design.
 
-The Google Fonts UI doesn't make it super clear how to get a _range_ - rather it encourages specifying  a list of specific weights. Their API documentation covers the `..` range indicator.
+The Google Fonts UI doesn't make it super clear how to get a _range_ - rather it encourages specifying a list of specific weights. Their API documentation covers the `..` range indicator.
 
 ## Forming URL’s
 
@@ -74,7 +74,7 @@ As with everything, you will need to measure performance impact yourself. This w
 
 When I've measured my uses of a variable font in which I was using a range of weights, I have noticed a larger file size than if I had specified only certain weights. But, once I did specify a range, it really didn't matter how big of a range it was. `200..400` had the same impact as `200..900`.
 
-  ## Making use of Variable Font features
+## Making use of Variable Font features
 
 Awesome - you now have a variable font added to your site. Now, how can you make use of it? It depends on which feature you're using. Some are more straightforward than others.
 
@@ -99,7 +99,7 @@ font-weight: 950; /* will fall back to 900 */
 If you are configuring a font with italics, and it's just a binary italic/normal style, then your CSS is again very simple:
 
 ```css
-font-weight: italic;
+font-style: italic;
 ```
 
 However, if you are using a font that offers a _slant_ instead, [such as Roboto Flex](https://fonts.google.com/specimen/Roboto+Flex/tester?vfonly=true), to make use of that you will need to follow the advice below.
