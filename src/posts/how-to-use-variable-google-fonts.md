@@ -4,10 +4,12 @@ description: Google Fonts makes a lot of great variable fonts available, but
   it's not terribly clear how to make use of those fonts. Here are some tips on
   how to take full advantage of their super powers.
 draft: false
+date: 2023-02-15T21:58:09-05:00
 tags:
   - typography
 permalink: how-to-use-variable-google-fonts/
 ---
+
 I'm a huge fan of variable fonts - I love the idea that you have so many design options while downloading one asset. I've also used Google Fonts since it launched.
 
 Google Fonts has added a lot of awesome variable fonts to it's service in the last few years. They all have various features that are there for the using - if you know how.
@@ -27,9 +29,12 @@ After you select a font (and hit the "+" sign next to a particular weight) you w
 This is a standard snippet that Google recommends. You'll want to add this (or the equivelant for the font you want) and add it to the `head` of your page/site. This particular snippet is the one that I use on this very site at the time of this writing (note: I removed opitical sizing).
 
 ```html
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@200..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@200..900&display=swap"
+  rel="stylesheet"
+/>
 ```
 
 The two `preconnect` tags are for domains that are necessary for adding a Google Font - this is a performance enhancement. I suspect the font would load without them, but it'd be slower, and who wants that?
@@ -63,7 +68,12 @@ The Google Fonts UI doesn't make it super clear how to get a _range_ - rather it
 The [full URL spec is outlined here](https://developers.google.com/fonts/docs/css2#forming_api_urls). It boils down to something like this:
 
 ```html
-?family=<Family Name>:<axis_a>,<axis_b>@<axis_a_range>,<axis_b_range>
+?family=<Family Name
+  >:<axis_a
+    >,<axis_b
+      >@<axis_a_range
+        >,<axis_b_range></axis_b_range></axis_a_range></axis_b></axis_a
+></Family>
 ```
 
 It can get really complicated, and I can't cover all of the use cases here. You can play with the 'type tester' UI and see the effect on the URL in the sidebar.
@@ -123,7 +133,7 @@ font-stretch: 108.9%;
 Whereas if you want to adjust the ascender height, you need to use
 
 ```css
-font-variation-settings: "YTAS" 739;
+font-variation-settings: 'YTAS' 739;
 ```
 
 `font-variation-settings` is the CSS property that gives you control over variable font axis settings. You can read more [about font variation settings at MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/font-variation-settings).
