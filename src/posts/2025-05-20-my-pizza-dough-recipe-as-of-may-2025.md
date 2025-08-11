@@ -45,7 +45,7 @@ Full credit - this recipe started life as [Roberta's Pizza Dough](https://cookin
     
 *   306g Bread Flour
     
-*   8g (2 tsp) Kosher Salt
+*   18.5g Kosher Salt
     
 
 ## Procedure
