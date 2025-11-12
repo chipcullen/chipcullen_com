@@ -27,15 +27,3 @@ Note that subsequent `<li>` 's will start iterating from that new value.
   <li>Six</li>
 <ol>
 ```
-
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="VYaLKez" data-pen-title="HTML OL's" data-user="chipcullen" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-
-<span>See the Pen <a href="[https://codepen.io/chipcullen/pen/VYaLKez](https://codepen.io/chipcullen/pen/VYaLKez)">
-
-HTML OL's</a> by Chip Cullen (<a href="[https://codepen.io/chipcullen">@chipcullen</a>](https://codepen.io/chipcullen">@chipcullen</a>))
-
-on <a href="[https://codepen.io">CodePen</a>.</span>](https://codepen.io">CodePen</a>.</span>)
-
-</p>
-
-<script async src="[https://public.codepenassets.com/embed/index.js"></script>](https://public.codepenassets.com/embed/index.js"></script>)
