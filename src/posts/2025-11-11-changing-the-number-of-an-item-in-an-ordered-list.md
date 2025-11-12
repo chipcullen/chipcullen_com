@@ -3,7 +3,7 @@ title: Changing the number of an item in an ordered list
 description: A neat HTML trick I just learned
 date: 2025-11-11T07:00:00+00:00
 draft: false
-permalink: /how-to-change-the-number-of-an-item-in-an-ordered-list
+permalink: how-to-change-the-number-of-an-item-in-an-ordered-list/
 ---
 Today, I found out a neat HTML trick, and just want to write it down.
 
