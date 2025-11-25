@@ -5,7 +5,7 @@ date: 2025-11-24T07:00:00+00:00
 draft: false
 tags:
   - typography
-permalink: /the-return-of-the-font-combinator
+permalink: the-return-of-the-font-combinator/
 ---
 I am super excited to share that I have _rebuilt_ the Font Combinator!
 
