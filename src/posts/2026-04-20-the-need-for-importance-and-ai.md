@@ -12,10 +12,26 @@ It hit me like a thunderbolt. I don't know about you, but working in the tech in
 
 I've had a hard time putting my finger on *why* exactly. It was deeper than a threat to my individual job. What was it?
 
-*AI has fundamentally threatened our sense of importance.*
+***AI has fundamentally threatened our sense of importance.***
 
-Now that I've said it out loud, I fear it's akin to saying "water is wet". But it helped me put a name to the blah feeling that I've had for a few years now. 
+Now that I've said it out loud, I fear it's akin to saying "water is wet". But it helped *me* put a name to the blah feeling that I've had for a few years now. 
 
-My early career was during the age when everyone told you "learn to code", "coding is the future!", etc. And I did - I largely taught myself to code HTML, CSS and JavaScript. And for a long time, that has made me useful and important. I was the builder of a lot of projects that I look back on with pride. *I* did that. It was a craftsman's pride. 
+My early career was during the age when everyone told you "learn to code", "coding is the future!", etc. And I did - I largely taught myself to code HTML, CSS and JavaScript. And for a long time, that has made me useful and important. I was the builder of a lot of projects that I look back on with pride. *I* did that. It is a craftsman's pride. 
 
-During that period, working in tech, specifically on the web - was exciting and fun. Every day something new came on the horizon, and it was fun to learn. 
+Working in tech, specifically on the web - was exciting and fun. Every day something new came on the horizon, and it was fun to learn. The more we learned, the more important we were. *We*, the coders, were the ones who could make things happen. 
+
+For good or ill, that's no longer the case. 
+
+People with no coding experience can build applications that they could have only dreamed of before. Questions of quality aside, that's the reality. *We*, the coders, are now *not* the only ones who can make things happen. Anyone can. 
+
+**Simply being able to write code is not as important as it was only a few years ago.**
+
+## What to do about it?
+
+That is a great question. I'm still casting about for answers. The point of the post is that I've been able to put a name to the problem. First thoughts: 
+
+- Re-think what makes you important.
+- Do you believe it?
+- How do you communicate your importance to the rest of your organization?
+- How do you communicate your importance to the rest of the global economy (i.e. other employers)?
+
