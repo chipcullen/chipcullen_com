@@ -2,7 +2,7 @@
 title: The need for importance, and AI
 description: A realization I had about the malaise of the tech world in the age of AI
 date: 2026-04-20T09:21:00+00:00
-draft: true
+draft: false
 permalink: the-need-for-importance-and-ai/
 ---
 > If you tell me how you get your feeling of importance, I'll tell you what you are.
