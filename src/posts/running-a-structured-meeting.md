@@ -99,8 +99,9 @@ This is then what I would put in the body of the meeting invitation:
 >
 > Monday, September 1st, 10:00 am - 12:00 pm
 >
-> Outcome: A shared understanding of the major pieces of work needed to build the new version of our user-facing application, and an initial idea of who will be responsible for which pieces of work.
-> Agenda:
+> **Outcome**: A shared understanding of the major pieces of work needed to build the new version of our user-facing application, and an initial idea of who will be responsible for which pieces of work.
+>
+> **Agenda**:
 >
 > - 10:00 - 10:10 - Staff Intros, welcome new employees
 > - 10:10 - 10:20 - High level overview of the application
