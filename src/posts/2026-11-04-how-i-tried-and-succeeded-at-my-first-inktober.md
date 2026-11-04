@@ -33,4 +33,24 @@ I think this was the biggest thing for me. I had a clear "why". **My objective w
 
 Background: despite working with tech my whole career, when it comes to art, I've been an analogue die hard. My favorite mediums are water color and ink - on paper. IRL. I had never liked drawing with a computer stylus on a screen - I had always preferred the feel of a brush or pen on actual paper. 
 
-I had recently become interested in trying out drawing digitally, despite negative reactions to it in the past. There are some inherent advantages that simply cannot be ignored. 
+I had recently become interested in trying out drawing digitally, despite negative reactions to it in the past. There are some inherent advantages that simply cannot be ignored. I had an old iPad (with a first gen Apple Pencil) that I started with, and midway through got a more up to date iPad (and the Apple Pencil Pro).
+
+## What was my strategy?
+
+I looked at the list of [prompts](https://images.squarespace-cdn.com/content/v1/5af1bd791aef1d143f85e67e/2f9bddc9-3664-4e2b-b4c0-5c6062457a43/2026promptlist.jpg?format=1000w) and quickly came to some decisions. I would:
+
+- Use [Procreate](https://procreate.com/) on the iPad, with the Apple Pencil (and later, Pro). 
+- Create a comic with all the pieces. Each day's piece would usually be one panel, but they would string together to tell a story. That made the story sort of a 'improv game' where I had to make one panel make sense with the previous one and lead into the next. 
+- Keep the same format and style the entire time. This cut down considerably on the decisions I would need to make each day. 
+
+## So, how did I *do* it?
+
+Tactically, I treated the whole thing like a project - an illustration gig, if you will. For one thing, I was thinking through all of this stuff in the *middle of September* - weeks before the 'challenge' began. 
+
+I started coming up with character sketches, just so I had something to start with. If you go through my posts, the 'little witch' is based on some early sketches I did - weeks ahead of time. 
+
+I came up with the 'template' that was used for the panels each day. That had the format settled - I just needed to draw within it. 
+
+Finally, I started coming up with pencil 'roughs' for each day of the challenge. This is where the hard 'thinking' was done. This was when I came up with ideas based on each prompt in order to tie the story together. By the time October 1st came around, I had roughs done for about half the month already. It was really just up to me to create finished, "ink" versions of the art and post them. 
+
+The roughs were drawn on layers built into the template. When doing the finished, inked artwork, those would be layers on top.
