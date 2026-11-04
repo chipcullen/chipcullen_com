@@ -75,3 +75,17 @@ And, I was actually done with the challenge on October 24th - a full week ahead 
 
 ## If you ain't cheatin', you ain't tryin'
 
+As I was learning to use digital tools for creating art - I set about trying to use those advantages as much as I could. This meant:
+
+- Copying backgrounds, figures, etc, from one post to the next
+- Scaling or moving elements when they weren't quite right
+- Keeping things in layers so that they could be moved easily. For example - I had a background color layer, and a 'cloud' layer. I would copy both from one piece to the next, then move the clouds horizontally to give the impression of movement when read in sequence.
+- Liberal use of 'undo'
+- Going back to previously 'done' art and adjusting so that a later piece was easier
+
+All of this meant that sometimes making a 'finished' piece only took 10 minutes. Others took two hours when there was nothing to copy from. 
+
+## That does not mean AI
+
+To be clear - I was 'cheating' within the confines of Procreate. I did not use AI at all for any element of this whole experience. 
+
