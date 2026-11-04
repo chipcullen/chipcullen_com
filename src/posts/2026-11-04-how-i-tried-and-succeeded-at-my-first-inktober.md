@@ -3,7 +3,7 @@ title: How I tried and succeeded at my first Inktober
 description: A lot of people attempt Inktober and don't finish. I managed to do
   it - here is my approach.
 date: 2026-11-04T11:52:00+00:00
-draft: true
+draft: false
 permalink: how-i-tried-and-succeeded-at-inktober/
 ---
 After telling myself for years that I didn't have time for Inktober, I decided this was the year I was going to give it a go. You can see the whole progression my Instagram account:  
