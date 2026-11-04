@@ -69,7 +69,9 @@ By about October 10th, I had roughs done for the whole month. I knew where the s
 
 Bill Watterson (of Calvin and Hobbes fame) would work one long day and draw all of the strips for a month. That let him focus on *writing* for weeks at a time. He also worked 'ahead' several months, which gave him leeway to scrap material that wasn't working. I think these working methods are a big reason why that strip is so great. 
 
-As I got more and more ahead, I was able to relax and enjoy the drawing experience. I knew I had some forgiveness in my schedule. To be transparent - I did *not* draw every day. But I posted every day. (In truth, I got very comfortable with Instragram's 'scheduled post' feature.)
+As I got more and more ahead, I was able to relax and enjoy the drawing experience. I knew I had some forgiveness in my schedule. To be transparent - I did *not* draw every day. But I posted every day. (In truth, I got very comfortable with Instagram's 'scheduled post' feature.)
 
 And, I was actually done with the challenge on October 24th - a full week ahead of time. 
+
+## If you ain't cheatin', you ain't tryin'
 
