@@ -86,3 +86,15 @@ As I was learning to use digital tools for creating art - I set about trying to 
 
 All of this meant that sometimes making a 'finished' piece only took 10 minutes. Others took two hours when there was nothing to copy from. 
 
+## How do I think it went?
+
+I did succeed at what I set out to do, so I feel good about that. While Inktober is a lot of work, it's not the insurmountable challenge that I built up in my head. 
+
+There are some stylistic choices that I wish I had made differently, or at least had made so that I had a little more leeway. The strict grayscale color scheme ended up being boring to work with. The 'flat' coloring also was limiting. I think I had reverted to an old cartoon style that I had used *years* ago, and didn't get past. 
+
+But the resulting pieces were at least consistent. 
+
+Did the story make sense? ... Kinda. It's very surreal. But that I'm okay with.
+
+Did I have fun? Absolutely. But by the end I was also looking forward to a break. 
+
