@@ -51,6 +51,25 @@ I started coming up with character sketches, just so I had something to start wi
 
 I came up with the 'template' that was used for the panels each day. That had the format settled - I just needed to draw within it. 
 
-Finally, I started coming up with pencil 'roughs' for each day of the challenge. This is where the hard 'thinking' was done. This was when I came up with ideas based on each prompt in order to tie the story together. By the time October 1st came around, I had roughs done for about half the month already. It was really just up to me to create finished, "ink" versions of the art and post them. 
+Finally, I started coming up with pencil 'roughs' for each day of the challenge. This is where the hard 'thinking' was done. I came up with ideas based on each prompt in order to tie the story together. By the time October 1st came around, I had roughs done for about half the month already. It was really just up to me to create finished, "ink" versions of the art and post them. 
 
 The roughs were drawn on layers built into the template. When doing the finished, inked artwork, those would be layers on top.
+
+## Time is a construct
+
+I knew that I would never be able to wake up each day in October, look at the prompt for the day, and come up with a finished piece of art. Having that expectation would have been an invitation to failure. 
+
+My life does not work that way. I have more time and energy on some days than others. I just know that about myself, and worked *with* that, not against it.
+
+The only goal, as far as I was concerned, was to **post** something every day. *It didn't mean it had to be created that day.*
+
+As I said, by the time October 1st came around, I had half the ideas already roughed. I did start that day and made a finished piece of art, and posted it. But I then quickly started working 'ahead'. I would try to get one or two days ahead in terms of 'finished' pieces, but then any spare time I had would mean making more roughs.
+
+By about October 10th, I had roughs done for the whole month. I knew where the story was going. 
+
+Bill Watterson (of Calvin and Hobbes fame) would work one long day and draw all of the strips for a month. That let him focus on *writing* for weeks at a time. He also worked 'ahead' several months, which gave him leeway to scrap material that wasn't working. I think these working methods are a big reason why that strip is so great. 
+
+As I got more and more ahead, I was able to relax and enjoy the drawing experience. I knew I had some forgiveness in my schedule. To be transparent - I did *not* draw every day. But I posted every day. (In truth, I got very comfortable with Instragram's 'scheduled post' feature.)
+
+And, I was actually done with the challenge on October 24th - a full week ahead of time. 
+
