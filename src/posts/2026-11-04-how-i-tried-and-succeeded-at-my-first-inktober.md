@@ -42,6 +42,7 @@ I looked at the list of [prompts](https://images.squarespace-cdn.com/content/v1/
 - Use [Procreate](https://procreate.com/) on the iPad, with the Apple Pencil (and later, Pro). 
 - Create a comic with all the pieces. Each day's piece would usually be one panel, but they would string together to tell a story. That made the story sort of a 'improv game' where I had to make one panel make sense with the previous one and lead into the next. 
 - Keep the same format and style the entire time. This cut down considerably on the decisions I would need to make each day. 
+- No AI - at all. For anything.
 
 ## So, how did I *do* it?
 
@@ -84,8 +85,4 @@ As I was learning to use digital tools for creating art - I set about trying to 
 - Going back to previously 'done' art and adjusting so that a later piece was easier
 
 All of this meant that sometimes making a 'finished' piece only took 10 minutes. Others took two hours when there was nothing to copy from. 
-
-## That does not mean AI
-
-To be clear - I was 'cheating' within the confines of Procreate. I did not use AI at all for any element of this whole experience. 
 
