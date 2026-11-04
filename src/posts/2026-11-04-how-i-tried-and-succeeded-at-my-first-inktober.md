@@ -25,12 +25,12 @@ Apparently this is *not* common. I have one work colleague, who is a professiona
 
 ## What was my secret?
 
-It's going to sound boring - I had a clear objective in mind, and a strategy. I cut down on as many decisions as I could along the way so that actually making the art was as straightforward as possible.
+It's going to sound boring - I had a clear **objective** in mind, and a **strategy**. I cut down on as many decisions as I could along the way so that actually making the art was as straightforward as possible.
 
 ## What was my objective?
 
-I think this was the biggest thing for me. I had a clear "why". My objective was to use Inktober as a way to force me to use digital drawing tools in order to get more familiar with drawing digitally.
+I think this was the biggest thing for me. I had a clear "why". **My objective was to use Inktober as a way to force me to use digital drawing tools in order to get more familiar with drawing digitally.**
 
-Background: despite working with tech my whole career, when it comes to art, I'm an analogue die hard. My favorite mediums are water color and ink - on paper. IRL. 
+Background: despite working with tech my whole career, when it comes to art, I've been an analogue die hard. My favorite mediums are water color and ink - on paper. IRL. I had never liked drawing with a computer stylus on a screen - I had always preferred the feel of a brush or pen on actual paper. 
 
-I had recently become interested in trying out drawing digitally, despite negative reactions to it in the past. I had never liked drawing with a computer stylus on a screen - I had always preferred the feel of a brush or pen on actual paper. 
+I had recently become interested in trying out drawing digitally, despite negative reactions to it in the past. There are some inherent advantages that simply cannot be ignored. 
