@@ -74,7 +74,7 @@ As I got more and more ahead, I was able to relax and enjoy the drawing experien
 
 And, I was actually done with the challenge on October 24th - a full week ahead of time. 
 
-## If you ain't cheatin', you ain't tryin'
+## If you ain’t cheatin’, you ain’t tryin’
 
 As I was learning to use digital tools for creating art - I set about trying to use those advantages as much as I could. This meant:
 
